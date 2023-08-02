@@ -10,5 +10,8 @@
 - VSCode
     - Live Server
 
+## TODO
+- [x] 헤더 완성
+- [ ] 나머지  
 ## Ref.
 - gitignore
