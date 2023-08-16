@@ -1,6 +1,6 @@
 # Practice HTML
 
-> HTML 프로젝트 진행과정을 저장하는 곳입니다.
+> HTML,CSS,JAVAScript 연습입니다.
 
 ## 개발 환경
 
