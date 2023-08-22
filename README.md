@@ -1,6 +1,6 @@
 # Practice HTML 01
 
-> HTML,CSS,JAVAScript 연습입니다.
+> HTML,CSS,JavaScript 연습입니다.
 
 ## 개발 환경
 
