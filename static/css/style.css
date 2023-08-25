@@ -1,0 +1,16 @@
+*{
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+}
+button{
+    border-style: inherit;
+}
+.logo{
+    font-weight: 10;
+}
+.navi{
+    display: flex;
+
+}
