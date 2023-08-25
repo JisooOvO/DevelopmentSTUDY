@@ -10,6 +10,60 @@
 - [ ] CSS
 - [ ] JavaScript
 - [ ] React
+- [ ] Tailwind CSS
+
+## 0. 미분류
+> 필요한 내용을 정리합니다.
+
+<details>
+<summary>브라우저 렌더링</summary>
+추가예정
+</details>
+
+<details>
+<summary>SSR vs CSR</summary>
+
+- Client side Rendering : 사용자 측(웹 브라우저) 스크립트 처리(SPA의 동작 방식)
+
+        장점 :
+            요청에 따라 필요한 부분만 렌더링
+            빠른 속도, 서버 부하 감소
+        단점 :
+            초기 로딩 시간이 긺
+
+- Server side Rendering : 서버에서 스크립트를 처리하여 그 결과를 HTML로 만들어 전달(MPA의 동작 방식)
+
+        장점 : 
+            초기 로딩 속도 빠름
+            검색엔진 최적화 유리
+        단점 :
+            TTV(Time to View)와 TTI(Time to Interact)간 시간 간격 존재
+            서버측 부하 발생
+            응답시 화면 전체가 새로고침(깜빡임)
+</details>
+
+<details>
+<summary>MPA vs SPA</summary>
+
+- MPA : multi page application 의 약자
+
+        인터렉션이 발생할 때마다 서버로부터 새로운 HTML을 받아와서 해당 링크로 이동하여 페이지 전체를 새로 렌더링하는 전통적인 웹 페이지 구성 방식
+
+- SPA : Single Page Application의 약자로 하나의 페이지로 구성된 웹 어플리케이션
+
+        브라우저에 최초에 한번 페이지 전체를 로드하고, 이후부터는 특정 부분만 Ajax를 통해 데이터를 바인딩하는 방식
+
+        *SPA는 현재 웹개발의 트렌드(React 등)
+
+</details>
+
+<details>
+<summary>SEO</summary>
+
+추가 예정
+
+</details>
+
 
 ## 1. HTML
 > HTML 을 공부한 내용입니다.
@@ -116,9 +170,9 @@
                                     content
                                         * user-scalable=no : 사용자의 확대보기 허용 여부(yes/no)
                                         * intial-scale=1.0 : 페이지 로딩시 확대비율
-                                        * maximum-scale=1.0 : 최대확대비율
-                                        * minimum-scale=1.0 : 최소축소비율
-                                        * width=device-width : 플랫폼 가로 크기에 맞춤, 수치를 넣으면 그수치에 맞게 맞춰짐.
+                                        * maximum-scale=1.0 : 최대 확대 비율
+                                        * minimum-scale=1.0 : 최소 축소 비율
+                                        * width=device-width : 플랫폼 가로 크기에 맞춤, 수치를 넣으면 그 수치에 맞게 맞춰짐
                                         * target-densitydpi=medium-dpi : dpi([dots per inch])
                             * HTML5 미지원 속성
                                 - scheme : content 속성 해석 스키마 
@@ -215,11 +269,19 @@
 </details>
 
 <details>
-<summary>4. Body Tag</summary>
+<summary>3. Body Tag</summary>
 추가예정
 </details>
 
-### Reference
+## 2. CSS
+
+## 3. JavaScript
+
+## 4. React
+
+## 5. Tailwind CSS
+
+## #Reference
 ---
 https://www.funyphp.com/archive/html/38
 
@@ -229,3 +291,6 @@ http://www.tcpschool.com/
 
 https://developer.mozilla.org/
 
+https://miracleground.tistory.com/entry/SSR%EC%84%9C%EB%B2%84%EC%82%AC%EC%9D%B4%EB%93%9C-%EB%A0%8C%EB%8D%94%EB%A7%81%EA%B3%BC-CSR%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8-%EC%82%AC%EC%9D%B4%EB%93%9C-%EB%A0%8C%EB%8D%94%EB%A7%81
+
+https://joooing.tistory.com/entry/rendering
