@@ -47,11 +47,14 @@
 
 - MPA : multi page application 의 약자
 
-        인터렉션이 발생할 때마다 서버로부터 새로운 HTML을 받아와서 해당 링크로 이동하여 페이지 전체를 새로 렌더링하는 전통적인 웹 페이지 구성 방식
+        인터렉션이 발생할 때마다 서버로부터 새로운 HTML을 받아와서 
+        해당 링크로 이동하여 페이지 전체를 새로 렌더링하는 
+        전통적인 웹 페이지 구성 방식
 
 - SPA : Single Page Application의 약자로 하나의 페이지로 구성된 웹 어플리케이션
 
-        브라우저에 최초에 한번 페이지 전체를 로드하고, 이후부터는 특정 부분만 Ajax를 통해 데이터를 바인딩하는 방식
+        브라우저에 최초에 한번 페이지 전체를 로드하고, 
+        이후부터는 특정 부분만 Ajax를 통해 데이터를 바인딩하는 방식
 
         *SPA는 현재 웹개발의 트렌드(React 등)
 
@@ -485,6 +488,8 @@
 
 ## #Reference
 ---
+[HTML/CSS/JavaScript]
+
 https://www.funyphp.com/archive/html/38
 
 https://webdir.tistory.com/308
@@ -493,6 +498,14 @@ http://www.tcpschool.com/
 
 https://developer.mozilla.org/
 
+[렌더링]
+
 https://miracleground.tistory.com/entry/SSR%EC%84%9C%EB%B2%84%EC%82%AC%EC%9D%B4%EB%93%9C-%EB%A0%8C%EB%8D%94%EB%A7%81%EA%B3%BC-CSR%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8-%EC%82%AC%EC%9D%B4%EB%93%9C-%EB%A0%8C%EB%8D%94%EB%A7%81
 
 https://joooing.tistory.com/entry/rendering
+
+
+[도서]
+
+[코딩 자율학습 HTML + CSS + 자바스크립트](https://www.gilbut.co.kr/book/view?bookcode=BN003377)
+<img src="https://gimg.gilbut.co.kr/book/BN003377/rn_view_BN003377.jpg" width="700" height="370">
