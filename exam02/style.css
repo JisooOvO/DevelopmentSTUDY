@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Poppins&family=Roboto&display=swap');
+
+.container{
+    width: 304px;
+    height: 390px;
+    margin: auto;
+    border: 1px solid black;
+    position: relative;
+    top : 400px;
+}
+
+.loginwithgoogle{
+    border: 2px solid black;
+    /* text-align: center; */
+    width: 228px;
+    height: 44px;
+    margin: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-brands {
+    margin: auto 0;
+}
+
+.logname{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #504444;
+}
+
+.or{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 26px;
+    color: #504444;
+    text-align: center;
+}
+
+.inform{
+    width: 228px;
+    height: 44px;
+    margin: 15px auto;
+    border: none;
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.forgot{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #2C3432;
+    text-align: center;
+}
+
+.containerbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logbutton{
+    width: 228px;
+    height: 44px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-bottom: 15px;
+    background-color: #373F3C;
+    color: #ffffff;
+ 
+}
