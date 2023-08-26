@@ -1025,28 +1025,31 @@ height=370><br><br>
 
 - 요소의 크기 변경, 위치 이동, 회전
 
-    - transform : <함수>
-        * 함수
-            - translate(x,y) : 현 위치에서 x, y 축 만큼 이동
-            - translateX(n)
-            - translateY(n)
+        - transform : <함수>
+            * 함수
+                - translate(x,y) : 현 위치에서 x, y 축 만큼 이동
+                - translateX(n)
+                - translateY(n)
 
-            - scale(x,y) : x, y 축 만큼 확대/축소
-            - scaleX(n)
-            - scaleY(n)
+                - scale(x,y) : x, y 축 만큼 확대/축소
+                - scaleX(n)
+                - scaleY(n)
 
-            - skew(xdeg, ydeg) : x, y 각도 만큼 기울임
-            - skewX(deg)
-            - skewY(deg)
+                - skew(xdeg, ydeg) : x, y 각도 만큼 기울임
+                - skewX(deg)
+                - skewY(deg)
 
-            - rotate(deg) : deg 만큼 회전
-                * deg > 0 -> 시계방향 회전
-                * deg < 0 -> 반시계방향 회전
+                - rotate(deg) : deg 만큼 회전
+                    * deg > 0 -> 시계방향 회전
+                    * deg < 0 -> 반시계방향 회전
 
-    - transform-origin : <x> <y> -> 변형 기준점 변경
-        * 속성
-            - x : left / center / right
-            - y : top / center / bottom
+- 기준점 변경
+
+        - transform-origin : <x> <y> -> 변형 기준점 변경
+            * 속성
+                - x : left / center / right
+                - y : top / center / bottom
+
 </details>
 
 
