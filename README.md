@@ -7,18 +7,18 @@
     - [x] 특징
     - [x] Doctype 
     - [x] Body Tag
-- [ ] CSS
+- [x] CSS
     - [x] 문법 및 스타일 적용방법
     - [x] 선택자 사용
     - [x] 특징
     - [x] 박스 모델
     - [x] 속성
     - [x] 폰트 적용
-    - [ ] 레이아웃
+    - [x] 레이아웃
     - [x] 전환 효과
     - [x] 애니메이션
     - [x] 변형 효과
-    - [ ] 미디어 쿼리
+    - [x] 미디어 쿼리
 - [ ] JavaScript
 - [ ] React
 - [ ] Tailwind CSS
@@ -904,6 +904,7 @@ height=370><br><br>
                     - justify-content: center (row)
                     - align-items: center (column)
                     * flex 아닌 경우 -> margin : auto 등으로 적용가능
+                    * flex 는 1 줄에 몇 개의 content 가 오는 것을 정의 X
             - flex-direction : <속성>
                 * 속성
                     - row : 왼쪽 -> 오른쪽
@@ -938,9 +939,69 @@ height=370><br><br>
             - align-content : <속성> -> wrap 속성으로 2줄 이상일 때 사용
             - align-self : <속성> -> 단일 정렬
 
-- grid : 2차원 방식 레이아웃
-    
-        - 추가 예정
+
+
+- grid : 2차원 방식 레이아웃 ( row / column 같이 사용 )
+<img
+src="./static/images/grid.jpg"
+alt="grid"
+width=700
+height=370>
+
+- grid layout
+
+        - display : grid
+            * 해당 속성 지정 요소가 그리드 컨테이너
+        
+        - grid-template-columns : <1열값> <2열값> ...
+        - grid-template-rows : <1행값> <2행값> ...
+            * 값으로 행/열의 크기 결정
+            * repeat(), minmax() 함수 사용 가능
+
+        - row-gap : <크기>
+        - column-gap : <크기>
+
+- grid 정렬
+
+        - align-items : <속성> -> Y축 정렬
+            * 속성
+                - stretch
+                - start
+                - center
+                - end
+        - align-self
+
+        - justify-items : <속성> -> X축 정렬
+        - justify-self
+
+        - place-items : <align-items> <justify-items>
+        - place-self : <align-self> <justify-self>
+
+- grid 배치
+
+        - grid-template-areas : <이름>
+            * 이름 예시
+                "header header header"
+                "sidebar content content"
+                "footer footer footer"
+        - grid-area : <행/열 이름>
+            * grid-template-area 로 정한 이름을 부여
+            * 코드 예시
+                #header {
+                    grid-area : header
+                }
+
+- grid 아이템 배치 
+
+        - grid-column-start : <start grid number>
+        - grid-column-end : <end grid number>
+            * 그리드 넘버로 구분
+
+        - grid-row-start
+        - grid-row-end
+
+        - grid-column : <start> <end> || <start>/span <열 개수>
+        - grid-row : <start> <end> || <start>/span <행 개수>
 
 </details>
 
@@ -1056,7 +1117,49 @@ height=370><br><br>
 <details>
 <summary>10. 미디어 쿼리</summary>
 
-        - 추가 예정
+- 반응형 웹(responsive web)을 만드는 주요 기술
+
+        사이트에 접속하는 미디어 타입, 특징, 해상도에 따라 
+        다른 스타일 속성을 적용하는 기술
+
+- 뷰포트(viewport) : 웹 페이지가 접속한 기기에서 보이는 실제 영역 크기
+
+        * HTML 문서는 어떤 기기에서 접속하더라도 980px 크기 기준으로 보여줌
+          따라서 HTML의 metadata 를 설정해야 함
+          <meta 
+          name="viewport
+          content="width=device-width,
+          initial-scal=1.0">
+        
+        * 메타 content 속성 값
+            - width / height
+            - initial-scale : 초기 배율
+            - minimum-scale : 최소 축소 비율 [ 기본값 = 0.25 ]
+            - maximum-scale : 최대 확대 비율 [ 기본값 = 5.0 ]
+            - user-scalable : 뷰포트 확대/축소 여부 ( yes || no )
+
+- 미디어 쿼리 문법
+
+        @media 
+        < not | only >  
+            - not : 뒤의 모든 조건 부정
+            - only : 미디어 쿼리 지원 기기만 해석
+        < mediatype > : 미디어 타입
+            - all : 모든 기기 ( 기본 값 )
+            - print : 인쇄 장치
+            - screen : 컴퓨터 화면 장치, 스마트 기기
+            - speech : 스크린 리더기, 보조 프로그램
+        and  : mediatype 생략하지 않으면 다음에 and 연산자 필수
+        ( <media feature> ) : 미디어 조건
+            - min-width : 미디어 쿼리 적용 하한값( 최소 너비 ~ )
+            - max-width : 미디어 쿼리 적용 상한값( ~ 최대 너비 )
+            - orientation :
+                * portrait : 세로모드, 세로 높이 > 가로 너비
+                * landscape : 가로모드, 가로 너비 > 세로 높이
+        < and | or | not > 
+        ( <media feature> ) {
+            /* CSS 코드 */
+        }
 
 </details>
 
@@ -1067,7 +1170,7 @@ height=370><br><br>
 ## 5. Tailwind CSS
 
 ## #Reference
----
+
 [Font]
 
 [Google Font](https://fonts.google.com/)
@@ -1088,6 +1191,11 @@ https://webdir.tistory.com/308
 http://www.tcpschool.com/
 
 https://developer.mozilla.org/
+
+[grid]
+
+https://coding-factory.tistory.com/946
+
 
 [Rendering]
 
