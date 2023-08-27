@@ -1,4 +1,4 @@
-# Developement Study
+# Development Study
 > 개발 공부 기록입니다.
 
 ## #TODO
