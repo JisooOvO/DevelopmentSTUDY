@@ -1,7 +1,21 @@
-# 프론트엔드 공부
-> 프론트엔드 공부 기록입니다.
+# Developement Study
+> 개발 공부 기록입니다.
 
-## TODO
+## #TODO
+<details>
+<summary>프론트 엔드</summary>
+
+> I followed roadmap here,
+[Frontend Roadmap](https://roadmap.sh/frontend) and 
+[MDN Web Docs](https://developer.mozilla.org/ko/docs/Learn/Front-end_web_developer)
+
+- [ ] INTERNET
+    - [ ] 인터넷의 동작 방식
+    - [ ] HTTP
+    - [ ] Domain Name
+    - [ ] Hosting
+    - [ ] DNS
+    - [ ] Brouser 동작 방식
 - [x] HTML
     - [x] 역사
     - [x] 특징
@@ -20,15 +34,57 @@
     - [x] 변형 효과
     - [x] 미디어 쿼리
 - [ ] JavaScript
+    - [x] JavaScript 연결 방법
+    - [x] 변수와 상수
+    - [x] 자료형
+    - [x] 연산자
+    - [ ] 조건문
+    - [ ] 반복문
+    - [ ] 함수
+    - [ ] 객체와 이벤트
 - [ ] React
 - [ ] Tailwind CSS
 
-## 0. 미분류
-> 필요한 내용을 정리합니다.
+</details>
+
 
 <details>
-<summary>브라우저 렌더링</summary>
-추가예정
+<summary>백엔드</summary>
+    추가예정
+</details>
+
+<details>
+<summary>알고리즘</summary>
+    추가예정
+</details>
+
+<details>
+<summary>CS</summary>
+    추가예정
+</details>
+
+## #미분류
+> 필요한 내용을 정리합니다. (분류 예정)
+
+<details>
+<summary>Browser Rendering</summary>
+    
+    추가예정
+
+</details>
+
+<details>
+<summary>Accessibility</summary>
+    
+    추가예정
+
+</details>
+
+<details>
+<summary>HTML Validations</summary>
+    
+    추가예정
+
 </details>
 
 <details>
@@ -75,10 +131,54 @@
 <details>
 <summary>SEO</summary>
 
-추가 예정
+    추가 예정
 
 </details>
 
+## 0. INTERNET
+> INTERNET 관련 공부 기록입니다.
+
+<details>
+<summary>0. 인터넷의 동작 방식</summary>
+    
+    추가예정
+
+</details>
+
+<details>
+<summary>1. HTTP</summary>
+    
+    추가예정
+
+</details>
+
+<details>
+<summary>2. Domain Name</summary>
+    
+    추가예정
+
+</details>
+
+<details>
+<summary>3. Hosting</summary>
+    
+    추가예정
+
+</details>
+
+<details>
+<summary>4. DNS</summary>
+    
+    추가예정
+
+</details>
+
+<details>
+<summary>5. Browser 동작 방식</summary>
+    
+    추가예정
+
+</details>
 
 ## 1. HTML
 > HTML 을 공부한 기록입니다.
@@ -1119,8 +1219,7 @@ height=370>
 
 - 반응형 웹(responsive web)을 만드는 주요 기술
 
-        사이트에 접속하는 미디어 타입, 특징, 해상도에 따라 
-        다른 스타일 속성을 적용하는 기술
+        사이트에 접속하는 미디어 타입, 특징, 해상도에 따라 다른 스타일 속성을 적용하는 기술
 
 - 뷰포트(viewport) : 웹 페이지가 접속한 기기에서 보이는 실제 영역 크기
 
@@ -1164,6 +1263,328 @@ height=370>
 </details>
 
 ## 3. JavaScript
+> JavaScript 공부 기록입니다.
+
+<details>
+<summary>0. JavaScript 란 무엇인가</summary>
+    
+- JavaScript 
+
+        웹 페이지에서 복잡한 기능을 구현할 수 있도록 하는 스크립팅 언어
+        동적으로 콘텐츠를 바꾸고, 멀티미디어를 제어하고, 애니메이션을 추가 가능
+        
+        자바스크립트는 인터프리터를 사용
+        * 모던 자바스크립트는 JIT 컴파일 기술을 사용하여 성능 향상
+
+        * 수정하려는 HTML, CSS 보다 자바스크립트가 먼저 불러와질경우 오류 발생
+        
+- API
+
+        Application Programming Interface
+
+        개발자가 직접 구현하기는 어렵거나 불가능한 기능들을 미리 만들어서 
+        클라이언트 사이드 자바스크립트에 제공하는 것
+
+    - 3rd party APIs
+        - Twitter API
+        - Google 지도 API
+    - Brouser API
+        - DOM API 
+        
+                HTML 콘텐츠를 추가, 제거, 변경하고, 동적으로 페이지에 스타일을 추가하는 등 HTML/CSS를 조작하는 API
+
+        - Geolocation API
+
+                지리 정보 API
+
+        - Canvas / WebGL API
+
+                2D, 3D 애니메이션 그래픽
+
+        - HTMLMediaElement / WebRTC 
+        
+                오디오, 비디오 API
+
+- 브라우저 보안
+
+        각각의 브라우저 탭은 코드를 실행하기 위한 독립적인 그릇
+        따라서 각각의 탭은 분리되어 다른 사이트에 직접적인 영향을 주기 어려움
+
+- Server Side vs Client Side
+
+    - Server Side Code 
+
+            서버에서 실행 결과를 처리하여 브라우저가 이를 다운로드하여 화면에 출력
+            자바스크립트는 Node.js 환경에서 서버 사이드 언어로 사용 가능
+
+    - Client Side Code
+
+            사용자의 컴퓨터에서 코드를 처리하고 브라우저가 실행하는 코드
+            자바스크립트는 React 환경에서 클라이언트 사이드 코드로 동작
+
+<!-- API/보안 정보는 나중에 추가로 공부할 것 -->
+<!-- 간략한 내용들 추가 작성 필요 -->
+
+</details>
+
+<details>
+<summary>1. JavaScript 연결 방법</summary>
+
+- 내부 스크립트
+
+        HTML 파일 내에서 <script> 태그 영역에 자바스크립트 코드 작성
+
+- 외부 스크립트
+
+        <script> 태그의 src 속성을 이용하여 연결
+
+* 스크립트 로딩 전략
+<img src="https://developer.mozilla.org/ko/docs/Learn/JavaScript/First_steps/What_is_JavaScript/async-defer.jpg"
+alt="스크립트 로딩 전략"
+height=300>
+
+        1. <body> 태그 내 위치시 <body> 종료 태그 바로 전에 사용
+            ->
+                HTML DOM을 모두 불러오기 전에는 스크립트의 로딩과 분석이 완전히 중단
+                많은 스크립트를 포함하는 대형 사이트에서는 성능이 저하될 수 있음
+
+        2. 외부 스크립트 <script> 태그에 defer / async 특성 추가
+            * 예시
+                <script src="script.js" defer></script>
+            ->
+                async : 
+                    스크립트를 가져오는 동안 페이지 로딩을 중단하지 않음
+                    스크립트 다운로드가 끝나면 바로 스크립트가 실행되며 실행 도중에는 페이지 렌더링이 중단
+                    스크립트의 실행 순서를 보장할 방법은 없음 
+                    따라서 async는 다른 스크립트에 의존하지 않는 독립 스크립트에 사용 가능
+                    * 다수의 백그라운드 스크립트를 최대한 빠르게 불러와야 할 때 사용
+
+                defer :
+                    페이지 내에 배치한 순서대로 페이지를 부르며 
+                    페이지 콘텐츠를 모두 불러오기 전까지는 자바스크립트를 실행하지 않음
+                    페이지 요소를 수정하거나 추가하는 등 DOM 작업을 기대하는 스크립트에 유용
+                    * 스크립트 순서를 맞출 경우 효과적인 방법
+        
+        3. 브라우저 DOMcontentLoaded 이벤트 수신
+            * 예시
+                document.addEventListener('DOMContentLoaded', () => {
+                    ...
+                });
+
+
+
+</details>
+
+<details>
+<summary>2. 변수와 상수</summary>
+
+- 변수(Variant)
+    - 문법
+
+            키워드(keyword) : 역할이나 기능이 정해진 단어[=예약어(reserved word)]
+            식별자(identifier) : 자바스크립트 변수, 함수 등에 부여되는 이름
+                * var, let, const 와 함께 사용시 변수명
+                * 식별자 규칙
+                    키워드는 식별자로 사용할 수 없음
+                    첫 글자는 영무 소문자, 언더바, $ 만 가능
+                * 관용 규칙
+                    변수명 : 카멜 표기법
+                    함수명 : 파스칼 표기법
+                
+            연산자(operator) : 연산작업 기호
+            표현식(expression) : 평가(evaluation)되어 하나의 값(value)을 만드는 식
+            값(value) : 더 이상 평가할 수 없는 데이터
+            세미콜론(semicolon) : 하나의 문법(statement)이 끝났음을 의미
+    
+    - 변수 선언 키워드
+        
+            - var
+            - let : ES6에서 추가된 키워드
+                ->
+                    * 변수명 중복 불가능
+                    * 호이스팅(Hoisting)되지 않음
+                        * 호이스팅 : 
+                            var 키워드로 변수 선언, 할당시 변수 선언을 자바스크립트의 스코프(scope) 맨 위로 올려 실행
+                    * 일부 브라우저 지원 X
+
+- 상수(Constant)
+
+    - 상수 선언 키워드
+
+            - const : ES6에서 추가된 키워드, 선언 뒤 재할당 불가
+    
+    
+</details>
+
+<details>
+<summary>3. 자료형</summary>
+
+- 기본 자료형(Primitive)
+    
+    - 문자열(String) : 따옴표( " 또는 ' )로 둘러싸인 값
+
+            - + : 문자열 연결 연산자
+                * 예시
+                    let string = "문자열" + "더하기";
+            - 이스케이프 문자열 :
+                - \' : 작은 따옴표
+                - \" : 큰 따옴표
+                - \n : 줄바꿈
+                - \ㅅ : 수평 탭
+                - \\ : 역슬래시
+            - 템플릿 문자열 : ES6에서 추가된 방식, 백 틱(``)으로 문자열 정의
+                * 특징
+                    - Enter시 줄 바꿈 적용
+                    - ${} 문법을 이용해 문자열에 변수, 식 삽입 가능
+            - 인덱스 [] 로 문자열 찾기 가능
+
+        - 문자열 메소드 : 문자열도 객체이므로 메소드, 속성 사용 가능
+
+                - length : 문자열 길이
+                - indexof("문자열") : 문자열 해당 인덱스, 못 찾으면 -1 반환
+                - slice(start index,end index) : 슬라이싱
+                - toLowerCase() : 대문자로 변경
+                - toUpperCase() : 소문자로 변경
+                - replace("바꿀 문자열","바뀔 문자열")
+                - split("자를 문자열") : 문자열을 자를 문자열 기준으로 나누어 배열로 저장
+    
+    - 숫자형(number) : 자바스크립트는 정수, 실수를 구분하지 않고 하나의 숫자형으로 취급
+        
+            * 실수를 부동 소수점 방식으로 처리하는 것은 동일
+    
+    - 논리형(boolean) : ture, false
+
+    - undefined : 메모리에 데이터가 할당되지 않은 경우의 임시 데이터
+
+    - null : 의도적으로 메모리에 공간을 비워 둠
+
+- 참조 자료형(Reference)
+    
+    - 객체(object)
+        
+        - 배열(array) : 복수의 데이터 정의, 인덱스로 접근 가능
+            
+                * 모든 자료형을 정의 가능
+
+                * 예시
+                    let array = ['abc',10,true,null,[],{},function()];
+            - 배열 메소드 
+
+                    - length
+                    - join("붙일 문자열") : 배열을 문자열로 저장
+                    - toString : 배열을 문자열로 저장(항상 "," 사용)
+                    - push() : 배열 끝에 원소 추가
+                    - pop() : 배열 끝에 원소 제거
+                    - unshift() : 배열 앞에 원소 추가
+                    - shift() : 배열 앞에 원소 제거
+        - 객체 리터럴 : Key,Value 의 한 쌍으로 이루어진 속성(Property)로 이루어짐, 중괄호 {} 사용
+        
+                * Key 인덱스 및 마침표(.)로 Value에 접근 가능
+
+                * 예시
+                    let score={
+                        korean:80;
+                        english:90;
+                    };
+
+                    console.log(score.korean);
+                    console.log(score['korean']);
+
+        - 함수(function)
+
+
+</details>
+
+<details>
+<summary>4. 연산자</summary>
+
+- 연산자(operator)
+    - 산술 연산자 
+
+            이항 산술 : +, -, *, /, &, **
+            단항 산술 : ++, --
+            단항 부정 : -
+    
+    - 대입 연산자
+
+            대입 : =
+            복합 대입 : +=, -=, *=, /=, %=, **=
+
+    - 비교 연산자 : true / false 반환
+
+            ==, !=, <, <=, >, >=
+
+            * 자바스크립트 연산자 비교
+
+                1. 동등( ==, != ) vs 일치( ===, !== ) :
+                    동등 연산자 : 자료형에 상관없이 값이 같으면 true 반환
+                    일치 연산자 : 자료형과 값이 모두 같으면 true 반환
+
+    - 논리 연산자
+
+            &&, ||, !
+
+            * 빈 문자열(""), undefined, null, 0 는 false
+
+    - 삼항 연산자
+
+            x ? y : z
+
+- 연산자 우선 순위
+
+        1. 그룹 연산자 ()
+        2. 대괄호 연산자 []
+        3. 마침표 연산자 .
+        4. 증/감 연산자 ++, --
+        5. 단항 부정 연산자, NOT 연산자 -, !
+        6. delete,new,typeof
+        7. /, *, %
+        8. +, -
+        9. <=, <, >, >=
+        10. ==, ===, !=, !==
+        11. &&, ||
+        12. 삼항 연산자 ?:
+        13. 대입 연산자 =
+
+- 형 변환
+    - 암시적 : 자바스크립트에서 자체적으로 형 변환
+        
+            * 예시
+                const result = 10 + "10" 일 때 result === 1010
+                    ->
+                        숫자형 데이터를 문자열 데이터로 형 변환
+
+    - 명시적 : 캐스팅
+
+            * 예시
+                let num = 10;
+                let strNum = "10";
+
+                if( String(num) == strNum){
+                    // true 
+                }
+</details>
+
+<details>
+<summary>5. 조건문</summary>
+
+</details>
+
+<details>
+<summary>6. 반복문</summary>
+
+</details>
+
+<details>
+<summary>7. 함수</summary>
+
+</details>
+
+<details>
+<summary>8. 객체와 이벤트</summary>
+
+</details>
+
 
 ## 4. React
 
@@ -1192,12 +1613,10 @@ http://www.tcpschool.com/
 
 https://developer.mozilla.org/
 
-[grid]
-
 https://coding-factory.tistory.com/946
 
 
-[Rendering]
+[Browser Rendering]
 
 https://miracleground.tistory.com/entry/SSR%EC%84%9C%EB%B2%84%EC%82%AC%EC%9D%B4%EB%93%9C-%EB%A0%8C%EB%8D%94%EB%A7%81%EA%B3%BC-CSR%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8-%EC%82%AC%EC%9D%B4%EB%93%9C-%EB%A0%8C%EB%8D%94%EB%A7%81
 
