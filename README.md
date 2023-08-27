@@ -34,6 +34,7 @@
     - [x] 변형 효과
     - [x] 미디어 쿼리
 - [ ] JavaScript
+    - [x] JavaScript 란 무엇인가
     - [x] JavaScript 연결 방법
     - [x] 변수와 상수
     - [x] 자료형
@@ -70,6 +71,7 @@
 <summary>Browser Rendering</summary>
     
     추가예정
+<!-- 아마도 인터넷 -->
 
 </details>
 
@@ -77,14 +79,14 @@
 <summary>Accessibility</summary>
     
     추가예정
-
+<!-- HTML -->
 </details>
 
 <details>
 <summary>HTML Validations</summary>
     
     추가예정
-
+<!-- HTML -->
 </details>
 
 <details>
@@ -108,6 +110,7 @@
             TTI(Time to Interact)간 시간 간격 존재
             서버측 부하 발생
             응답시 화면 전체가 새로고침(깜빡임)
+<!-- JS -->
 </details>
 
 <details>
@@ -125,14 +128,14 @@
         이후부터는 특정 부분만 Ajax를 통해 데이터를 바인딩하는 방식
 
         * SPA는 현재 웹개발의 트렌드(React 등)
-
+<!-- JS -->
 </details>
 
 <details>
 <summary>SEO</summary>
 
     추가 예정
-
+<!-- HTML -->
 </details>
 
 ## 0. INTERNET
@@ -181,7 +184,7 @@
 </details>
 
 ## 1. HTML
-> HTML 을 공부한 기록입니다.
+> HTML 관련 공부 기록입니다.
 
 <details>
 <summary>0. 역사</summary>
@@ -591,7 +594,8 @@
 </details>
 
 ## 2. CSS
-> CSS 를 공부한 기록입니다.
+> CSS 관련 공부 기록입니다.
+
 <details>
 <summary>0. 문법 및 스타일 적용방법</summary>
 
@@ -1291,7 +1295,8 @@ height=370>
     - Brouser API
         - DOM API 
         
-                HTML 콘텐츠를 추가, 제거, 변경하고, 동적으로 페이지에 스타일을 추가하는 등 HTML/CSS를 조작하는 API
+                HTML 콘텐츠를 추가, 제거, 변경하고, 동적으로 페이지에 스타일을 추가하는 등 
+                HTML/CSS를 조작하는 API
 
         - Geolocation API
 
@@ -1567,6 +1572,8 @@ height=300>
 
 <details>
 <summary>5. 조건문</summary>
+
+n 
 
 </details>
 
