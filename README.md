@@ -41,9 +41,10 @@
     - [x] 연산자
     - [x] 조건문
     - [x] 반복문
-    - [ ] 함수
-    - [ ] 객체
-    - [ ] 문서객체와 이벤트
+    - [x] 함수
+    - [x] 객체
+    - [ ] 브라우저 객체 모델
+    - [ ] 이벤트
 - [ ] React
 - 나중에 보기
     - [ ] TypeScript
@@ -1769,21 +1770,179 @@ height=300>
 
         함수 반환 값, 데이터 반환하지 않을 경우 undefined
 
-- 스코프
+- 스코프(scope) : 변수/ 함수 같은 참조 대상 식별자를 찾아내는 규칙
+    - 함수 스코프 :
+		
+            함수 내부 : 지역 스코프(함수 내에서 정의한 블록문만 유효 범위로 인정)
+ 					    -> 밖에서 정의한 변수가 함수 내부에서 사용가능
 
-- 호이스팅
+		    함수 외부 : 전역 스코프(스코프와 상관 없이 모두 참조)
+					    -> 함수 내에서 정의한 변수 밖에서 사용 불가능
+	
+	- 블록 스코프 :
+		
+            ES6에서 추가된 let, const 키워드 변수에 한해서만 적용
+		    var 변수는 블록 {}에 영향을 받지 않음
+		
+            * 예시
+                var a = 10 ;
+                {
+                    var b = 20;
+                }
+                console.log(a,b) // b 값이 제대로 출력
 
-- 즉시 실행 함수(IIFE)
+	* 참조 우선순위 :
+
+            let, const는 같은 스코프 영역에서 중복 선언이 불가능
+            
+            1. 코드 내에서 같은 식별자로 중복 선언시 같은 지역 스코프의 식별자를 우선 참조
+            2. 찾지 못할 경우 전역 스코프에서 참조
+
+- 함수 호이스팅(hoisting) :
+
+        - 코드를 선언과 할당으로 분리해 선언부만 자신의 스코프 최상위로 올림
+        * var, 함수 선언문에 적용(함수 표현식으로 정의될 경우 함수 식별자만 올림)
+        * let, const에는 적용 X	
+
+	    * 예시
+            console.log(num);			var num;
+            var num = 10;		=>	console.log(num)	//undefined
+                            num = 10;	
+
+- 즉시 실행 함수(IIFE, immediately invoked function expression) :
+	
+        일반적인 함수는 전역 스코프에 정의되어 프로그램이 종료될 때까지 메모리에서 사라지지 않음
+        한 번만 사용할 함수의 경우 전역스코프의 오염이 발생	
+        -> IIFE는 함수를 정의하면서 동시에 실행되고 메모리에 데이터를 남기지 않음
+        
+        * 예시
+            ( function(){} )();
 
 </details>
 
 <details>
 <summary>8. 객체</summary>
 
+- 객체
+
+        Key 와 Value 로 구성된 속성의 집합
+        리터럴 {} 방식으로 객체를 생성 가능
+        * 메서드 : 객체 내에서 함수가 속성의 값일 때 함수를 지칭
+	
+	    - Value 재할당 
+            - 해당하는 Key 가 없을 경우 동적으로 속성 추가
+            - 객체의 주소 값은 그대로이며 주소 같이 참조하는 원본 객체 데이터가 얕은 복사	
+
+            * 예시
+                person.name = "kim" 
+
+
+        - Value 삭제
+            - delete 키워드로 삭제 가능
+
+            * 예시
+                delete person.name;
+
+- 접근법
+	
+	- 대괄호 []
+
+            문자열, 배열, 함수에 모두 접근 가능
+
+            * 예시
+                const person = {
+                    name : {
+                        lastName = "Hong",
+                        ...
+                    },
+                    printHello:function(){
+                        ...
+                    }
+                    ...
+                };
+                console.log(person["name"]["lastName"]);
+                console.log(person["printhello"]());	
+        
+	- 마침표 .
+
+            * 객체 key에 공백이 있을 경우 접근 불가
+            * 예시
+                console.log(peson."name");
+
+		
+
+- 표준 내장 객체(Standard Built-in Object)
+		
+	- String 
+
+            - length : 문자열 길이 반환
+            - includes() : 문자열이 대상 문자열에 포함시 true 아니면 false
+            - replace() : 문자열과 일치하는 한 부분을 찾아서 다른 데이터로 변경한 새로운 문자열 반환
+            - replaceAll() : 문자열과 일치하는 모든 부분을 찾아서 다른 데이터로 변경한 새로운 문자열 반환
+            - split() : 매개변수 인자로 구분자를 기준으로 문자열을 분리하여 배열로 반환
+            - toUpperCase() : 문자열을 대문자로 변경
+            - trim() : 대상 문자열의 앞,뒤 공백 제거
+            - indexOf() : 대상 문자열과 일치하는 첫 번째 문자의 인덱스 반환 못 찾으면 -1 반환
+	
+	- Array
+
+            - length
+            - push() : 배열 맨 뒤에 데이터 추가
+            - pop() : 배열 맨 뒤 데이터 추출
+            - unshift() : 배열 맨 앞 데이터 추가
+            - shift() : 배열 맨 앞 데이터 추출
+            - sort() / reverse() : 배열 정렬
+            - forEach() : 배열의 요소를 하나씩 순회하며 callback 함수 호출
+            - filter() : 배열의 요소를 하나씩 순회하며 콜백 함수 호출하여 true 반환하는 요소만 추출
+                추출한 요소로 새로운 배열을 만들어 반환
+            - find() : 주어진 판별 함수를 만족하는 배열의 첫 번째 값 반환
+            - findIndex() : 주어진 판별 함수를 만족하는 배열의 첫 번째 인덱스 반환
+            - includes()
+            - join() : 배열의 모든 요소를 주어진 구분자로 합쳐 문자열로 반환
+
+	- Date
+
+            * 인스턴스 생성 필수
+            const date = new date();
+
+            - get/setFullyear() : 4자리 년도
+            - get/setMonth() : 월(0 ~ 11)
+            - get/setDate() : 일(1 ~ 31)
+            - getDay() : 요일(0 ~ 6)
+            - get/setTime() : 1970년 1월 1일 12:00 이후의 시간을 밀리초 단위로 표시
+            - get/setHours() : 시(0 ~ 23)
+            - get/setMinutes() : 분(0 ~ 59)
+            - get/setSeconds() : 초(0 ~ 59)
+            - get/setMilliseconds() : 밀리초(0 ~ 999) 
+
+	- Math
+
+            - floor() : 내림
+            - ceil() : 올림
+            - round() : 반올림
+            - random() : 0 이상 1 미만 난수 반환		
+
 </details>
 
 <details>
-<summary>9. 문서 객체와 이벤트</summary>
+<summary>9. 브라우저 객체 모델</summary>
+
+- 브라우저 객체 모델(BOM) 
+
+        자바스크립트 언어 사양에 포함되지 않고 웹 브라우저에서 제공하는 객체
+
+        계층도..()
+        
+        windows,,
+
+- 문서 객체 모델(DOM)
+	
+	
+
+</details>
+
+<details>
+<summary>10. 이벤트</summary>
 
 </details>
 
@@ -1833,6 +1992,10 @@ https://developer.mozilla.org/
 
 https://coding-factory.tistory.com/946
 
+
+[Javascript]
+
+https://ko.javascript.info/
 
 [Browser Rendering]
 
