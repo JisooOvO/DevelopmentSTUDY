@@ -48,8 +48,8 @@
 - [ ] React
 - 나중에 보기
     - [ ] TypeScript
-    - [ ] SvelteKit
-    - [ ] NodeJs
+    - [ ] Svelte
+    - [ ] NextJs
     - [ ] Tailwind CSS
     - [ ] SCSS
     - [ ] npm
@@ -59,17 +59,23 @@
 
 
 <details>
-<summary>백엔드</summary>
-    추가예정
+<summary>백엔드(추가예정)</summary>
+    
 </details>
 
 <details>
-<summary>알고리즘</summary>
-    추가예정
+<summary>알고리즘(추가예정)</summary>
+
+- 소수 분해 알고리즘
+
+        - 쇼어 알고리즘
+        - 수체 체(General number field sieve)
+        - 이차체(Quadratic sieve, QS)
+
 </details>
 
 <details>
-<summary>CS</summary>
+<summary>CS(추가예정)</summary>
     추가예정
 </details>
 
@@ -1349,11 +1355,50 @@ height=370>
         웹 페이지에서 복잡한 기능을 구현할 수 있도록 하는 스크립팅 언어
         동적으로 콘텐츠를 바꾸고, 멀티미디어를 제어하고, 애니메이션을 추가 가능
         
-        자바스크립트는 인터프리터를 사용
-        * 모던 자바스크립트는 JIT 컴파일 기술을 사용하여 성능 향상
+        자바 스크립트 엔진 (가상머신) 이 내장된 프로그램이 실행 가능
+	    엔진이 스크립트를 읽고(파싱) 기계어 전환(컴파일)
 
-        * 수정하려는 HTML, CSS 보다 자바스크립트가 먼저 불러와질경우 오류 발생
-        
+        * 자바스크립트 엔진 종류
+	        - Chrome / Opera - V8
+	        - SpiderMonkey - Firefox
+	        - ChakraCore - Microsoft Edge
+	        - SqulrrelFIsh - Safari
+
+        자바스크립트는 인터프리터를 사용
+        모던 자바스크립트는 JIT 컴파일 기술을 사용하여 성능 향상
+        수정하려는 HTML, CSS 보다 자바스크립트가 먼저 불러와질경우 오류 발생
+        스크립트를 별도의 파일로 저장할 경우 브라우저가 스크립트를 다운받아 캐시로 저장 -> 성능 향상, 트래픽 절약
+
+- 특징
+
+	    - 스크립트 tag 내에 src 속성이 있으면 태그 내부의 코드는 무시
+
+	    - 줄바꿈시 세미콜론 자동 삽입 그러나 대괄호 [] 앞 등에는 세미콜론 자동삽입 X -> 세미콜론 사용 권장
+
+        - 엄격모드 : 
+                ES5에서 기존 기능 일부 변경되며 하위 호환성 문제 발생
+                기본 모드에서는 변경사항 대부분 비활성화, 엄격모드 사용시 변경사항 활성화
+
+                * 모던 자바스크립트는 클래스/모듈을 제공
+                -> 엄격모드가 자동 적용	
+
+                * 사용법
+                    use strict
+                    
+                    * 스크립트 최상단 또는 함수 본문 맨 앞에 올 수 있음
+                    * 함수 내에 위치시 해당 함수만 적용
+
+- 제약 사항
+
+    	특정 조건이 아닐 경우 디스크에 저장된 파일을 읽지 못함
+	    => 동동일 출처 정책(SOP, Same Origin Policy)
+
+- ECMA-262 명세서
+    >https://www.ecma-international.org/publications-and-standards/standards/ecma-262/
+
+- 호환성
+    >http://caniuse.com
+
 - API
 
         Application Programming Interface
@@ -1526,11 +1571,21 @@ height=300>
                 - toUpperCase() : 소문자로 변경
                 - replace("바꿀 문자열","바뀔 문자열")
                 - split("자를 문자열") : 문자열을 자를 문자열 기준으로 나누어 배열로 저장
+
+                * 문자열 비교시 우선 유니코드 기준으로 비교, 또는 문자열의 길이가 큰 쪽을 크다고 지정
     
     - 숫자형(number) : 자바스크립트는 정수, 실수를 구분하지 않고 하나의 숫자형으로 취급
-        
+
+            자바스크립트는 수학 연산시 에러를 발생하지 않음
+                - Infinity, -Infinity : 무한대
+                - NaN : 계산 중 오류
+
             * 실수를 부동 소수점 방식으로 처리하는 것은 동일
-    
+
+    - BigInt : (2^53-1)보다 큰 수, 또는 -(2^53-1)보다 작은 수
+		
+		    * 정수 끝에 n을 붙이면 BigInt 자료형
+
     - 논리형(boolean) : ture, false
 
     - undefined : 메모리에 데이터가 할당되지 않은 경우의 임시 데이터
@@ -1571,10 +1626,14 @@ height=300>
 
         - 함수(function)
 
+        - 심볼(symnbol)
 
 - typeof(변수명)
 
         변수의 자료형 확인 가능한 메소드
+    
+        * typeof null => object //하위 호환성을 위한 언어 자체의 오류
+        * typeof alert => function //함수형이란건 존재하지 않지만 규칙에 의해 function으로 출력
 
 </details>
 
@@ -1603,15 +1662,58 @@ height=300>
                     동등 연산자 : 자료형에 상관없이 값이 같으면 true 반환
                     일치 연산자 : 자료형과 값이 모두 같으면 true 반환
 
+                * null 과 undefined 는 커플 취급
+                    null == undefined // true 
+                    null === undefined // false
+                    null == 0 // false 
+                    => null / undefined 은 동등비교(==)시 형 변환 X
+	
+	            * null / undefined 비교(<,>,>=,<=)시 형 변환
+                    null => 0
+                    undefined => NaN
+                    
     - 논리 연산자
 
             &&, ||, !
 
             * 빈 문자열(""), undefined, null, 0 는 false
 
+            	OR :
+                    단락 평가 : truthy 를 만나면 나머지 값을 검사 하지 않음(첫 번째 true 피연산자 반환)
+
+                    * 예시
+                        alert( alert(1) || 2 || alert(3) );
+                        => alert(1)을 우선 평가(undefined, 1 출력) => 2를 평가(true) 및 2 출력 => alert(3)는 실행 X
+                
+                AND :
+                    모든 값을 평가하여 true 일 경우 마지막 피연산자 반환
+
+                NOT :
+                    두 번 연달아 사용하여(!!) Boolean 형변환 가능
+
+                    * 예시
+                        !!"1" => !false => true
+
+		
+		* 예시
+			true || alert("not printed"); -> alert 실행 X
+			false || alert("printed"); -> alert 실행 O
+
     - 삼항 연산자
 
             x ? y : z
+
+            * 삼항 연산자 ? 뒤에 break/continue 올 수 없음
+
+    - 병합 연산자 (??, nullish)
+	
+            최근 추가된 문법, 구식 브라우저 폴리필* 필요
+        
+            * 안정성 이슈로 &&, || 와 함께 사용 X (Syntax error 발생)
+                -> 괄호를 사용하여 제약 회피	
+
+            * 예시
+                a ?? b -> a가 null/undefined 이 아니면 a 맞으면 b
 
 - 연산자 우선 순위
 
@@ -1634,8 +1736,7 @@ height=300>
         
             * 예시
                 const result = 10 + "10" 일 때 result === 1010
-                    ->
-                        숫자형 데이터를 문자열 데이터로 형 변환
+                    -> 숫자형 데이터를 문자열 데이터로 형 변환
 
     - 명시적 : 캐스팅
 
@@ -1646,6 +1747,46 @@ height=300>
                 if( String(num) == strNum){
                     // true 
                 }
+
+* 자료형 변환 예시
+    * 숫자형-문자형 변환
+
+            - alert -> 전달받은 모든 값을 문자열로 자동 변환
+            - 수학 관련 표현식( 나누기 등)에서 문자열은 숫자형으로 변환
+                -> 단 이항 연산자 + 사용시 피연산자 중 하나라도 문자열이면 모두 문자열로 변환
+		
+            * 예시
+                "" +1+0 => "10"
+                "" -1+0 => -1
+                "  -9  " + 5 => "  -9  5"
+                "  -9  " - 5 => -14
+                " \t \t " - 2 => -2 //공백 제거
+
+    		- 단항 연산자 + 와 숫자가 아닌 피연산자 사용시 명시적 숫자형 변환 ( Number()와 같음 )
+		
+            * 예시
+                let apples = "2";
+                let oranges = "3";
+                alert( +apples + +oranges ); // 5
+
+                let a = +prompt("덧셈할 첫 번째 숫자를 입력해주세요.", 1);
+                let b = +prompt("덧셈할 두 번째 숫자를 입력해주세요.", 2);
+                alert(a + b); // 3
+
+	* 명시적 숫자형 변환
+
+            - undefined => NaN
+            - null => 0
+            - true/false => 1/0
+            - 문자열 => 처음/끝 공백 제거, 제거후 문자열 없으면 0, 숫자가 아닌 값을 변환하려하면 NaN 출력 
+            
+            * 예시
+                    Number("숫자가아닌 값") 	
+        
+	* 명시적 Boolean 형 변환
+
+            - 0, null, undefined, NaN, "" => false
+            - "0", " ", 그 외 값 => true         
 </details>
 
 <details>
@@ -1717,6 +1858,20 @@ height=300>
                 * entries() 메소드를 통해 인덱스, 값에 동시 접근 가능
 
 - break / continue
+
+- label
+
+        레이블(label) : 반복문 앞에 쓰이는 식별자 break/continue와 함께 사용가능
+
+        * 예시
+            labelName: for(...){
+                ...
+                for(...){
+                    ...	
+                    break labelName; -> 2개의 for 문을 모두 빠져나옴
+                }
+            }
+
 </details>
 
 <details>
@@ -1927,22 +2082,82 @@ height=300>
 <details>
 <summary>9. 브라우저 객체 모델</summary>
 
-- 브라우저 객체 모델(BOM) 
-
+- 브라우저 객체 모델(BOM)
+    
         자바스크립트 언어 사양에 포함되지 않고 웹 브라우저에서 제공하는 객체
+    <img src="https://thebook.io/img/080313/443.jpg"
+    alt="BOM"
+    width=700px
+    height=370px>
 
-        계층도..()
+        window : 모든 객체들의 최상위 객체, 메소드 앞에 window 명시할 필요 X
+            - alert
+            - open
+            - prompt
+            - comfirm
+            - setInterval / clearInterval : 시간 간격으로 코드 반복 실행/중지(밀리 초)
+                * 자체 내 밀리 초 단위의 오차 존재
+            - setTimeout, clearTimeout : 일정 시간 후 코드 1번 실행 후 종료
         
-        windows,,
+        location : URL을 다루는 객체
+            - href : 현재 페이지 URL 반환
+            - hash : 현재 URL 해시값 반환
+            - port : 현재 URL 포트번호 반환
+            - protocol : 현재 URL 프로토콜 반환
+            - search : : 현재 URL 쿼리 반환
+            - reload() : 페이지 새로고침
+            - replace() : 지정된 URL 이동
+
+        history : 방문 기록 저장(앞/뒤로 가기)
+            - length : 저장된 URL 수 반환
+            - go() : 페이지 이동(양수 : 다음 , 음수 : 이전)
+            - back() : 이전 방문 페이지 이동
+            - forward() : 다음 방문 페이지 이동
+
+        navigator : 사용중인 브라우저/운영체제 정보
+            - appCodeName : 브라우저 코드
+            - appName : 브라우저 이름
+            - appVersion : 브라우저 버전 
+            - language : 브라우저 사용 언어
+            - product : 브라우저 엔진 이름
+            - platform : OS 정보
+            - onLine : 온라인 상태면 true 반환
+            - userAgent : 브라우저/OS 종합 정보 반환
+        
+        
 
 - 문서 객체 모델(DOM)
-	
+
+<!-- 자바스크립트는 방대한 내용이 있으므로 주기적 정리 필요 -->
+<!-- 특히 BOM/DOM은 충분한 이해를 하고 작성 -->
 	
 
 </details>
 
 <details>
 <summary>10. 이벤트</summary>
+
+- 인터페이스(상호작용)
+
+        각각의 브라우저는 모달 창을 제공, 이 창은 개발자가 모양을 수정할 수 없음
+        모달창이 생성된 동안 스크립트의 실행, 페이지와 상호작용 불가능
+
+        - alert("메시지")
+            메시지가 있는 모달창(modal window)를 생성
+            반환 값 없음(undefined)
+
+        - prompt(title, [default])
+            메시지 / 입력 필드 / 확인(OK) / 취소(Cancel) 버튼이 있는 모달 창 생성
+            입력 필드의 문자열을 반환(String)
+
+            title = 텍스트 메시지
+            default = 필드의 초깃값
+
+            * IE 에서는 기본값이 없을 경우 undefined 를 명시하므로 기본 값을 ' ' 로 주는 것이 좋음
+
+        - confirm("질문")
+            질문 메시지 / 확인 / 취소 버튼이 이는 모달 창 생성
+            확인 버튼 클릭시 true / 취소시 false 반환
 
 </details>
 
@@ -1997,7 +2212,11 @@ https://coding-factory.tistory.com/946
 
 https://ko.javascript.info/
 
-[Browser Rendering]
+[BOM]
+
+https://velog.io/@bami/Javascirpt-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EA%B0%9D%EC%B2%B4-%EB%AA%A8%EB%8D%B8-BOM
+
+[BrowserRendering]
 
 https://miracleground.tistory.com/entry/SSR%EC%84%9C%EB%B2%84%EC%82%AC%EC%9D%B4%EB%93%9C-%EB%A0%8C%EB%8D%94%EB%A7%81%EA%B3%BC-CSR%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8-%EC%82%AC%EC%9D%B4%EB%93%9C-%EB%A0%8C%EB%8D%94%EB%A7%81
 
