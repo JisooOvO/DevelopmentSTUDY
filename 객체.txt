@@ -1,0 +1,212 @@
+객체
+	
+	const 객체이름(user) = {
+	key : value,
+	name : james
+	...
+	(property),
+	}
+	
+	* const 객체의 key 값은 변경 가능 ( 객체 주소만을 고정 )
+	* 마지막 프로퍼티 끝에 쉼표 올 수 있음
+	* delete 로 프로퍼티 삭제 가능
+	* 프로퍼티 이름엔 제약사항이 없음(for,let,return..)
+	문자/심볼형이 아닌 키 값은 문자열로 자동 형 변환
+
+	!! __proto__ 이름은 객체
+			
+	* 대괄호 표기법 -> 변수를 프로퍼티 키로 사용 가능
+	(점 표기법 불가능)
+
+	* 예시
+		let v = "name";
+		user.v -> undefined
+		user[v] -> james
+
+	* 계산된 프로퍼티(computed property) : 프로퍼티 이름을 동적으로 받음
+	
+		* 예시
+			let fruit = prompt("어떤 과일을 구매하시겠습니까?", "apple");
+
+			let bag = {
+  				[fruit]: 5, // 변수 fruit에서 프로퍼티 이름을 동적으로 받음
+			};
+
+			alert( bag.apple ); // fruit에 "apple"이 할당되면 5 출력
+
+	* 단축 프로퍼티 : 변수를 사용해 프로퍼티를 만듦
+	
+		* 예시
+			function makeUser(name, age) {
+  			 	return {
+    					name: name,
+   					 age,
+				};
+			}
+
+			let user = makeUser("John", 30);
+			alert(user.name); // John
+
+	* 프로퍼티 존재 확인 방법 :
+	
+		"key" in object 
+		
+		-> for ( .. in .. )
+
+	* 프로퍼티 정렬 방식
+
+		- 정수 프로퍼티 -> 자동 정렬
+			* 변형 없이 정수에서 문자열 변환이 가능한 프로퍼티
+			-> "49" 는 정수프로퍼티
+			-> "+49" , "1.2" 등은 아님
+		- 그 외 객체 추가한 순서대로 정렬
+
+	* 참조에 의한 객체 복사
+		-> 객체에서 ==, ===는 동일하게 작동
+
+	* 객체 복사방법 
+		
+		1. Object.assign(dest, [src1, src2, src3...]) -> shallow copy
+
+		-> 목표객체(dest)에 src1,... 의 프로퍼티 모두를 dest 에 복사후 dest 반환
+		    동일한 프로퍼티가 있을 경우 기존 값이 덮어씌워짐
+
+		2. 라이브러리 lodash 의 메서드 _.cloneDeep(obj) 사용 -> deepcopy
+
+		* deepcopy 표준 알고리즘 =  Structured cloning algorithm
+		( https://html.spec.whatwg.org/multipage/structured-data.html#safe-passing-of-structured-data )
+
+
+가비지 컬렉션
+	
+	자바스크립트는 도달가능성(reachbility) 개념을 사용하여 메모리 관리 수행
+	도달할 수 없는 값은 가비지 컬렉터가 삭제
+	<global>루트 에서 시작해서 도달할 수 없는 경우 삭제 (외부로 나가는 참조는 영향X)
+
+	도달 가능한 값 : 접근하거나 사용할 수 있는 값(메모리에서 삭제X)
+	
+	* mark and sweep 알고리즘
+		-> 가비지 컬렉터가 루트 정보를 수집하고 mark(기억)
+		    루트가 참조하는 모든 객체와 그 객체들이 참조하는 객체 모두들 mark
+		    mark된 객체는 방문하지 않고 모든 객체를 방문할때까지 반복
+		    makr 되지 않은 객체는 메모리에서 삭제
+
+	* 가비지 컬렉터 최적화
+		- 세대별 수집(generational collection) 
+		- 점진적 수집(incremental collection) : 작업분리
+		- 유휴시간 수집(idle-time collection) : CPU 유후상태일때만 실행
+
+메서드
+	
+	객체 내 메서드 선언시 function 생략 가능
+	* 예시
+		user = {
+  			sayHi() { // "sayHi: function()"과 동일.
+    				alert("Hello");
+  			}
+		};
+	
+	- this : 키워드를 사용하여 객체에 접근가능( 객체 내 메서드에서 객체를 호출 가능 )
+		* 모든 함수에 사용가능, this는 런타임에 결정( . 앞의 객체를 참조 )
+		* 객체 없이도 호출가능 ( 엄격모드일 경우 this == undefined )
+		( 엄격 모드가 아닐경우 this가 전역 객체(window)를 참조
+		* 화살표 함수 내에서 this는 외부 컨텍스트를 참조 ( 자신의 this 없음 )
+		* this 값은 호출시점에 결정
+
+		* this 예시
+			1. 
+			function makeUser() {
+  				return {
+    					name: "John",
+    					ref: this
+  				};
+			};
+
+			let user = makeUser();
+			alert( user.ref.name ); // Error: Cannot read property 'name' of undefined
+
+			-> this 호출시 undefined 로 결정
+			this가 함수로 호출, ref: this 는 현재 this의 값(undefined)
+			
+			2.
+			function makeUser() {
+  				return {
+   					name: "John",
+    					ref() {
+      					return this;
+    					}
+ 				 };
+			};
+
+			let user = makeUser();
+			alert( user.ref().name ); // John
+			
+			-> ref() 메서드 this반환( makeUser() ), user.ref()는 user.this와 같다.
+
+			* 메서드 호출 체이닝 : 메소드들의 반환값을 this로 설정하면 '.'으로 체인을 이룰 수 있음 
+			let ladder = {
+  				step: 0,
+  				up() {
+   					 this.step++;
+   					 return this;
+ 				 },
+  				down() {
+   					 this.step--;
+   					return this;
+  				},
+ 				 showStep() {
+    					alert( this.step );
+    					return this;
+  				}
+			}
+
+			ladder.up().up().down().up().down().showStep(); // 1
+
+			* 옵셔널 체이닝 " ?. " : 프로퍼티가 없는 중첩 객체를 안전하게 접근(최신 문법)
+				객체에 존재하지 않는 프로퍼티에 접근시 &&를 사용하였으나 코드가 길어짐
+				?. 앞의 평가 대상이 undefined/null 일 경우 평가 종료, undefined 반환
+				( 선언이 완료된 변수 대상으로만 동작 , 에러 )
+			
+				- 메서드와 조합시 ?.()
+				- 프로퍼티와 조합시 ?.[]
+				- delete와 조합가능
+
+				* 옵셔널 체이닝은 할당 연산자 왼쪽에 올 수 없음
+
+				* 단락 평가 예시
+					let user = null;
+					let x = 0;
+					user?.sayhi(x++); // null 이므로 오른쪽 동작 X
+					alert(x); // 0, x 증가 안함 
+
+				* 옵셔널 체이닝은 연산자가 아닌 문법 구조체
+				
+	
+생성자 함수(constructor) 
+	
+	new 연산자를 붙여 실행, 함수 첫 글자는 대문자
+	-> 빈 객체를 만들고 this에 할당, this 에 프로퍼티/메서드 추가후 반환
+	    this = {};	=> this.name = name;	=> return this;
+
+	* 예시
+		let user = new User(); ( 인수가 없으면 괄호 생략 가능 )
+
+	* 익명 생성자 함수 : 한번만 사용될 객체를 호출 후 저장 X (재사용X)
+
+		* 예시
+			let user = new function(){
+				this.name = "jonh";
+				...
+			};
+
+	* 생성자 return : return으로 객체가 오면 this 무시, 해당 객체 반환. 그 외엔 this 반환
+
+	* new.target : 함수 호출시 new를 붙였는지 true/false 체크
+
+	
+* ref
+	‘The Garbage Collection Handbook: The Art of Automatic Memory Management’(저자 – R. Jones et al)
+	V8 엔진
+		https://jayconrod.com/posts/55/a-tour-of-v8-garbage-collection
+	OOP
+	에릭 감마의 ‘GoF의 디자인 패턴’, 그래디 부치의 ‘UML을 활용한 객체지향 분석 설계’ 
