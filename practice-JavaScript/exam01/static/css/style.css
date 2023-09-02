@@ -1,0 +1,30 @@
+nav {
+    border-bottom: solid;
+}
+
+section > p {
+    text-align: justify;
+    padding: 5px;
+}
+
+.divdetail{
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.divdetail > div {
+    width: auto;
+    padding: 10px;
+}
+
+.divdetail > p {
+    width: 80%;
+    text-align: justify;
+}
+
+.divdetail > div > img {
+    border-radius: 50%;
+}
