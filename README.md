@@ -45,15 +45,17 @@
     - [x] 객체
     - [ ] 브라우저 객체 모델
     - [ ] 이벤트
+    - [ ] 자료구조
 - [ ] React
 - 나중에 보기
     - [ ] TypeScript
     - [ ] Svelte
-    - [ ] NextJs
+    - [ ] NodeJs
     - [ ] Tailwind CSS
     - [ ] SCSS
     - [ ] npm
     - [ ] vite
+    - [ ] 생각나면 추가
 
 </details>
 
@@ -76,7 +78,7 @@
 
 <details>
 <summary>CS(추가예정)</summary>
-    추가예정
+
 </details>
 
 ## #미분류
@@ -1444,6 +1446,72 @@ height=370>
             사용자의 컴퓨터에서 코드를 처리하고 브라우저가 실행하는 코드
             자바스크립트는 React 환경에서 클라이언트 사이드 코드로 동작
 
+
+- 가비지 컬렉션
+        
+        자바스크립트는 도달가능성(reachbility) 개념을 사용하여 메모리 관리 수행, 도달할 수 없는 값은 가비지 컬렉터가 삭제
+        Root<global> 에서 시작해서 도달할 수 없는 경우 삭제 (외부로 나가는 참조는 영향X)
+
+	
+	* mark and sweep 알고리즘
+
+            가비지 컬렉터가 루트 정보를 수집하고 mark(기억)
+            루트가 참조하는 모든 객체와 그 객체들이 참조하는 객체 모두들 mark
+            mark된 객체는 방문하지 않고 모든 객체를 방문할때까지 반복
+            makr 되지 않은 객체는 메모리에서 삭제
+
+	* 가비지 컬렉터 최적화 기법
+
+            - 세대별 수집(generational collection) 
+            - 점진적 수집(incremental collection) : 작업분리
+            - 유휴시간 수집(idle-time collection) : CPU 유후상태일때만 실행
+
+        [V8 Garbage-Collection](https://jayconrod.com/posts/55/a-tour-of-v8-garbage-collection)
+
+- 디버깅
+
+        chrome 개발자도구 source 탭 활용
+        
+        * debugger => breakpoint 설정
+
+- 테스트 자동화 
+ 
+	- BDD(Behavior Driven Development) : 테스트, 문서, 예시를 한데 모아놓은 개념
+        
+    - 관련 라이브러리
+
+            Mocha : 테스트 프레임워크(describe, it 등 테스팅 함수 제공)
+            Chai : 다양한 assertion 제공
+            Sinon : 함수의 정보 제공
+
+    * 예시
+
+            describe( "함수이름", function() ) {
+                it("유스케이스 설명", function(){
+                    assert.equal(함수이름(인수), value2) -> 함수 반환값과 value2가 같으면 에러 없이 실행
+                });
+                ...
+            }
+
+            * describe 는 중첩하여 사용가능		
+            * it.only() 사용하면 해당 블록만 테스트		
+
+            - before ( ) : 테스트 시작 전 괄호 안 내용 실행
+            - after ( ) :
+            
+            - beforeEach ( ) : 매 it이 실행전 실행
+            - afterEach ( ) :
+
+
+- 바벨, 폴리필
+
+        바벨 :  트랜스파일러 => 모던 자바스크립트를 구 표준을 준수하는 코드로 변환
+	        * Webpack 은 자동으로 트랜스파일러 동작
+
+        폴리필 :  브라우저가 지원하지 않는 자바스크립트 코드를 지원 가능하도록 변환한 스크립트
+            - core js
+            - polyfill.io
+
 <!-- API/보안 정보는 나중에 추가로 공부할 것 -->
 <!-- 간략한 내용들 추가 작성 필요 -->
 
@@ -1592,6 +1660,40 @@ height=300>
 
     - null : 의도적으로 메모리에 공간을 비워 둠
 
+    - 심볼(symnbol) : 유일한 식별자를 만들 때 사용
+
+            심볼은 유일성을 보장, 심볼의 설명은 영향을 주지 않는 이름표의 역할
+
+            * 심볼은 문자형으로 자동 형 변환 X
+
+            - 사용법
+                let id = Symbol("id");
+                let user = {
+                    name: "John",
+                    [id]: 123 // "id": 123은 안됨
+                };
+                
+                -> id는 "id"라는 설명이 붙은 심볼, 대괄호를 통해 심볼으로 프로퍼티 생성 가능
+            
+        * 심볼형 프로퍼티 숨기기 원칙(hiding symbolic perperty)
+
+                키가 심볼인 프로퍼티는 for ..in 반복문에서 배제
+                외부 스크립트/라이브러리는 심볼형 키를 가진 프로퍼티에 접근 X
+                단 Object.assign 으로 객체 복사시 심볼 프로퍼티도 함께 복사
+
+        - 전역 심볼 레지스트리(Global Symbol Registry) : 이름이 같은 심볼 객체에 접근 가능
+
+                * 예시
+                    let id = Symbol.for("id"); // id 인 심볼이 없으면 생성(전역 심볼)
+                    let id2 = Symbol.for("id"); // id 인 심볼 접근
+                    alert(id == id2); // true
+
+        - 심볼 메서드
+        
+                - Symbol.decription : 심볼의 이름 출력
+                - Symbol.for(key) : 이름이 key인 심볼을 찾음(없으면 생성)
+                - Symbol.keyFor(sym) : 심볼 sym의 이름을 찾음(전역심볼이 아니면 undefined)
+
 - 참조 자료형(Reference)
     
     - 객체(object)
@@ -1602,6 +1704,7 @@ height=300>
 
                 * 예시
                     let array = ['abc',10,true,null,[],{},function()];
+
             - 배열 메소드 
 
                     - length
@@ -1611,6 +1714,7 @@ height=300>
                     - pop() : 배열 끝에 원소 제거
                     - unshift() : 배열 앞에 원소 추가
                     - shift() : 배열 앞에 원소 제거
+
         - 객체 리터럴 : Key,Value 의 한 쌍으로 이루어진 속성(Property)로 이루어짐, 중괄호 {} 사용
         
                 * Key 인덱스 및 마침표(.)로 Value에 접근 가능
@@ -1626,14 +1730,88 @@ height=300>
 
         - 함수(function)
 
-        - 심볼(symnbol)
-
 - typeof(변수명)
 
         변수의 자료형 확인 가능한 메소드
     
         * typeof null => object //하위 호환성을 위한 언어 자체의 오류
         * typeof alert => function //함수형이란건 존재하지 않지만 규칙에 의해 function으로 출력
+
+* 자료형 변환 예시
+
+    * 숫자형-문자형 변환
+
+            - alert -> 전달받은 모든 값을 문자열로 자동 변환
+            - 수학 관련 표현식( 나누기 등)에서 문자열은 숫자형으로 변환
+                -> 단 이항 연산자 + 사용시 피연산자 중 하나라도 문자열이면 모두 문자열로 변환
+		
+            * 예시
+                "" +1+0 => "10"
+                "" -1+0 => -1
+                "  -9  " + 5 => "  -9  5"
+                "  -9  " - 5 => -14
+                " \t \t " - 2 => -2 //공백 제거
+
+    		- 단항 연산자 + 와 숫자가 아닌 피연산자 사용시 명시적 숫자형 변환 ( Number()와 같음 )
+		
+            * 예시
+                let apples = "2";
+                let oranges = "3";
+                alert( +apples + +oranges ); // 5
+
+                let a = +prompt("덧셈할 첫 번째 숫자를 입력해주세요.", 1);
+                let b = +prompt("덧셈할 두 번째 숫자를 입력해주세요.", 2);
+                alert(a + b); // 3
+
+	* 명시적 숫자형 변환
+
+            - undefined => NaN
+            - null => 0
+            - true/false => 1/0
+            - 문자열 => 처음/끝 공백 제거, 제거후 문자열 없으면 0, 숫자가 아닌 값을 변환하려하면 NaN 출력 
+            
+            * 예시
+                    Number("숫자가아닌 값") 	
+        
+	* 명시적 Boolean 형 변환
+
+            - 0, null, undefined, NaN, "" => false
+            - "0", " ", 그 외 값 => true  
+
+    * 객체의 자동 형 변환
+
+            객체 논리 평가시 true 반환 => 객체는 숫자형 또는 문자형으로만 변환
+            
+            - 문자열 변환 : alert(), +
+            - 숫자형 변환 : ==, +, >, -, ...
+
+            - 형 변환 알고리즘
+                1. 객체에 obj[Symbol.toPrimitive](hint)메서드가 있는지 찾고, 있다면 메서드를 호출
+                    * Symbol.toPrimitive : 목표 자료형 명명
+                    * hint : "String", "number", "default"
+                        -> obj.toString() 또는 obj.valueOf() 호출
+                            - toString() : 문자열 "[objcet Objcet]" 반환
+                            - valueOf() : 객체 자신 반환
+                    => 단, 명시된 자료형으로의 형 변환을 보장하지 않음(객체가 아닌 원시값을 반환하는 것은 보장)
+
+                2. 메서드가 없다면 hint를 참조
+
+            * 예시
+                let user = {
+                    name: "John",
+                    money: 1000,
+                    // hint가 "string"인 경우
+                    toString() {
+                        return `{name: "${this.name}"}`;
+                    },
+                    // hint가 "number"나 "default"인 경우
+                    valueOf() {
+                        return this.money;
+                    }
+                };
+                alert(user); // toString -> {name: "John"}
+                alert(+user); // valueOf -> 1000
+                alert(user + 500); // valueOf -> 1500
 
 </details>
 
@@ -1733,10 +1911,13 @@ height=300>
 
 - 형 변환
     - 암시적 : 자바스크립트에서 자체적으로 형 변환
-        
+
             * 예시
-                const result = 10 + "10" 일 때 result === 1010
+                1.
+                    const result = 10 + "10" 일 때 result === 1010
                     -> 숫자형 데이터를 문자열 데이터로 형 변환
+                2.
+                    심볼 제외한 모든 값은 alert() 내에서 문자열로 변환
 
     - 명시적 : 캐스팅
 
@@ -1747,46 +1928,7 @@ height=300>
                 if( String(num) == strNum){
                     // true 
                 }
-
-* 자료형 변환 예시
-    * 숫자형-문자형 변환
-
-            - alert -> 전달받은 모든 값을 문자열로 자동 변환
-            - 수학 관련 표현식( 나누기 등)에서 문자열은 숫자형으로 변환
-                -> 단 이항 연산자 + 사용시 피연산자 중 하나라도 문자열이면 모두 문자열로 변환
-		
-            * 예시
-                "" +1+0 => "10"
-                "" -1+0 => -1
-                "  -9  " + 5 => "  -9  5"
-                "  -9  " - 5 => -14
-                " \t \t " - 2 => -2 //공백 제거
-
-    		- 단항 연산자 + 와 숫자가 아닌 피연산자 사용시 명시적 숫자형 변환 ( Number()와 같음 )
-		
-            * 예시
-                let apples = "2";
-                let oranges = "3";
-                alert( +apples + +oranges ); // 5
-
-                let a = +prompt("덧셈할 첫 번째 숫자를 입력해주세요.", 1);
-                let b = +prompt("덧셈할 두 번째 숫자를 입력해주세요.", 2);
-                alert(a + b); // 3
-
-	* 명시적 숫자형 변환
-
-            - undefined => NaN
-            - null => 0
-            - true/false => 1/0
-            - 문자열 => 처음/끝 공백 제거, 제거후 문자열 없으면 0, 숫자가 아닌 값을 변환하려하면 NaN 출력 
-            
-            * 예시
-                    Number("숫자가아닌 값") 	
-        
-	* 명시적 Boolean 형 변환
-
-            - 0, null, undefined, NaN, "" => false
-            - "0", " ", 그 외 값 => true         
+       
 </details>
 
 <details>
@@ -1880,11 +2022,22 @@ height=300>
 - 함수 정의 방법
     - 함수 선언문(function declaration statement)
 
-            function 식별자() {
+            function 식별자(매개변수 [= 기본값]) {
                 ...
             }
 
             * 호출시 -> 식별자();
+
+    - 함수 호출
+
+            식별자(인수)
+
+            * 인수가 없으면 undefined 할당
+		    * 인수로 undefined 할당시 기본 값 할당
+
+            * 함수는 값으로 취급 -> 함수 이름을 alert의 인수로 할당할 경우 해당 함수의 소스 코드가 출력
+                - let 변수 = 함수 이름; => 함수 복사
+                - let 변수 = 함수 이름(); => 함수 반환값 할당
 
     - 함수 표현식(function expression)
         - 익명 함수
@@ -1911,6 +2064,10 @@ height=300>
                 * 익명 함수로만 정의 가능 따라서 함수 표현식과 함께 사용하여 변수에 할당
                 * 매개 변수가 1개일 경우 () 생략 가능, => 다음 식이 return 문
 
+    - 콜백 함수(called back)
+	        
+            함수를 값처럼 전달, 함수를 함수의 인수로 전달하여 그 함수를 나중에 호출
+
 - 매개 변수(parameter)와 인수(argument)
     
         - 매개 변수를 정의하고 값을 할당하지 않으면 undefined 값이 할당 ( 오류 발생 X )
@@ -1921,9 +2078,12 @@ height=300>
                     ...
                 }
 
-- return 문 : 
+- 반환값 : 
 
-        함수 반환 값, 데이터 반환하지 않을 경우 undefined
+		return 이 없거나 return 만 있을 경우 undefined 반환
+
+		* 자바스크립트는 return 문 끝에 세미콜론을 자동으로 삽입
+		  (return 과 값 사이에 줄 삽입 X -> 괄호 사용 O)
 
 - 스코프(scope) : 변수/ 함수 같은 참조 대상 식별자를 찾아내는 규칙
     - 함수 스코프 :
@@ -1973,6 +2133,26 @@ height=300>
         * 예시
             ( function(){} )();
 
+- 생성자 함수(constructor) 
+	
+        new 연산자를 붙여 실행, 함수 첫 글자는 대문자
+        빈 객체를 만들고 this에 할당, this 에 프로퍼티/메서드 추가후 반환
+        ( this = {};	=> this.name = name;	=> return this; )
+
+        * 예시
+            let user = new User(); ( 인수가 없으면 괄호 생략 가능 )
+
+        - 익명 생성자 함수 : 한번만 사용될 객체를 호출 후 저장 X (재사용X)
+
+            * 예시
+                let user = new function(){
+                    this.name = "jonh";
+                    ...
+                };
+
+	    - 생성자 return : return으로 객체가 오면 this 무시, 해당 객체 반환. 그 외엔 this 반환
+
+	    - new.target 메서드 : 함수 호출시 new 를 붙였는지 true/false 체크
 </details>
 
 <details>
@@ -1983,8 +2163,113 @@ height=300>
         Key 와 Value 로 구성된 속성의 집합
         리터럴 {} 방식으로 객체를 생성 가능
         * 메서드 : 객체 내에서 함수가 속성의 값일 때 함수를 지칭
+
+        * 선언 예시
+
+            const 객체이름(user) = {
+                key : value,
+                name : james
+                ...
+                (property),
+            }
+
+        * 마지막 프로퍼티 끝에 쉼표 올 수 있음
+        * 프로퍼티 키 이름엔 제약사항이 없음(for,let,return..)
+          (문자/심볼형이 아닌 키 값은 문자열로 자동 형 변환)
+
+        * 특별 키 이름
+            __proto__ 
+
+- 메서드
+	    
+        	객체 내 메서드 선언시 function 생략 가능
+
+            * 예시
+                user = {
+                    sayHi() { // "sayHi: function()"과 동일.
+                            alert("Hello");
+                    }
+                };
 	
-	    - Value 재할당 
+	- this : 키워드를 사용하여 객체에 접근가능(객체 내 메서드에서 객체를 호출 가능)
+
+            * 모든 함수에 사용가능, this는 런타임에 결정( . 앞의 객체를 참조 )
+            * 객체 없이도 호출가능 ( 엄격모드일 경우 this == undefined )
+              (엄격 모드가 아닐경우 this가 전역 객체(window)를 참조)
+            * 화살표 함수 내에서 this는 외부 컨텍스트를 참조 ( 자신의 this 없음 )
+            * this 값은 호출시점에 결정
+
+		    * this 예시
+
+                1. 
+                    function makeUser() {
+                        return {
+                                name: "John",
+                                ref: this
+                        };
+                    };
+                    let user = makeUser();
+                    alert( user.ref.name ); // Error: Cannot read property 'name' of undefined
+
+                    -> this 호출시 undefined 로 결정
+                       this가 함수로 호출, ref: this 는 현재 this의 값(undefined)
+                    
+                2.
+                    function makeUser() {
+                        return {
+                            name: "John",
+                                ref() {
+                                return this;
+                                }
+                        };
+                    };
+                    let user = makeUser();
+                    alert( user.ref().name ); // John
+			
+			        -> ref() 메서드 this반환( makeUser() ), user.ref()는 user.this와 같다.
+
+	- 메서드 호출 체이닝 : 메소드들의 반환값을 this로 설정하면 '.'으로 체인을 이룰 수 있음 
+			
+                let ladder = {
+                    step: 0,
+                    up() {
+                        this.step++;
+                        return this;
+                    },
+                    down() {
+                        this.step--;
+                        return this;
+                    },
+                    showStep() {
+                            alert( this.step );
+                            return this;
+                    }
+                }
+
+                ladder.up().up().down().up().down().showStep(); // 1
+
+	- 옵셔널 체이닝 ?.  : 프로퍼티가 없는 중첩 객체를 안전하게 접근
+
+				객체에 존재하지 않는 프로퍼티에 접근시 &&를 사용하였으나 코드가 길어짐
+				?. 앞의 평가 대상이 undefined/null 일 경우 평가 종료, undefined 반환
+				( 선언이 완료된 변수 대상으로만 동작 , 에러 )
+			
+				- 메서드와 조합시 ?.()
+				- 프로퍼티와 조합시 ?.[]
+				- delete와 조합가능
+
+				* 옵셔널 체이닝은 할당 연산자 왼쪽에 올 수 없음
+
+				* 단락 평가 예시
+					let user = null;
+					let x = 0;
+					user?.sayhi(x++); // null 이므로 오른쪽 동작 X
+					alert(x); // 0, x 증가 안함 
+
+				* 옵셔널 체이닝은 연산자가 아닌 문법 구조체
+				
+- Value 재할당 
+
             - 해당하는 Key 가 없을 경우 동적으로 속성 추가
             - 객체의 주소 값은 그대로이며 주소 같이 참조하는 원본 객체 데이터가 얕은 복사	
 
@@ -1992,11 +2277,52 @@ height=300>
                 person.name = "kim" 
 
 
-        - Value 삭제
+- Value 삭제
+
             - delete 키워드로 삭제 가능
 
             * 예시
                 delete person.name;
+
+- 프로퍼티
+
+    - 계산된 프로퍼티(computed property) : 프로퍼티 이름을 동적으로 받음
+	
+            * 예시
+                let fruit = prompt("어떤 과일을 구매하시겠습니까?", "apple");
+
+                let bag = {
+                    [fruit]: 5, // 변수 fruit에서 프로퍼티 이름을 동적으로 받음
+                };
+
+                alert( bag.apple ); // fruit에 "apple"이 할당되면 5 출력
+
+    - 단축 프로퍼티 : 변수를 사용해 프로퍼티를 만듦
+	
+            * 예시
+                function makeUser(name, age) {
+                    return {
+                            name: name,
+                        age,
+                    };
+                }
+
+                let user = makeUser("John", 30);
+                alert(user.name); // John
+
+	- 프로퍼티 존재 확인 방법 :
+	
+            "key" in object 
+            
+            -> for ( .. in .. )
+
+	- 프로퍼티 정렬 방식
+
+            - 정수 프로퍼티는 자동 정렬(변형 없이 정수에서 문자열 변환이 가능한 프로퍼티)
+                - "49" 는 정수프로퍼티
+                - "+49" , "1.2" 등은 아님
+
+            - 그 외 객체 추가한 순서대로 정렬
 
 - 접근법
 	
@@ -2024,7 +2350,34 @@ height=300>
             * 예시
                 console.log(peson."name");
 
+    * 접근법의 차이
+
+            	* 대괄호 표기법 -> 변수를 프로퍼티 키로 사용 가능
+                (점 표기법 불가능)
+
+                * 예시
+                    let v = "name";
+                    user.v -> undefined
+                    user[v] -> james
+
+- 객체 복사
+
+	- 참조에 의한 객체 복사
 		
+            객체에서 "==", "==="는 동일하게 작동
+
+	- 객체 복사방법 
+		
+            1. Object.assign(dest, [src1, src2, src3...]) -> shallow copy
+                -> 목표객체(dest)에 src1,... 의 프로퍼티 모두를 dest 에 복사후 dest 반환
+                   동일한 프로퍼티가 있을 경우 기존 값이 덮어씌워짐
+
+            2. 라이브러리 lodash 의 메서드 _.cloneDeep(obj) 사용 -> deepcopy
+                * Deepcopy 표준 알고리즘 =  Structured cloning algorithm
+        
+        [* DeepCopy Algorithm](https://html.spec.whatwg.org/multipage/structured-data.html#safe-passing-of-structured-data)
+            
+
 
 - 표준 내장 객체(Standard Built-in Object)
 		
@@ -2161,6 +2514,11 @@ height=300>
 
 </details>
 
+<details>
+<summary>11. 자료구조</summary>
+
+</details>
+
 ## 4. React
 
 ## #추가 예정
@@ -2178,6 +2536,8 @@ SCSS
 npm
 
 vite
+
+...
 
 ## #Reference
 
