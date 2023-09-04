@@ -1,0 +1,248 @@
+원시값(primitive)의 메서드
+	
+원시 값도 객체처럼 메서드 호출 가능
+원시 값이 메서드/프로퍼티 접근시 object wrapper(원시 래퍼 객체)를 생성, 메서드 사용 후 바로 삭제
+(해당 줄에서만 사용가능)
+각 래퍼 객체는 원시 자료형의 이름을 그대로 사용
+null / undefined 는 메서드 없음
+
+--
+
+비트 NOT 연산자
+
+피연산자를 32비트 정수로 바꾼 후(소수부는 버림) 모든 비트를 반전
+n이 32비트 정수일 때 ~n은 -(n+1)
+* 예시
+	~2 == -3
+
+--
+
+숫자형
+
+일반적인 숫자는 배정밀도 부동소수점 숫자(64비트 형식의 IEEE-754)에 저장
+(52비트 숫자 저장, 11비트 소수점 위치, 1비트 부호 저장)
+-> 숫자가 너무 커지면 Infinity로 처리
+
+e 0x 0b 0o
+
+- 메서드
+
+num.toString(base) : 숫자형을 base 진법으로 num을 표현한 것을 문자형으로 변환
+		  base 는 2~36까지 가능(기본값 = 10)
+		  숫자를 그대로 메서드 호출시 점 2개 사용(..) -> 첫번째 점을 소수부로 인식하여 오류발생
+		  * 예시 123..toString()
+
+Math.floor : 소수부 첫번째 기준 버림
+Math.ceil : 올림
+Math.round : 반올림
+Math.trunc : 소수부 무시
+
+num.toFiexd(n) : num을 소수 n번자리까지 반올림하여 문자형으로 반환(소수부 길이를 0으로 채움)
+		정밀도 손실(loss of precision)을 방지할 수 있음
+		* 예시
+			let sum = 0.1 + 0.2;
+			+sum.toFiexd(2) // 0.30
+			1.35 => 1.350000000...8882 이므로 반올림되어 1.4
+			6.35 => 6.34999999999... 이므로 버림 6.3
+
+-관련 함수
+
+isNaN(arg) : arg를 숫자로 변환한 값이 NaN이면 true ( 숫자가 아닌 문자열 변환시 NaN)
+	(NaN은 자기 자신을 포함하여 어떤 값과도 같지 않음)
+	* 예시 NaN === NaN // false
+
+isFinite(arg) : arg를 숫자로 변환한 값이 NaN/Infinity/-Infinity 가 아닌 경우 true
+	( 빈 문자나 공백 문자열은 0으로 취급)
+
+Object.is : '==='와 엣지 케이스를 제외하면 같은 결과를 보임
+	* 예시
+		Object.is(NaN,NaN) === true
+		Object.is(0,-0) === false -> 0, -0은 다른 수로 취급
+
+parseInt/parseFloat("문자열", 진수) : 문자열에서 숫자를 읽다가 숫자가 아닌 수를 발견시(오류 발생) 읽기 종료 후, 수집한 숫자를 반환
+			읽을 수 있는 수가 없을 때 NaN 반환
+			
+Math.random() : 0 ~ 0.9999.. 사이 수 반환
+Math.max() 
+Math.pow(n,power)
+
+--
+
+문자열
+
+자바스크립트는 항상 UTF-16 인코딩 형식 따름
+문자열은 불변성을 지님
+
+백틱 ` ` -> 템플릿 함수 , 여러 줄에 걸친 문자열 입력 가능
+
+이스케이프 문자
+	\xXX : 16진수 유니코드 
+	\xXXXX : UTF-16 인코딩 규칙 사용 16진수 유니코드
+	\u{X...XXXXXX} : UTF-32 유니코드
+
+메서드
+
+* length : 프로퍼티 (함수가 아님) 
+str.indexOf(substr, pos) : str의 pos부터 시작하여 부분 문자열 substr의 위치를 반환, 없으면 -1
+str.charAt(pos)
+str.includes(substr, pos) :  str의 부분 문자열 substr이 있으면 true 아니면 false
+str.startsWith/endsWIth(substr) : str이 부분 문자열 substr로 시작/끝나는지 여부(true/false)
+
+str.slice(start [,end]) : 슬라이싱(end 위치 글자 포함X)
+str.substring(start [,end]) : slice와 같지만 start가 end보다 커도 똑같이 동작하며 음수를 인수로 허용하지 않음(0으로 처리)
+str.substr(start, [,length]) : start 부터 length개의 글자를 반환
+
+str.codePointAt(pos) : 문자열 코드를 반환
+String.fromCodePoint(숫자) : 숫자 코드에 해당하는 글자 반환 ( = \uXXXX )
+* 둘 다 서로게이트 쌍 처리 가능 메서드
+
+*모던 브라우저 대부분은 ECMA-402를 지원 -> 문자열 비교 규칙 메서드 정의
+str.localeCompare(str2) : str, str2를 규칙에 따라 비교( str이 크면 양수, 같으면 0, 작으면 음수 ) 
+
+문자열 접근 방법
+
+	대괄호 사용	=> 글자가 없는 경우 undefined
+		str[index]
+	메서드 호출 (잘 안쓰임) => 글자가 없는 경우 빈 문자열 ' '반환
+		str.charAt(index)
+	for..of
+		for ( let char of "hello ) // h,e,l,l,o
+
+희귀 문자열 처리
+
+서로 게이트 쌍
+
+	자주 사용되는 글자는 2바이트 코드를 사용하나 65,536개의 조합밖에 만들지 못하여 현존 기호를 모두 표현불가
+	사용 빈도가 낮은 기호는 서로게이트 쌍(surrogate pair)라 불리는 2바이트 글자들의 쌍을 사용하여 인코딩
+ 	* 따라서 서로게이트 쌍 기호의 length = 2
+	* 0xd800 ~ 0xdbff(첫 번째 글자)와 0xdc00 ~ 0xdfff(두 번째 글자)는 표준에서 서로게이트 쌍을 위해 일부러 비워둔 코드
+
+발음 구별 기호
+
+	베이스 글자를 꾸미기 위해 몇 가지 유니코드 문자 제공
+	* 예시
+		윗 점 : \u0307
+		아랫 점 : \u0323
+	유니코드 조합순서에 따라 눈으로 보기에 같은 글자임에도 동등비교시 false 나올 수 있음
+	* 예시
+		'S\u0307\u0323' == 'S\u0323\u0307' // false
+	=> 유니코드 정규화를 통해 해결 [ str.nomalize() ]
+
+--
+
+배열
+
+배열은 객체처럼 동작
+자바스크립트 엔진은 배열의 요소를 인접 메모리 공간에 차례로 저장하여 연산속도를 높임
+* 올바르지 않은 사용시 배열 최적화 기법이 동작하지 않음
+	* 예시
+		숫자가 아닌 값을 프로퍼티 키로 사용
+		배열 중간 값이 비거나 역순으로 채울 경우
+
+
+선언 방법 :
+	1. let arr = new Array(); => 모든 요소가 undefined
+	2. let arr = [];
+
+큐
+	push() : 맨 끝에 요소 추가
+	shift() : 제일 앞 요소를 꺼낸 후 나머지 요소를 앞으로 밀어냄
+	unshift() : 배열 앞에 요소 추가
+
+스택
+	push() : 스택 끝에 요소를 추가
+	pop() : 스택 끝 요소를 꺼냄
+
+배열 순회
+	for..of 를 통해 요소를 순회가능
+	* 객체이므로 for..in을 통해 순회가능하나 객체에 비해 느림 -> 지양
+
+length 
+	length의 값을 할당가능(배열을 자름)
+	* 예시
+		arr.length = 0; => 배열 비우기
+
+toString
+	배열의 요소를 쉼표로 구분한 문자열이 반환
+	(배열은 toPrimitive, valueOf 메서드 없음)
+	* 예시
+		[1,2] + 3 == "1,23"
+
+메서드
+	* 배열도 객체이므로 delete 로 요소를 지울 수 있으나 그 자리가 줄어들지 않고 undefined
+	arr.slice() : 배열 복사본 반환
+	arr.splice(index[, deleteCount, elem1, ..., elemN]) : index번 요소부터 deleteCount 수 만큼의 요소를 삭제 후 
+						   elem1 .. 개의 요소를 추가
+	arr.concat(arg1, arg2, ...) : 기존 배열 arr에 인수를 추가하여 새로운 배열을 생성
+				인수가 배열일 경우 배열의 모든 값 복사
+				인수가 객체일 경우 객체가 통으로 복사
+				* 객체에 특수 프로퍼티 존재시 객체를 배열로 취급하여 프로퍼티의 값이 복사
+					* 예시
+						let arr = [1, 2];
+						let arrayLike = {
+  							0: "something",
+  							1: "else",
+  							[Symbol.isConcatSpreadable]: true,
+ 							 length: 2
+						};
+	arr.forEach( function(itme, index, array) ) : 주어진 함수를 배열 요소 각각에 대해 실행
+	
+	arr.indexOf/lastIndexOf(itme, from)
+	arr.includes(item, from)
+
+	arr.find( function(itme,index,array), thisArg ) : 특정 조건에 맞는 하나의 객체를 찾아 반환
+		* 예시
+			let users = [
+  				{id: 1, name: "John"},
+  				{id: 2, name: "Pete"},
+  				{id: 3, name: "Mary"}
+			];
+			let user = users.find(item => item.id == 1);
+			alert(user.name); // John
+	arr.findIndex() : 특정 조건에 맞는 객체의 인덱스 반환
+	arr.filter(function, thisArg) : 특정 조건에 맞는 여러 객체를 담은 배열을 반환
+
+	arr.map(function, thisArg) : 배열 요소 전체를 대상으로 함수 호출하고 결과를 배열로 반환
+		* 예시
+			let lengths = ["Bilbo", "Gandalf", "Nazgul"].map(item => item.length); // 5,7,6
+
+	arr.sort(function) : 배열의 요소를 문자열로 취급하여 배열 자체를 재 정렬
+			* 숫자로 구성된 배열을 제대로 정렬하려면 함수가 필요
+			* 예시
+				1.
+				function compareNumeric(a, b) {
+ 					 if (a > b) return 1; 
+ 					 if (a == b) return 0;
+ 					 if (a < b) return -1;
+				}
+
+				2.
+				arr.sort( (a,b) => a - b );
+	arr.reverse() : 역순 정렬
+	
+	str.split(delim, num) : 구분자delimiter) 기준 문자열을 쪼개 길이가 num인 배열로 저장(num 보다 큰 요소는 안들어감)
+	arr.join(glue) : 배열의 요소를 glue를 사용해 합쳐서 문자열로 변환
+
+	arr.reduce( function( accumulator, item, index, array ) ) : 이전 함수의 결과를 accumulator에 저장하여 모든 배열 요소를 순회
+							* 초기값 미 지정시 배열의 첫 번째 요소(비어있으면 오류)
+	arr.reduceRight
+
+	Array.isArray() :  배열이면 true
+		* 자바스크립트에서 배열은 객체로 취급하여 typeof 연산시 object로 나옴( 객체와 구분 불가 )
+	
+	* 매개변수 thisArg : 객체 내 this를 사용하는 메소드를 배열 검색 필터의 인자로 지정시, 
+			 thisArg를 사용하면 this를 객체로 설정가능
+			 미지정시 메소드가 단독함수가 되어 메소드 내부의 this는 undefined되어 에러 발생
+
+let army = {
+  minAge: 18,
+  maxAge: 27,
+  canJoin(user) {
+    return user.age >= this.minAge && user.age < this.maxAge;
+  }
+};
+
+let soldiers = users.filter(army.canJoin, army);
+	= users.filter(user => army.canJoin(user));
+
+//배열 문제 다시보기
