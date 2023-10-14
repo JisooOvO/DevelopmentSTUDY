@@ -1,0 +1,219 @@
+{
+  "main": {
+    "id": "a2432e74e7e485bd",
+    "type": "split",
+    "children": [
+      {
+        "id": "ae3b6f28bb5655af",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7b22520d45b52ebf",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Head/Main.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "98f5d1834dbd2e95",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f1bd87576cdfb0b1",
+    "type": "split",
+    "children": [
+      {
+        "id": "880dfd14f59b2efb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "051b18a4841264db",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "370d4316d98ed6e0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#Algorithm",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ab3b86e726f7a7a2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 280.5
+  },
+  "right": {
+    "id": "ad4f1ba150e0058d",
+    "type": "split",
+    "children": [
+      {
+        "id": "ef57cd89141b7f40",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "174415f23a3e90bb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ff5afbaf9686ef15",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "541c0e3b1da00ad0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e5a2cb5ccb7fcc5e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md"
+              }
+            }
+          },
+          {
+            "id": "045f54b7875d7433",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:그래프 뷰 열기": false,
+      "switcher:퀵 스위처 열기": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "templates:템플릿 삽입": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "remotely-save:Remotely Save": false
+    }
+  },
+  "active": "98f5d1834dbd2e95",
+  "lastOpenFiles": [
+    "Head/Main.md",
+    "Study-Development/Algorithm/소수 분해 알고리즘.md",
+    "Head/Web.md",
+    "Head/Network.md",
+    "Head/Frontend.md",
+    "Head/Data Structure.md",
+    "Head/Backend.md",
+    "Head/Algorithm.md",
+    "Study-Development/Head/Main.md",
+    "Study-Development/PL/JavaScript/Class/Class.md",
+    "무제 파일.md",
+    "Algorithm/소수 분해 알고리즘.md",
+    "Web/Frontend/Internet/Domain Name.md",
+    "Web/Frontend/Browser/Browser Rendering.md",
+    "미분류/SSR vs CSR.md",
+    "Web/Frontend/HTML/HTML Validations.md",
+    "Web/Frontend/HTML/HTML.md",
+    "Web/Frontend/Internet/Internet.md",
+    "Web/Frontend/Internet/HTTP.md",
+    "Web/Frontend/Internet/Hosting.md",
+    "Web/Frontend/Internet/DNS.md",
+    "Web/Frontend/Browser/SEO.md",
+    "Web/Frontend/Browser/Accessibility.md",
+    "Web/Frontend/Browser/Browser.md",
+    "PL/JavaScript/Class/Class.md",
+    "PL/JavaScript/Error Handling.md",
+    "Web/Frontend/CSS",
+    "Web/Frontend/HTML",
+    "미분류",
+    "Web/Frontend/SEO",
+    "Web/Frontend/Accessibility",
+    "Web/Frontend/Browser",
+    "PL/JavaScript/Class/images/Jsclass1.png",
+    "Web/Frontend/Internet/Images",
+    "PL/JavaScript/Class/images/Jsclass2.png",
+    "PL/JavaScript/Class/images",
+    "PL/JavaScript/Class",
+    "Static/Images/Jsclass2.jpg",
+    "Static/jsClass2.jpg",
+    "PL/JavaScript/Class/images/Jsclass3.png",
+    "PL/JavaScript/Head",
+    "Web/Frontend/Internet/Images/padlock.png",
+    "무제 파일.canvas"
+  ]
+}
