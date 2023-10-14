@@ -22,7 +22,15 @@
             }
           },
           {
-            "id": "98f5d1834dbd2e95",
+            "id": "c0fa095c0ffef75c",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "9edb74765da4955b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,7 +42,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -170,9 +178,10 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "98f5d1834dbd2e95",
+  "active": "9edb74765da4955b",
   "lastOpenFiles": [
     "Head/Main.md",
+    "README.md",
     "Study-Development/Algorithm/소수 분해 알고리즘.md",
     "Head/Web.md",
     "Head/Network.md",
@@ -197,7 +206,6 @@
     "Web/Frontend/Browser/Accessibility.md",
     "Web/Frontend/Browser/Browser.md",
     "PL/JavaScript/Class/Class.md",
-    "PL/JavaScript/Error Handling.md",
     "Web/Frontend/CSS",
     "Web/Frontend/HTML",
     "미분류",

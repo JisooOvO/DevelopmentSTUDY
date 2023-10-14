@@ -1,3 +1,4 @@
+
 <details>
 <summary>MPA vs SPA</summary>
 
