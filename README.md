@@ -1,6 +1,6 @@
 # 😱 Obsidian으로 정리하는중입니다.
 
-[Main](./Head/Main)
+[Main](./Head/Main.md)
 
 ## 2. CSS
 > CSS 관련 공부 기록입니다.

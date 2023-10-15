@@ -22,13 +22,13 @@
             }
           },
           {
-            "id": "c2b10904122edf5b",
+            "id": "0d66c55ff035260d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "README.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -170,7 +170,7 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "c2b10904122edf5b",
+  "active": "0d66c55ff035260d",
   "lastOpenFiles": [
     "Head/Main.md",
     "README.md",
