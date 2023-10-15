@@ -1,4 +1,4 @@
-
+~ 나중에 README가 될 곳 ~
 # 😀Hello World
 > This is head of my obsidian project
 ---
