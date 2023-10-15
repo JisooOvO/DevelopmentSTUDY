@@ -1,6 +1,6 @@
 # 😱 Obsidian으로 정리하는중입니다.
 
-[[Main]]
+[Main](./Head/Main)
 
 ## 2. CSS
 > CSS 관련 공부 기록입니다.
@@ -674,6 +674,8 @@ height=370>
         }
 
 </details>
+
+---
 
 ## 3. JavaScript
 > JavaScript 공부 기록입니다.
@@ -1845,28 +1847,6 @@ height=300>
 
 <details>
 <summary>11. 자료구조</summary>
-
-</details>
-
-## 4. React
-
-## #추가 예정
-
-TypeScript
-
-SvelteKit
-
-NodeJs
-
-Tailwind CSS
-
-SCSS
-
-npm
-
-vite
-
-...
 
 ## #Reference
 
