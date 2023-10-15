@@ -36,5 +36,8 @@
 - [ ] 🔼 Dart
 - [ ] ⏫ TailwindCSS
 - [ ] 🔼 MachinLearning
+- [ ] 🔼 npm
+- [ ] 🔼 vite
+- [ ] ⏫ Typescript
 ---
 #main 

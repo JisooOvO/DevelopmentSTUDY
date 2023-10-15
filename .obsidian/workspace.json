@@ -22,15 +22,7 @@
             }
           },
           {
-            "id": "c0fa095c0ffef75c",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "9edb74765da4955b",
+            "id": "c2b10904122edf5b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -42,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -178,10 +170,23 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "9edb74765da4955b",
+  "active": "c2b10904122edf5b",
   "lastOpenFiles": [
     "Head/Main.md",
     "README.md",
+    "Web/Frontend/Browser/Browser Rendering.md",
+    "Web/Frontend/HTML/HTML Body Tag.md",
+    "Web/Frontend/HTML/HTML.md",
+    "PL/JavaScript/비동기 처리/Images/javascript_queue.gif",
+    "PL/JavaScript/제너레이터/제너레이터.md",
+    "PL/JavaScript/비동기 처리/비동기 처리.md",
+    "PL/JavaScript/Error Handling/Error Handling.md",
+    "PL/JavaScript/비동기 처리/Images",
+    "PL/JavaScript/제너레이터",
+    "PL/JavaScript/비동기 처리",
+    "PL/JavaScript/Error Handling",
+    "index.html",
+    "Web/Frontend/Browser/Browser.md",
     "Study-Development/Algorithm/소수 분해 알고리즘.md",
     "Head/Web.md",
     "Head/Network.md",
@@ -194,33 +199,20 @@
     "무제 파일.md",
     "Algorithm/소수 분해 알고리즘.md",
     "Web/Frontend/Internet/Domain Name.md",
-    "Web/Frontend/Browser/Browser Rendering.md",
     "미분류/SSR vs CSR.md",
     "Web/Frontend/HTML/HTML Validations.md",
-    "Web/Frontend/HTML/HTML.md",
     "Web/Frontend/Internet/Internet.md",
     "Web/Frontend/Internet/HTTP.md",
-    "Web/Frontend/Internet/Hosting.md",
-    "Web/Frontend/Internet/DNS.md",
-    "Web/Frontend/Browser/SEO.md",
-    "Web/Frontend/Browser/Accessibility.md",
-    "Web/Frontend/Browser/Browser.md",
-    "PL/JavaScript/Class/Class.md",
     "Web/Frontend/CSS",
     "Web/Frontend/HTML",
     "미분류",
     "Web/Frontend/SEO",
     "Web/Frontend/Accessibility",
-    "Web/Frontend/Browser",
     "PL/JavaScript/Class/images/Jsclass1.png",
-    "Web/Frontend/Internet/Images",
     "PL/JavaScript/Class/images/Jsclass2.png",
-    "PL/JavaScript/Class/images",
-    "PL/JavaScript/Class",
     "Static/Images/Jsclass2.jpg",
     "Static/jsClass2.jpg",
     "PL/JavaScript/Class/images/Jsclass3.png",
-    "PL/JavaScript/Head",
     "Web/Frontend/Internet/Images/padlock.png",
     "무제 파일.canvas"
   ]

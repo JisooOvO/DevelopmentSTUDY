@@ -1,3 +1,26 @@
+```table-of-contents
+style: nestedList # TOC style (nestedList|inlineFirstLevel)
+maxLevel: 0 # Include headings up to the speficied level
+includeLinks: true # Make headings clickable
+debugInConsole: false # Print debug info in Obsidian console
+```
+
+---
+# MPA vs SPA
+
+## MPA
+
+-  multi page application 의 약자
+>인터렉션이 발생할 때마다 서버로부터 새로운 HTML을 받아와서 
+>해당 링크로 이동하여 페이지 전체를 새로 렌더링하는 
+>전통적인 웹 페이지 구성 방식
+
+## SPA
+
+-  Single Page Application의 약자로 하나의 페이지로 구성된 웹 어플리케이션
+>브라우저에 최초에 한번 페이지 전체를 로드하고, 
+>이후부터는 특정 부분만 Ajax를 통해 데이터를 바인딩하는 방식
+> SPA는 현재 웹개발의 트렌드(React 등)
 
 ---
 # CSR vs SSR
