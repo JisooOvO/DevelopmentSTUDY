@@ -1,91 +1,39 @@
 {
   "main": {
-<<<<<<< HEAD
-    "id": "3d6adeac9963ee8a",
+    "id": "b64efe25e56b1a5f",
     "type": "split",
     "children": [
       {
-        "id": "9d36df6be955fd5f",
+        "id": "e228ce58b004f4d6",
         "type": "tabs",
         "children": [
           {
-            "id": "dc37495ad224cd7e",
-=======
-    "id": "a2432e74e7e485bd",
-    "type": "split",
-    "children": [
-      {
-        "id": "ae3b6f28bb5655af",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "7b22520d45b52ebf",
->>>>>>> 47dbc9534ef1e1940d6f873fcb411a25a36797a3
+            "id": "63a43edaf85287a2",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< HEAD
-                "file": "README.md",
+                "file": "ProgrammingLanguage/JavaScript/객체/객체.md",
                 "mode": "preview",
-=======
-                "file": "Head/Main.md",
-                "mode": "source",
->>>>>>> 47dbc9534ef1e1940d6f873fcb411a25a36797a3
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-<<<<<<< HEAD
-            "id": "a49b51c59a5fcda9",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-=======
-            "id": "0d66c55ff035260d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Head/Programming Language.md",
-                "mode": "source",
                 "source": false
               }
->>>>>>> 47dbc9534ef1e1940d6f873fcb411a25a36797a3
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-<<<<<<< HEAD
-    "id": "babc1724dc6f9f0f",
+    "id": "e9dbcd606ef4e929",
     "type": "split",
     "children": [
       {
-        "id": "7740d87ba23afdd5",
+        "id": "60ec1c3ce0380edf",
         "type": "tabs",
         "children": [
           {
-            "id": "48055829cb9430bf",
-=======
-    "id": "f1bd87576cdfb0b1",
-    "type": "split",
-    "children": [
-      {
-        "id": "880dfd14f59b2efb",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "051b18a4841264db",
->>>>>>> 47dbc9534ef1e1940d6f873fcb411a25a36797a3
+            "id": "9a9370d0c1a839df",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -95,20 +43,12 @@
             }
           },
           {
-<<<<<<< HEAD
-            "id": "6bc5185634b5d24b",
-=======
-            "id": "370d4316d98ed6e0",
->>>>>>> 47dbc9534ef1e1940d6f873fcb411a25a36797a3
+            "id": "f1cc864c12be801e",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-<<<<<<< HEAD
                 "query": "",
-=======
-                "query": "tag:#Algorithm",
->>>>>>> 47dbc9534ef1e1940d6f873fcb411a25a36797a3
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -118,11 +58,7 @@
             }
           },
           {
-<<<<<<< HEAD
-            "id": "83630e3170724e10",
-=======
-            "id": "ab3b86e726f7a7a2",
->>>>>>> 47dbc9534ef1e1940d6f873fcb411a25a36797a3
+            "id": "4e9297a8e7c9161b",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -133,41 +69,23 @@
       }
     ],
     "direction": "horizontal",
-<<<<<<< HEAD
     "width": 300
   },
   "right": {
-    "id": "5019db76406391b8",
+    "id": "0626deaf1068fdca",
     "type": "split",
     "children": [
       {
-        "id": "e79f0f25b2a91448",
+        "id": "08ee59b6b46479b5",
         "type": "tabs",
         "children": [
           {
-            "id": "a973f4687b48bba4",
-=======
-    "width": 280.5
-  },
-  "right": {
-    "id": "ad4f1ba150e0058d",
-    "type": "split",
-    "children": [
-      {
-        "id": "ef57cd89141b7f40",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "174415f23a3e90bb",
->>>>>>> 47dbc9534ef1e1940d6f873fcb411a25a36797a3
+            "id": "428f54e862de28ec",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-=======
-                "file": "Head/Programming Language.md",
->>>>>>> 47dbc9534ef1e1940d6f873fcb411a25a36797a3
+                "file": "ProgrammingLanguage/JavaScript/객체/객체.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,30 +97,19 @@
             }
           },
           {
-<<<<<<< HEAD
-            "id": "25227fe8009dc298",
-=======
-            "id": "ff5afbaf9686ef15",
->>>>>>> 47dbc9534ef1e1940d6f873fcb411a25a36797a3
+            "id": "69085e39c5c5c8a8",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-=======
-                "file": "Head/Programming Language.md",
->>>>>>> 47dbc9534ef1e1940d6f873fcb411a25a36797a3
+                "file": "ProgrammingLanguage/JavaScript/객체/객체.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-<<<<<<< HEAD
-            "id": "9e71598a2d3fd3d5",
-=======
-            "id": "541c0e3b1da00ad0",
->>>>>>> 47dbc9534ef1e1940d6f873fcb411a25a36797a3
+            "id": "6a9987bf057d6118",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -213,36 +120,16 @@
             }
           },
           {
-<<<<<<< HEAD
-            "id": "ee724d47cdd3f8b1",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {}
-            }
-          }
-        ]
-=======
-            "id": "e5a2cb5ccb7fcc5e",
+            "id": "79c5958dffef6ce3",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Head/Programming Language.md"
+                "file": "ProgrammingLanguage/JavaScript/객체/객체.md"
               }
             }
-          },
-          {
-            "id": "045f54b7875d7433",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 3
->>>>>>> 47dbc9534ef1e1940d6f873fcb411a25a36797a3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -251,115 +138,19 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-<<<<<<< HEAD
-      "graph:Open graph view": false,
       "remotely-save:Remotely Save": false,
       "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
       "command-palette:Open command palette": false
     }
   },
-  "active": "a49b51c59a5fcda9",
+  "active": "63a43edaf85287a2",
   "lastOpenFiles": [
-    "ProgrammingLanguage/JavaScript/객체/객체.md",
-    "ProgrammingLanguage/JavaScript/함수/함수.md",
-    "README.md",
-    "ProgrammingLanguage/JavaScript/BOM/BOM.md",
-    "ProgrammingLanguage/JavaScript/조건문과 반복문/조건문과 반복문.md",
-    "ProgrammingLanguage/JavaScript/변수와 연산자/변수와 연산자.md",
-    "README.md",
-    "Web/Frontend/Browser/Browser.md",
-    "ProgrammingLanguage/JavaScript/JavaScript/JavaScript.md",
-    "ProgrammingLanguage/JavaScript/비동기 처리/비동기 처리.md",
-    "ProgrammingLanguage/JavaScript/Class/Class.md",
-    "ProgrammingLanguage/JavaScript/제너레이터/제너레이터.md",
-    "ProgrammingLanguage/JavaScript/Error Handling/Error Handling.md",
-    "ProgrammingLanguage/JavaScript/모듈/모듈.md",
-    "ProgrammingLanguage/JavaScript/Head/JavaScript.md",
-    "ProgrammingLanguage/JavaScript/Head",
-    "ProgrammingLanguage/JavaScript/BOM/Images/BOM.jpg",
-    "ProgrammingLanguage/JavaScript/BOM/BOM.jpg.crdownload",
-    "ProgrammingLanguage/JavaScript/BOM/Images",
-    "ProgrammingLanguage/JavaScript/BOM/새 폴더",
-    "ProgrammingLanguage/JavaScript/Event/Event.md",
-    "ProgrammingLanguage/JavaScript/Event",
-    "ProgrammingLanguage/JavaScript/DOM",
-    "ProgrammingLanguage/JavaScript/BOM",
-    "ProgrammingLanguage/JavaScript/객체",
-    "ProgrammingLanguage/JavaScript/함수",
-    "ProgrammingLanguage/JavaScript/조건문과 반복문",
-    "ProgrammingLanguage/JavaScript/JavaScript/Images/async-defer.jpg",
-    "CORS.md",
-    "Web/Frontend/CSS/CSS 프로퍼티.md",
-    "Web/Frontend/HTML/HTML Body Tag.md",
-    "Web/Frontend/HTML/HTML.md",
-    "Web/Frontend/CSS/CSS.md",
-    "Web/Frontend/CSS/Images/css-text.png",
-    "Web/Frontend/CSS/Images/css-box-model.png",
-    "Web/Frontend/Internet/Internet.md",
-    "Web/Frontend/Internet/Images/padlock.PNG",
-    "padlock.png.md",
-    "ProgrammingLanguage/JavaScript/Class/images/Jsclass3.PNG",
-    "ProgrammingLanguage/JavaScript/Class/images/Jsclass2.PNG",
-    "ProgrammingLanguage/JavaScript/Class/images/Jsclass1.png",
-    "Head/Programming Language.md",
-    "Head/Web.md",
-    "Head/Security.md",
-    "ProgrammingLanguage/JavaScript/제너레이터/Images/Jsgen1.png",
-    "ProgrammingLanguage/JavaScript/비동기 처리/Images/javascript_queue.gif"
-=======
-      "graph:그래프 뷰 열기": false,
-      "switcher:퀵 스위처 열기": false,
-      "command-palette:명령어 팔레트 열기": false,
-      "templates:템플릿 삽입": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "remotely-save:Remotely Save": false
-    }
-  },
-  "active": "0d66c55ff035260d",
-  "lastOpenFiles": [
-    "Head/Main.md",
-    "README.md",
-    "Web/Frontend/Browser/Browser Rendering.md",
-    "Web/Frontend/HTML/HTML Body Tag.md",
-    "Web/Frontend/HTML/HTML.md",
-    "PL/JavaScript/비동기 처리/Images/javascript_queue.gif",
-    "PL/JavaScript/제너레이터/제너레이터.md",
-    "PL/JavaScript/비동기 처리/비동기 처리.md",
-    "PL/JavaScript/Error Handling/Error Handling.md",
     "PL/JavaScript/비동기 처리/Images",
-    "PL/JavaScript/제너레이터",
+    "PL/JavaScript/Class",
     "PL/JavaScript/비동기 처리",
-    "PL/JavaScript/Error Handling",
-    "index.html",
-    "Web/Frontend/Browser/Browser.md",
-    "Study-Development/Algorithm/소수 분해 알고리즘.md",
-    "Head/Web.md",
-    "Head/Network.md",
-    "Head/Frontend.md",
-    "Head/Data Structure.md",
-    "Head/Backend.md",
-    "Head/Algorithm.md",
-    "Study-Development/Head/Main.md",
-    "Study-Development/PL/JavaScript/Class/Class.md",
-    "무제 파일.md",
-    "Algorithm/소수 분해 알고리즘.md",
-    "Web/Frontend/Internet/Domain Name.md",
-    "미분류/SSR vs CSR.md",
-    "Web/Frontend/HTML/HTML Validations.md",
-    "Web/Frontend/Internet/Internet.md",
-    "Web/Frontend/Internet/HTTP.md",
-    "Web/Frontend/CSS",
-    "Web/Frontend/HTML",
-    "미분류",
-    "Web/Frontend/SEO",
-    "Web/Frontend/Accessibility",
-    "PL/JavaScript/Class/images/Jsclass1.png",
-    "PL/JavaScript/Class/images/Jsclass2.png",
-    "Static/Images/Jsclass2.jpg",
-    "Static/jsClass2.jpg",
-    "PL/JavaScript/Class/images/Jsclass3.png",
-    "Web/Frontend/Internet/Images/padlock.png",
-    "무제 파일.canvas"
->>>>>>> 47dbc9534ef1e1940d6f873fcb411a25a36797a3
+    "PL/JavaScript",
+    "PL",
+    "README.md"
   ]
 }
