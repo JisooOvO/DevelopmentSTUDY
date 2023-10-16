@@ -1,0 +1,203 @@
+{
+  "main": {
+    "id": "3d6adeac9963ee8a",
+    "type": "split",
+    "children": [
+      {
+        "id": "9d36df6be955fd5f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dc37495ad224cd7e",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "preview",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "a49b51c59a5fcda9",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "babc1724dc6f9f0f",
+    "type": "split",
+    "children": [
+      {
+        "id": "7740d87ba23afdd5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "48055829cb9430bf",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6bc5185634b5d24b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "83630e3170724e10",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5019db76406391b8",
+    "type": "split",
+    "children": [
+      {
+        "id": "e79f0f25b2a91448",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a973f4687b48bba4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "25227fe8009dc298",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9e71598a2d3fd3d5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ee724d47cdd3f8b1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Open graph view": false,
+      "remotely-save:Remotely Save": false,
+      "switcher:Open quick switcher": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "a49b51c59a5fcda9",
+  "lastOpenFiles": [
+    "ProgrammingLanguage/JavaScript/객체/객체.md",
+    "ProgrammingLanguage/JavaScript/함수/함수.md",
+    "README.md",
+    "ProgrammingLanguage/JavaScript/BOM/BOM.md",
+    "ProgrammingLanguage/JavaScript/조건문과 반복문/조건문과 반복문.md",
+    "ProgrammingLanguage/JavaScript/변수와 연산자/변수와 연산자.md",
+    "README.md",
+    "Web/Frontend/Browser/Browser.md",
+    "ProgrammingLanguage/JavaScript/JavaScript/JavaScript.md",
+    "ProgrammingLanguage/JavaScript/비동기 처리/비동기 처리.md",
+    "ProgrammingLanguage/JavaScript/Class/Class.md",
+    "ProgrammingLanguage/JavaScript/제너레이터/제너레이터.md",
+    "ProgrammingLanguage/JavaScript/Error Handling/Error Handling.md",
+    "ProgrammingLanguage/JavaScript/모듈/모듈.md",
+    "ProgrammingLanguage/JavaScript/Head/JavaScript.md",
+    "ProgrammingLanguage/JavaScript/Head",
+    "ProgrammingLanguage/JavaScript/BOM/Images/BOM.jpg",
+    "ProgrammingLanguage/JavaScript/BOM/BOM.jpg.crdownload",
+    "ProgrammingLanguage/JavaScript/BOM/Images",
+    "ProgrammingLanguage/JavaScript/BOM/새 폴더",
+    "ProgrammingLanguage/JavaScript/Event/Event.md",
+    "ProgrammingLanguage/JavaScript/Event",
+    "ProgrammingLanguage/JavaScript/DOM",
+    "ProgrammingLanguage/JavaScript/BOM",
+    "ProgrammingLanguage/JavaScript/객체",
+    "ProgrammingLanguage/JavaScript/함수",
+    "ProgrammingLanguage/JavaScript/조건문과 반복문",
+    "ProgrammingLanguage/JavaScript/JavaScript/Images/async-defer.jpg",
+    "CORS.md",
+    "Web/Frontend/CSS/CSS 프로퍼티.md",
+    "Web/Frontend/HTML/HTML Body Tag.md",
+    "Web/Frontend/HTML/HTML.md",
+    "Web/Frontend/CSS/CSS.md",
+    "Web/Frontend/CSS/Images/css-text.png",
+    "Web/Frontend/CSS/Images/css-box-model.png",
+    "Web/Frontend/Internet/Internet.md",
+    "Web/Frontend/Internet/Images/padlock.PNG",
+    "padlock.png.md",
+    "ProgrammingLanguage/JavaScript/Class/images/Jsclass3.PNG",
+    "ProgrammingLanguage/JavaScript/Class/images/Jsclass2.PNG",
+    "ProgrammingLanguage/JavaScript/Class/images/Jsclass1.png",
+    "Head/Programming Language.md",
+    "Head/Web.md",
+    "Head/Security.md",
+    "ProgrammingLanguage/JavaScript/제너레이터/Images/Jsgen1.png",
+    "ProgrammingLanguage/JavaScript/비동기 처리/Images/javascript_queue.gif"
+  ]
+}
