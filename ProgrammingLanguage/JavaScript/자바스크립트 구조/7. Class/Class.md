@@ -204,7 +204,6 @@ let button = new Button("안녕하세요.");
 setTimeout(button.click, 1000); // 안녕하세요.
 ```
 
-
 -  단, 이 경우 해당 메소드를 통해 클래스의 prototype으로 접근이 불가능
 >따라서 setTimeout(() => button.click(), 1000)로 래퍼함수를 전달하는 것이 좋을 수 있음
 
@@ -492,7 +491,7 @@ rabbits[0].run(); // 검은 토끼가 속도 5로 달립니다.
 alert(Rabbit.planet); // 지구
 ```
 
-![[Jsclass2.png]]
+![[Jsclass2.PNG]]
 
 > Rabbit.`__proto__` === Animal
 > Rabbit.prototype.`__proto__` === Animal.prototype
@@ -677,7 +676,7 @@ alert(filteredArr.isEmpty()); // Error: filteredArr.isEmpty is not a func
 > 그러나 Array.`[[Prototype]]`은 Object를 참조하지 않음
 > 따라서 Array.key() 같은 정적메서드를 사용하지 못함
 
-![[Jsclass3.png]]
+![[Jsclass3.PNG]]
 
 - Object와 Date는 독립적
 >단 extends 사용시 정적메서드를 상속받아 사용가능

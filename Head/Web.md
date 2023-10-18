@@ -2,5 +2,5 @@
 >This is head of Web information
 
 ---
->[[Frontend]], [[Main]]
+>[[Frontend]], [[main]]
 #web

@@ -4,37 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "ae3b6f28bb5655af",
+        "id": "198fb23eeadf515b",
         "type": "tabs",
         "children": [
           {
-            "id": "7b22520d45b52ebf",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Head/Main.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "0d66c55ff035260d",
+            "id": "73c4ca7595c8c23f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Head/Programming Language.md",
-                "mode": "source",
+                "file": "ProgrammingLanguage/JavaScript/문서 이벤트 인터페이스/브라우저 환경/브라우저 환경.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -63,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Algorithm",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,6 +62,14 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "38d534211f33ae3a",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
               "state": {}
             }
           }
@@ -100,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Head/Programming Language.md",
+                "file": "ProgrammingLanguage/JavaScript/문서 이벤트 인터페이스/브라우저 환경/브라우저 환경.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Head/Programming Language.md",
+                "file": "ProgrammingLanguage/JavaScript/문서 이벤트 인터페이스/브라우저 환경/브라우저 환경.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Head/Programming Language.md"
+                "file": "ProgrammingLanguage/JavaScript/문서 이벤트 인터페이스/브라우저 환경/브라우저 환경.md"
               }
             }
           },
@@ -165,55 +158,57 @@
       "graph:그래프 뷰 열기": false,
       "switcher:퀵 스위처 열기": false,
       "command-palette:명령어 팔레트 열기": false,
-      "templates:템플릿 삽입": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "0d66c55ff035260d",
+  "active": "73c4ca7595c8c23f",
   "lastOpenFiles": [
+    "ProgrammingLanguage/Python/Python.md",
+    "ProgrammingLanguage/JAVA/JAVA.md",
+    "ProgrammingLanguage/JavaScript/자바스크립트 구조/1. JavaScript/JavaScript.md",
+    "ProgrammingLanguage/JavaScript/문서 이벤트 인터페이스/브라우저 환경/브라우저 환경.md",
+    "ProgrammingLanguage/JavaScript/BOM/BOM.md",
+    "ProgrammingLanguage/JavaScript/문서 이벤트 인터페이스/브라우저 환경/Images/jsbrowser.png",
+    "ProgrammingLanguage/JavaScript/문서 이벤트 인터페이스/브라우저 환경/Images",
+    "ProgrammingLanguage/JavaScript/문서 이벤트 인터페이스/브라우저 환경",
     "Head/Main.md",
+    "ProgrammingLanguage/JavaScript/문서 이벤트 인터페이스",
+    "ProgrammingLanguage/JavaScript/자바스크립트 구조",
     "README.md",
-    "Web/Frontend/Browser/Browser Rendering.md",
+    "ProgrammingLanguage/JavaScript/자바스크립트 구조/6. 객체와 메서드/객체 프로퍼티와 프로토타입.md",
+    "Web/Frontend/CSS/CSS.md",
+    "Web/Frontend/CSS/CSS 프로퍼티.md",
+    "Web/Frontend/HTML/HTML Validations.md",
     "Web/Frontend/HTML/HTML Body Tag.md",
     "Web/Frontend/HTML/HTML.md",
-    "PL/JavaScript/비동기 처리/Images/javascript_queue.gif",
-    "PL/JavaScript/제너레이터/제너레이터.md",
-    "PL/JavaScript/비동기 처리/비동기 처리.md",
-    "PL/JavaScript/Error Handling/Error Handling.md",
-    "PL/JavaScript/비동기 처리/Images",
-    "PL/JavaScript/제너레이터",
-    "PL/JavaScript/비동기 처리",
-    "PL/JavaScript/Error Handling",
-    "index.html",
-    "Web/Frontend/Browser/Browser.md",
-    "Study-Development/Algorithm/소수 분해 알고리즘.md",
     "Head/Web.md",
+    "Head/Security.md",
+    "Head/Programming Language.md",
     "Head/Network.md",
     "Head/Frontend.md",
-    "Head/Data Structure.md",
     "Head/Backend.md",
     "Head/Algorithm.md",
-    "Study-Development/Head/Main.md",
-    "Study-Development/PL/JavaScript/Class/Class.md",
-    "무제 파일.md",
-    "Algorithm/소수 분해 알고리즘.md",
-    "Web/Frontend/Internet/Domain Name.md",
-    "미분류/SSR vs CSR.md",
-    "Web/Frontend/HTML/HTML Validations.md",
-    "Web/Frontend/Internet/Internet.md",
-    "Web/Frontend/Internet/HTTP.md",
-    "Web/Frontend/CSS",
-    "Web/Frontend/HTML",
-    "미분류",
-    "Web/Frontend/SEO",
-    "Web/Frontend/Accessibility",
-    "PL/JavaScript/Class/images/Jsclass1.png",
-    "PL/JavaScript/Class/images/Jsclass2.png",
-    "Static/Images/Jsclass2.jpg",
-    "Static/jsClass2.jpg",
-    "PL/JavaScript/Class/images/Jsclass3.png",
-    "Web/Frontend/Internet/Images/padlock.png",
+    "2023-10-19.md",
+    "ProgrammingLanguage/JavaScript/자바스크립트 구조/15. Proxy/Proxy와 Reflect.md",
+    "ProgrammingLanguage/JavaScript/자바스크립트 구조/5. 함수/함수.md",
+    "ProgrammingLanguage/JavaScript/자바스크립트 구조/14. eval/eval.md",
+    "ProgrammingLanguage/JavaScript/자바스크립트 구조/12. 모듈/모듈.md",
+    "ProgrammingLanguage/JavaScript/자바스크립트 구조/4. 자료구조/자료구조.md",
+    "ProgrammingLanguage/JavaScript/자바스크립트 구조/11. 제너레이터/Images/Jsgen1.png",
+    "ProgrammingLanguage/JavaScript/자바스크립트 구조/10. 비동기 처리/Images/javascript_queue.gif",
+    "ProgrammingLanguage/JavaScript/자바스크립트 구조/7. Class/images/Jsclass3.PNG",
+    "ProgrammingLanguage/JavaScript/자바스크립트 구조/7. Class/images/Jsclass2.PNG",
+    "ProgrammingLanguage/JavaScript/자바스크립트 구조/7. Class/images/Jsclass1.png",
+    "ProgrammingLanguage/JavaScript/자바스크립트 구조/1. JavaScript/Images/async-defer.jpg",
+    "ProgrammingLanguage/JavaScript/자바스크립트 구조/10. 비동기 처리/Images/Jspromise1.png",
+    "ProgrammingLanguage/JavaScript/자바스크립트 구조/7. Class/images",
+    "ProgrammingLanguage/JavaScript/자바스크립트 구조/11. 제너레이터/Images",
+    "ProgrammingLanguage/JavaScript/자바스크립트 구조/10. 비동기 처리/Images",
+    "ProgrammingLanguage/JavaScript/자바스크립트 구조/1. JavaScript/Images",
+    "ProgrammingLanguage/JavaScript/자바스크립트 구조/5. 함수",
+    "ProgrammingLanguage/JavaScript/자바스크립트 구조/12. 모듈",
+    "Web/Frontend/CSS/Images/css-text.png",
+    "Web/Frontend/Internet/Images/padlock.PNG",
     "무제 파일.canvas"
   ]
 }

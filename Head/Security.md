@@ -2,5 +2,5 @@
 >This is head of Security information
 
 ---
->[[Main]]
+>[[main]]
 #Security

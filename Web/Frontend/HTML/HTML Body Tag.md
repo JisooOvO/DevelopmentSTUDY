@@ -128,25 +128,25 @@ debugInConsole: false # Print debug info in Obsidian console
 
 - 링크 생성
 	* 속성
-		- href : 경로
+		- `href` : 경로
 			* 불분명한 경로시 href="#"
-		- target : 연결 방식
-			- _blank : 새 창으로 열림
-			- _parent
-			- _sefl
-			- _top
-		- title : 링크 설명
+		- `target` : 연결 방식
+			- `_blank` : 새 창으로 열림
+			- `_parent`
+			- `_self`
+			- `_top`
+		- `title` : 링크 설명
 
 ## 4-2 img
 
 - 이미지 객체 삽입
 	* 속성
-		- src : 이미지 경로
+		- `src` : 이미지 경로
 			* 경로 기준 (상대 경로)
 				- `./` : 현재 폴더
 				- `../` : 상위 폴더
-		- alt : 이미지 설명
-			* 웹 접근성 보장
+		- `alt` : 이미지 설명
+
 
 ---
 # 5 폼
@@ -155,40 +155,41 @@ debugInConsole: false # Print debug info in Obsidian console
 
 -  폼 양식
 	* 속성
-		- action : 상호작용할 서버 URL
-		- method : 송신 방식
-			* get : 보안 요구 X
-			* post : 보안 요구 정보
+		- `action` : 상호작용할 서버 URL
+		- `method` : 송신 방식
+			* `get` : 보안 요구 X
+			* `post` : 보안 요구 정보
+
 
 ## 5-2 input
 
 - 사용자 입력 정보(id,password) 요소 생성
 	* 속성
-		- type : 상호작용 요소 종류, 필수 속성
-			* text
-			* password
-			* tel
-			* number
-			* url
-			* search
-			* email
-			* checkbox
-			* radio : 라디오 박스
-			* file : 파일 업로드
-			* button
-			* image : 이미지 버튼, src 속성 사용
-			* hidden
-			* date
-			* datetime-local
-			* month
-			* week
-			* time
-			* range
-			* color
-			* submit
-			* reset
-		- name : 서버에 전송될 요소의 이름
-		- value : 초깃값
+		- `type` : 상호작용 요소 종류, 필수 속성
+			* `text`
+			* `password`
+			* `tel`
+			* `number`
+			* `url`
+			* `search`
+			* `email`
+			* `checkbox`
+			* `radio` : 라디오 박스
+			* `file` : 파일 업로드
+			* `button`
+			* `image` : 이미지 버튼, src 속성 사용
+			* `hidden`
+			* `date`
+			* `datetime-local`
+			* `month`
+			* `week`
+			* `time`
+			* `range`
+			* `color`
+			* `submit`
+			* `reset`
+		- `name` : 서버에 전송될 요소의 이름
+		- `value` : 초깃값
 
 ## 5-3 textarea
 
@@ -200,8 +201,7 @@ debugInConsole: false # Print debug info in Obsidian console
 - 상호작용 요소에 이름 생성
 * 스크린 리더기 식별 능력 향상 -> 웹 접근성 향상
 	* 속성
-		- for : 이름
-		- label for 속성과 input id 이름을 같은 값으로 설정
+		- `for` : 이름
 
 ## 5-5 fieldset
 
@@ -215,10 +215,9 @@ debugInConsole: false # Print debug info in Obsidian console
 
 - 콤보박스 생성
 	* 속성
-		- size : 화면 노출 항목 개수
-		- multiple : 다중 선택
-		- selected : 기본 선택 항목
-
+		- `size` : 화면 노출 항목 개수
+		- `multiple` : 다중 선택
+		- `selected` : 기본 선택 항목
 ### 5-7-1 optgroup
 
 - 항목 그룹화
@@ -227,24 +226,25 @@ debugInConsole: false # Print debug info in Obsidian console
 
 - 항목
 	* 속성
-		- value : 서버에 전송할 값, 미입력시 텍스트 값 전송
-
+		- `value` : 서버에 전송할 값, 미입력시 텍스트 값 전송
 ## 5-8 button
 
 - 버튼 생성
 * input 과 달리 이미지, 태그 포함 가능
 	* 속성
-		- type 
-			* submit
-			* reset
-			* button
+		- `type` 
+			* `submit`
+			* `reset`
+			* `button`
 
-        * 추가 속성
-            - disabled : 비활성화
-            - readonly : 읽기 전용 (서버에 값 전송)
-            - maxlength : 입력 글자 수 제한
-            - checked : 요소를 선택된 상태로 표시(checkbox, radio)
-            - placeholder : 입력 요소의 힌트
+## 5-9 추가 속성
+
+- `disabled` : 비활성화
+- `readonly` : 읽기 전용 (서버에 값 전송)
+- `maxlength` : 입력 글자 수 제한
+- `checked` : 요소를 선택된 상태로 표시(checkbox, radio)
+- `placeholder` : 입력 요소의 힌트
+- `required` : 반드시 입력이 존재해야 함
 
 ---
 
@@ -258,11 +258,10 @@ debugInConsole: false # Print debug info in Obsidian console
 
 - 1개의 열 그룹화
 * 속성
-	- rowspan / colspan : 셀 병합, 값 = 병합할 셀 개수
-	- scope : 웹 접근성 향상
-		* row / col
-		* rowgroup / colgroup
-
+	- `rowspan / colspan` : 셀 병합, 값 = 병합할 셀 개수
+	- `scope` : 웹 접근성 향상
+		* `row / col`
+		* `rowgroup / colgroup`
 ## 6-3 colgroup
 
 - 2개 이상의 열 그룹화
@@ -299,10 +298,10 @@ debugInConsole: false # Print debug info in Obsidian console
 ```
 
 * 속성
-	- src : 비디오 url
-	- type : 미디어 타입
+	- `src` : 비디오 url
+	- `type` : 미디어 타입
 		* 웹 지원 형식을 설정 가능 => 웹 접근성 향상
-	- controls : 컨트롤 패널
+	- `controls` : 컨트롤 패널
 
 ---
 # 8. 시맨틱 태그
@@ -315,13 +314,13 @@ debugInConsole: false # Print debug info in Obsidian console
 # 9. 태그 글로벌 속성
 
 - 모든 태그에서 사용가능한 속성
-	- class
-	- id
-	- style
-	- title : 추가 정보 (커서를 대면 툴팁 정보 표시)
-	- lang
-	- hidden : 화면에서 감춤
-	- data-* : 커스텀 속성
+	- `class`
+	- `id`
+	- `style`
+	- `title` : 추가 정보 (커서를 대면 툴팁 정보 표시)
+	- `lang`
+	- `hidden` : 화면에서 감춤
+	- `data-*` : 커스텀 속성
 
 ---
 >[[HTML]]

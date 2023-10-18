@@ -3,5 +3,5 @@
 
 
 ---
->[[Main]]
+>[[main]]
 #ProgrammingLanguage #PL

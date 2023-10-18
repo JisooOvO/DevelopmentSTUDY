@@ -1,43 +1,54 @@
-~ 나중에 README가 될 곳 ~
-# 😀Hello World
-> This is head of my obsidian project
+# 🎈 STUDY NOTE
+> 개발 관련 공부한 거 정리
+```table-of-contents
+style: nestedList # TOC style (nestedList|inlineFirstLevel)
+maxLevel: 0 # Include headings up to the speficied level
+includeLinks: true # Make headings clickable
+debugInConsole: false # Print debug info in Obsidian console
+```
 ---
-# 😆TODO
+## ✨ Web
 
-- [ ] ⏫ 깃허브 내용 옮기기
-- [ ] 🔼 모던 자바스크립트 정리
-- [ ] 🔼 JAVA 
-	- [ ] 🔼 Numpy
-	- [ ] 🔼 Pandas
-- [ ] 🔼 Python 
-- [ ] 🔼 SQL
-- [ ] 🔼 React
-- [ ] 🔼 Sass
+### 🎊Frontend
+#### 🎉HTML
+01. [[HTML]]
+02. [[HTML Body Tag]]
+#### 🎉CSS
+01. [[CSS]]
+02. [[CSS 프로퍼티]]
+#### 🎉Javascript
+##### 🎁 Javascript 구조
+01. [[JavaScript]]
+02. [[변수와 연산자]]
+03. [[조건문과 반복문]]
+04. [[자료구조]]
+05. [[함수]]
+06. [[객체와 메서드]]
+07. [[객체 프로퍼티와 프로토타입]]
+08. [[Class]]
+09. [[JSON]]
+10. [[Error Handling]]
+11. [[비동기 처리]]
+12. [[제너레이터]]
+13. [[모듈]]
+14. [[참조타입]]
+15. [[eval]]
+16. [[Proxy와 Reflect]]
+
+##### 🎁 문서, 이벤트, 인터페이스
+
+
+### 🎊Backend
+
+#### 🎉 JAVA
+#### 🎉 Spring Boot
+#### 🎉SQL
+
 
 ---
-# 😇프로젝트
+## ✨ Ref
 
-- [ ] ⏫ nwitter
-- [ ] ⏫ 패스트캠퍼스 반응형 웹 프로젝트
+>[MDN](https://developer.mozilla.org/ko/)
 
----
-# 😅 자격증
+>[JAVASCRIPT.INFO](https://ko.javascript.info/)
 
-- [ ] ⏫ 정보처리기사 실기
-- [ ] 🔼 SQLD
-- [ ] 🔼 빅데이터분석기사
-
----
-# 😨 관심
-
-- [ ] 🔼 NodeJS
-- [ ] 🔼 Flutter
-- [ ] 🔼 ReactNative
-- [ ] 🔼 Dart
-- [ ] ⏫ TailwindCSS
-- [ ] 🔼 MachinLearning
-- [ ] 🔼 npm
-- [ ] 🔼 vite
-- [ ] ⏫ Typescript
----
-#main 
