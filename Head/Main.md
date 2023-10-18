@@ -1,18 +1,12 @@
 # 🎈 STUDY NOTE
 > 개발 관련 공부한 거 정리
-```table-of-contents
-style: nestedList # TOC style (nestedList|inlineFirstLevel)
-maxLevel: 0 # Include headings up to the speficied level
-includeLinks: true # Make headings clickable
-debugInConsole: false # Print debug info in Obsidian console
-```
 ---
 ## ✨ Web
 
 ### 🎊Frontend
 #### 🎉HTML
-01. [[HTML]]
-02. [[HTML Body Tag]]
+01. [HTML](Web/Frontedn/HTML/HTML.md)
+02. [HTML Body Tag](Web/Frontedn/HTML/HTML_Body_Tag.md)
 #### 🎉CSS
 01. [[CSS]]
 02. [[CSS 프로퍼티]]
