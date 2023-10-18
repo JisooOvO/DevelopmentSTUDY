@@ -6,7 +6,7 @@
 ### 🎊Frontend
 #### 🎉HTML
 01. [HTML](Web/Frontend/HTML/HTML.md)
-02. [HTML Body Tag](Web/Frontend/HTML/HTML_Body_Tag.md)
+02. [HTML Body Tag](Web/Frontend/HTML/HTML Body Tag.md)
 #### 🎉CSS
 01. [[CSS]]
 02. [[CSS 프로퍼티]]
