@@ -146,7 +146,7 @@ debugInConsole: false # Print debug info in Obsidian console
 				- `./` : 현재 폴더
 				- `../` : 상위 폴더
 		- `alt` : 이미지 설명
-
+			* 웹 접근성 보장
 
 ---
 # 5 폼
@@ -202,6 +202,7 @@ debugInConsole: false # Print debug info in Obsidian console
 * 스크린 리더기 식별 능력 향상 -> 웹 접근성 향상
 	* 속성
 		- `for` : 이름
+		- label for 속성과 input id 이름을 같은 값으로 설정
 
 ## 5-5 fieldset
 
@@ -218,6 +219,8 @@ debugInConsole: false # Print debug info in Obsidian console
 		- `size` : 화면 노출 항목 개수
 		- `multiple` : 다중 선택
 		- `selected` : 기본 선택 항목
+
+
 ### 5-7-1 optgroup
 
 - 항목 그룹화
@@ -227,6 +230,7 @@ debugInConsole: false # Print debug info in Obsidian console
 - 항목
 	* 속성
 		- `value` : 서버에 전송할 값, 미입력시 텍스트 값 전송
+
 ## 5-8 button
 
 - 버튼 생성
@@ -262,6 +266,7 @@ debugInConsole: false # Print debug info in Obsidian console
 	- `scope` : 웹 접근성 향상
 		* `row / col`
 		* `rowgroup / colgroup`
+
 ## 6-3 colgroup
 
 - 2개 이상의 열 그룹화
@@ -298,10 +303,10 @@ debugInConsole: false # Print debug info in Obsidian console
 ```
 
 * 속성
-	- `src` : 비디오 url
-	- `type` : 미디어 타입
+	- src : 비디오 url
+	- type : 미디어 타입
 		* 웹 지원 형식을 설정 가능 => 웹 접근성 향상
-	- `controls` : 컨트롤 패널
+	- controls : 컨트롤 패널
 
 ---
 # 8. 시맨틱 태그
@@ -314,13 +319,13 @@ debugInConsole: false # Print debug info in Obsidian console
 # 9. 태그 글로벌 속성
 
 - 모든 태그에서 사용가능한 속성
-	- `class`
-	- `id`
-	- `style`
-	- `title` : 추가 정보 (커서를 대면 툴팁 정보 표시)
-	- `lang`
-	- `hidden` : 화면에서 감춤
-	- `data-*` : 커스텀 속성
+	- class
+	- id
+	- style
+	- title : 추가 정보 (커서를 대면 툴팁 정보 표시)
+	- lang
+	- hidden : 화면에서 감춤
+	- data-* : 커스텀 속성
 
 ---
 >[[HTML]]

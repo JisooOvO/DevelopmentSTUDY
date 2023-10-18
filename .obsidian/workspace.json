@@ -1,6 +1,6 @@
 {
   "main": {
-    "id": "a2432e74e7e485bd",
+    "id": "b64efe25e56b1a5f",
     "type": "split",
     "children": [
       {
@@ -25,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "f1bd87576cdfb0b1",
+    "id": "e9dbcd606ef4e929",
     "type": "split",
     "children": [
       {
-        "id": "880dfd14f59b2efb",
+        "id": "60ec1c3ce0380edf",
         "type": "tabs",
         "children": [
           {
-            "id": "051b18a4841264db",
+            "id": "9a9370d0c1a839df",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +43,7 @@
             }
           },
           {
-            "id": "370d4316d98ed6e0",
+            "id": "f1cc864c12be801e",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "ab3b86e726f7a7a2",
+            "id": "4e9297a8e7c9161b",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -77,18 +77,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 280.5
+    "width": 300
   },
   "right": {
-    "id": "ad4f1ba150e0058d",
+    "id": "0626deaf1068fdca",
     "type": "split",
     "children": [
       {
-        "id": "ef57cd89141b7f40",
+        "id": "08ee59b6b46479b5",
         "type": "tabs",
         "children": [
           {
-            "id": "174415f23a3e90bb",
+            "id": "428f54e862de28ec",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -105,7 +105,7 @@
             }
           },
           {
-            "id": "ff5afbaf9686ef15",
+            "id": "69085e39c5c5c8a8",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -117,7 +117,7 @@
             }
           },
           {
-            "id": "541c0e3b1da00ad0",
+            "id": "6a9987bf057d6118",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -128,7 +128,7 @@
             }
           },
           {
-            "id": "e5a2cb5ccb7fcc5e",
+            "id": "79c5958dffef6ce3",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -136,17 +136,8 @@
                 "file": "ProgrammingLanguage/JavaScript/문서 이벤트 인터페이스/브라우저 환경/브라우저 환경.md"
               }
             }
-          },
-          {
-            "id": "045f54b7875d7433",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",

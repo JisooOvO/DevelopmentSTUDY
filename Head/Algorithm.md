@@ -2,5 +2,5 @@
 >This is head of Algorithm information
 
 ---
->[[Main]]
+>[[README]]
 #Algorithm

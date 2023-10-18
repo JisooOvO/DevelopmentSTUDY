@@ -2,5 +2,5 @@
 >This is head of Network information
 
 ---
->[[Main]]
+>[[README]]
 #Network

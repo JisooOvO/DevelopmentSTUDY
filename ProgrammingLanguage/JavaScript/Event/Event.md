@@ -28,5 +28,9 @@ debugInConsole: false # Print debug info in Obsidian console
 >확인 버튼 클릭시 true / 취소시 false 반환
 
 ---
+<<<<<<< HEAD
 >[[JavaScript|JavaScript]]
+=======
+>[[ProgrammingLanguage/JavaScript/JavaScript/JavaScript|JavaScript]]
+>>>>>>> bad5abce4d5aeb4ee04a05593fe664c16caa06cb
 #Event
