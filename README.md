@@ -3,7 +3,7 @@
 ---
 # 🎈 STUDY NOTE
 
-![STUDY NOTE](./HEAD/main.md)
+![STUDY NOTE](Head/Main.md)
 
 ---
 # 😆TODO
