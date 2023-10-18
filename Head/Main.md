@@ -5,7 +5,7 @@
 
 ### 🎊Frontend
 #### 🎉HTML
-01. [HTML](Web/Frontend/HTML/HTML.md)
+01. [HTML](../Web/Frontend/HTML/HTML.md)
 02. [HTML Body Tag](Web/Frontend/HTML/HTMLBodyTag.md)
 #### 🎉CSS
 01. [[CSS]]
