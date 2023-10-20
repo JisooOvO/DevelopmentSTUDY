@@ -1,28 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "브라우저 환경",
-      "path": "ProgrammingLanguage/JavaScript/문서 이벤트 인터페이스/브라우저 환경/브라우저 환경.md"
-    },
-    {
-      "basename": "Python",
-      "path": "ProgrammingLanguage/Python/Python.md"
-    },
-    {
-      "basename": "JAVA",
-      "path": "ProgrammingLanguage/JAVA/JAVA.md"
-    },
-    {
-      "basename": "JavaScript",
-      "path": "ProgrammingLanguage/JavaScript/자바스크립트 구조/1. JavaScript/JavaScript.md"
+      "basename": "README",
+      "path": "README.md"
     },
     {
       "basename": "Main",
       "path": "Head/Main.md"
     },
     {
-      "basename": "README",
-      "path": "README.md"
+      "basename": "JAVA",
+      "path": "ProgrammingLanguage/JAVA/JAVA.md"
     }
   ],
   "omittedPaths": [],

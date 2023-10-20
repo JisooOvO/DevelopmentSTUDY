@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ProgrammingLanguage/JavaScript/문서 이벤트 인터페이스/브라우저 환경/브라우저 환경.md",
-                "mode": "preview",
+                "file": "README.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ProgrammingLanguage/JavaScript/문서 이벤트 인터페이스/브라우저 환경/브라우저 환경.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ProgrammingLanguage/JavaScript/문서 이벤트 인터페이스/브라우저 환경/브라우저 환경.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgrammingLanguage/JavaScript/문서 이벤트 인터페이스/브라우저 환경/브라우저 환경.md"
+                "file": "README.md"
               }
             }
           }
@@ -152,54 +152,54 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "73c4ca7595c8c23f",
+  "active": "9a9370d0c1a839df",
   "lastOpenFiles": [
-    "ProgrammingLanguage/Python/Python.md",
-    "ProgrammingLanguage/JAVA/JAVA.md",
-    "ProgrammingLanguage/JavaScript/자바스크립트 구조/1. JavaScript/JavaScript.md",
-    "ProgrammingLanguage/JavaScript/문서 이벤트 인터페이스/브라우저 환경/브라우저 환경.md",
-    "ProgrammingLanguage/JavaScript/BOM/BOM.md",
-    "ProgrammingLanguage/JavaScript/문서 이벤트 인터페이스/브라우저 환경/Images/jsbrowser.png",
-    "ProgrammingLanguage/JavaScript/문서 이벤트 인터페이스/브라우저 환경/Images",
-    "ProgrammingLanguage/JavaScript/문서 이벤트 인터페이스/브라우저 환경",
+    "Web/Frontend/CSS/CSS프로퍼티.md",
+    "Web/Frontend/HTML/HTMLBodyTag.md",
+    "ProgrammingLanguage/JavaScript/자바스크립트구조/5.함수/함수.md",
+    "ProgrammingLanguage/JavaScript/자바스크립트구조/4.자료구조/자료구조.md",
+    "ProgrammingLanguage/Python/Python/2.Python자료형.md",
+    "ProgrammingLanguage/JAVA/SpringBoot/SpringBoot.md",
+    "ProgrammingLanguage/Python/Python/1.Python.md",
+    "ProgrammingLanguage/JavaScript/자바스크립트구조/8.JSON/JSON.md",
+    "ProgrammingLanguage/JavaScript/자바스크립트구조/12.모듈/모듈.md",
+    "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/2.DOM/DOM.md",
+    "ProgrammingLanguage/JavaScript/자바스크립트구조/13.참조타입/참조타입.md",
+    "ProgrammingLanguage/JavaScript/자바스크립트구조/14.eval/eval.md",
+    "ProgrammingLanguage/JavaScript/자바스크립트구조/3.조건문과반복문/조건문과반복문.md",
+    "ProgrammingLanguage/JavaScript/자바스크립트구조/7.Class/Class.md",
+    "ProgrammingLanguage/JavaScript/자바스크립트구조/11.제너레이터/제너레이터.md",
+    "ProgrammingLanguage/JavaScript/자바스크립트구조/10.비동기처리/비동기처리.md",
+    "ProgrammingLanguage/JavaScript/자바스크립트구조/6.객체와메서드/객체와메서드.md",
+    "ProgrammingLanguage/JavaScript/자바스크립트구조/2.변수와연산자/변수와연산자.md",
+    "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/1.브라우저환경/브라우저환경.md",
+    "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/2.DOM/Images/DOM.PNG",
+    "ProgrammingLanguage/JavaScript/자바스크립트구조/6.객체와메서드/객체프로퍼티와프로토타입.md",
+    "ProgrammingLanguage/JavaScript/자바스크립트구조/15.Proxy/Proxy와Reflect.md",
+    "ProgrammingLanguage/JavaScript/자바스크립트구조/1.JavaScript/JavaScript.md",
+    "ProgrammingLanguage/JavaScript/자바스크립트구조/7.Class/images/Jsclass2.PNG",
+    "ProgrammingLanguage/JavaScript/자바스크립트구조/11.제너레이터/Images/Jsgen1.png",
+    "ProgrammingLanguage/JavaScript/자바스크립트구조/9.ErrorHandling/ErrorHandling.md",
+    "ProgrammingLanguage/JavaScript/자바스크립트구조/10.비동기처리/Images/Jspromise1.png",
+    "ProgrammingLanguage/JavaScript/자바스크립트구조/7.Class/images/Jsclass3.PNG",
+    "ProgrammingLanguage/JavaScript/자바스크립트구조/7.Class/images/Jsclass1.png",
+    "ProgrammingLanguage/JavaScript/자바스크립트구조/10.비동기처리/Images/javascript_queue.gif",
+    "ProgrammingLanguage/JavaScript/자바스크립트구조/1.JavaScript/Images/async-defer.jpg",
+    "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/1.브라우저환경/Images/jsbrowser.png",
+    "ProgrammingLanguage/JavaScript/자바스크립트구조/7.Class/images",
+    "ProgrammingLanguage/JavaScript/자바스크립트구조/11.제너레이터/Images",
+    "ProgrammingLanguage/JavaScript/자바스크립트구조/10.비동기처리/Images",
+    "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/2.DOM/Images",
+    "ProgrammingLanguage/JavaScript/자바스크립트구조/1.JavaScript/Images",
+    "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/1.브라우저환경/Images",
+    "ProgrammingLanguage/JavaScript/자바스크립트구조/5.함수",
+    "ProgrammingLanguage/JavaScript/자바스크립트구조/12.모듈",
+    "ProgrammingLanguage/JavaScript/자바스크립트구조/8.JSON",
+    "ProgrammingLanguage/JavaScript/자바스크립트구조/4.자료구조",
     "Head/Main.md",
-    "ProgrammingLanguage/JavaScript/문서 이벤트 인터페이스",
-    "ProgrammingLanguage/JavaScript/자바스크립트 구조",
     "README.md",
-    "ProgrammingLanguage/JavaScript/자바스크립트 구조/6. 객체와 메서드/객체 프로퍼티와 프로토타입.md",
-    "Web/Frontend/CSS/CSS.md",
-    "Web/Frontend/CSS/CSS 프로퍼티.md",
-    "Web/Frontend/HTML/HTML Validations.md",
-    "Web/Frontend/HTML/HTML Body Tag.md",
-    "Web/Frontend/HTML/HTML.md",
-    "Head/Web.md",
-    "Head/Security.md",
-    "Head/Programming Language.md",
-    "Head/Network.md",
-    "Head/Frontend.md",
-    "Head/Backend.md",
-    "Head/Algorithm.md",
-    "2023-10-19.md",
-    "ProgrammingLanguage/JavaScript/자바스크립트 구조/15. Proxy/Proxy와 Reflect.md",
-    "ProgrammingLanguage/JavaScript/자바스크립트 구조/5. 함수/함수.md",
-    "ProgrammingLanguage/JavaScript/자바스크립트 구조/14. eval/eval.md",
-    "ProgrammingLanguage/JavaScript/자바스크립트 구조/12. 모듈/모듈.md",
-    "ProgrammingLanguage/JavaScript/자바스크립트 구조/4. 자료구조/자료구조.md",
-    "ProgrammingLanguage/JavaScript/자바스크립트 구조/11. 제너레이터/Images/Jsgen1.png",
-    "ProgrammingLanguage/JavaScript/자바스크립트 구조/10. 비동기 처리/Images/javascript_queue.gif",
-    "ProgrammingLanguage/JavaScript/자바스크립트 구조/7. Class/images/Jsclass3.PNG",
-    "ProgrammingLanguage/JavaScript/자바스크립트 구조/7. Class/images/Jsclass2.PNG",
-    "ProgrammingLanguage/JavaScript/자바스크립트 구조/7. Class/images/Jsclass1.png",
-    "ProgrammingLanguage/JavaScript/자바스크립트 구조/1. JavaScript/Images/async-defer.jpg",
-    "ProgrammingLanguage/JavaScript/자바스크립트 구조/10. 비동기 처리/Images/Jspromise1.png",
-    "ProgrammingLanguage/JavaScript/자바스크립트 구조/7. Class/images",
-    "ProgrammingLanguage/JavaScript/자바스크립트 구조/11. 제너레이터/Images",
-    "ProgrammingLanguage/JavaScript/자바스크립트 구조/10. 비동기 처리/Images",
-    "ProgrammingLanguage/JavaScript/자바스크립트 구조/1. JavaScript/Images",
-    "ProgrammingLanguage/JavaScript/자바스크립트 구조/5. 함수",
-    "ProgrammingLanguage/JavaScript/자바스크립트 구조/12. 모듈",
-    "Web/Frontend/CSS/Images/css-text.png",
-    "Web/Frontend/Internet/Images/padlock.PNG",
+    "ProgrammingLanguage/JavaScript/문서 이벤트 인터페이스/브라우저 환경/브라우저 환경.md",
+    "ProgrammingLanguage/JavaScript/문서 이벤트 인터페이스/브라우저 환경/Images/jsbrowser.png",
     "무제 파일.canvas"
   ]
 }
