@@ -13,7 +13,7 @@
 #### 🎉 Javascript
 ##### 🎁 Javascript 구조
 01. [JavaScript](../ProgrammingLanguage/JavaScript/자바스크립트구조/1.JavaScript/JavaScript.md)
-02. [변수와 연산자](../ProgrammingLanguage/JavaScript/자바스크립트구조/2.변수와연산자/변수와연산자)
+02. [변수와 연산자](../ProgrammingLanguage/JavaScript/자바스크립트구조/2.변수와연산자/변수와연산자.md)
 03. [조건문과 반복문](../ProgrammingLanguage/JavaScript/자바스크립트구조/3.조건문과반복문/조건문과반복문.md)
 04. [자료구조](../ProgrammingLanguage/JavaScript/자바스크립트구조/4.자료구조/자료구조.md)
 05. [함수](../ProgrammingLanguage/JavaScript/자바스크립트구조/5.함수/함수.md)
@@ -31,7 +31,7 @@
 
 ##### 🎁 문서, 이벤트, 인터페이스
 01. [브라우저 환경](../ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/1.브라우저환경/브라우저환경.md)
-02. [DOM](../ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/2.DOM/DOM.md) 
+02. [DOM](../ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/2.DOM/DOM.md)
 
 ### 🎊 Backend
 
