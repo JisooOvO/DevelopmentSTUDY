@@ -1,5 +1,6 @@
 [
   "remotely-save",
   "automatic-table-of-contents",
-  "recent-files-obsidian"
+  "recent-files-obsidian",
+  "heading-level-indent"
 ]

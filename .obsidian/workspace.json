@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
+                "file": "Head/Main.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Head/Main.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Head/Main.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Head/Main.md"
               }
             }
           }
@@ -152,8 +152,11 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "9a9370d0c1a839df",
+  "active": "73c4ca7595c8c23f",
   "lastOpenFiles": [
+    "ProgrammingLanguage/JavaScript/자바스크립트구조/6.객체와메서드/객체프로퍼티와프로토타입.md",
+    "Head/Main.md",
+    "README.md",
     "Web/Frontend/CSS/CSS프로퍼티.md",
     "Web/Frontend/HTML/HTMLBodyTag.md",
     "ProgrammingLanguage/JavaScript/자바스크립트구조/5.함수/함수.md",
@@ -174,7 +177,6 @@
     "ProgrammingLanguage/JavaScript/자바스크립트구조/2.변수와연산자/변수와연산자.md",
     "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/1.브라우저환경/브라우저환경.md",
     "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/2.DOM/Images/DOM.PNG",
-    "ProgrammingLanguage/JavaScript/자바스크립트구조/6.객체와메서드/객체프로퍼티와프로토타입.md",
     "ProgrammingLanguage/JavaScript/자바스크립트구조/15.Proxy/Proxy와Reflect.md",
     "ProgrammingLanguage/JavaScript/자바스크립트구조/1.JavaScript/JavaScript.md",
     "ProgrammingLanguage/JavaScript/자바스크립트구조/7.Class/images/Jsclass2.PNG",
@@ -196,8 +198,6 @@
     "ProgrammingLanguage/JavaScript/자바스크립트구조/12.모듈",
     "ProgrammingLanguage/JavaScript/자바스크립트구조/8.JSON",
     "ProgrammingLanguage/JavaScript/자바스크립트구조/4.자료구조",
-    "Head/Main.md",
-    "README.md",
     "ProgrammingLanguage/JavaScript/문서 이벤트 인터페이스/브라우저 환경/브라우저 환경.md",
     "ProgrammingLanguage/JavaScript/문서 이벤트 인터페이스/브라우저 환경/Images/jsbrowser.png",
     "무제 파일.canvas"
