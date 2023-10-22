@@ -10,12 +10,13 @@
 
 - [x] ⏫ 깃허브 내용 옮기기 ✅ 2023-10-16
 - [x] ⏫ README 정리 ✅ 2023-10-19
-- [ ] 🔼 모던 자바스크립트 정리
-	- [x] 코어 자바스크립트
-	- [ ] 브라우저
-	- [ ] 추가주제
+- [ ] 🔼 자바스크립트 정리
+	- [x] ⏫ 코어 자바스크립트
+	- [ ] ⏫ 브라우저
+	- [ ] ⏫ 추가주제
+	- [ ] ⏫ Typescript
 - [ ] 🔼 Python 
-	- [ ] ⏫ Python Library
+	- [ ] ⏫ Python
 	- [ ] 🔼 Numpy
 	- [ ] 🔼 Pandas
 	- [ ] 🔼 scikit-learn
@@ -27,16 +28,22 @@
 - [ ] 🔼 React
 	- [ ] ⏫ Hook
 	- [ ] ⏫ React DOM
-	- [ ] 🔼 React Chart/Graph 표현
-- [ ] 🔼 Sass
-- [ ] ⏫ TailwindCSS
-- [ ] ⏫ Typescript
+	- [ ] 🔼 React Chart/Graph
+	- [ ] ⏫ LazyLoading & Scroll Paging
+	- [ ] ⏫ Skeleton
+	- [ ] ⏫ Redux
+- [ ] 🔼 CSS
+	- [ ] 🔼 Sass
+	- [ ] ⏫ TailwindCSS
 
 ---
 # 😇프로젝트
 
 - [ ] ⏫ nwitter
 - [ ] ⏫ 패스트캠퍼스 반응형 웹 프로젝트
+	- [ ] HTML, CSS, JS
+	- [ ] Canvas
+	- [ ] Three.js
 
 ---
 # 😅 자격증
@@ -54,5 +61,4 @@
 - [ ] 🔼 Dart
 - [ ] 🔼 npm
 - [ ] 🔼 vite
-- [ ] ⏫ LazyLoading & Scroll Paging
 ---

@@ -7,6 +7,8 @@
 #### 🎉 HTML
 01. [HTML](../Web/Frontend/HTML/HTML.md)
 02. [HTML Body Tag](../Web/Frontend/HTML/HTMLBodyTag.md)
+03. [HTML Validations](../Web/Frontend/HTML/HTMLValidations.md)
+04. [HTML Status Code](../Web/Frontend/HTML/HTMLStatusCode.md)
 #### 🎉 CSS
 01. [CSS](../Web/Frontend/CSS/CSS.md)
 02. [CSS프로퍼티](../Web/Frontend/CSS/CSS프로퍼티.md)
@@ -28,7 +30,6 @@
 14. [참조타입](../ProgrammingLanguage/JavaScript/자바스크립트구조/13.참조타입/참조타입.md)
 15. [eval](../ProgrammingLanguage/JavaScript/자바스크립트구조/14.eval/eval.md)
 16. [Proxy와 Reflect](../ProgrammingLanguage/JavaScript/자바스크립트구조/15.Proxy/Proxy와Reflect.md)
-
 ##### 🎁 문서, 이벤트, 인터페이스
 01. [브라우저 환경](../ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/1.브라우저환경/브라우저환경.md)
 02. [DOM](../ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/2.DOM/DOM.md)
@@ -45,9 +46,9 @@
 ## ✨ Machine Learning
 
 ### 🎊 Python
-#### 🎉Python
+#### 🎉 Python
 01. [Python](../ProgrammingLanguage/Python/Python/1.Python.md)
-02. [자료형](../ProgrammingLanguage/Python/Python/2.Python자료형)
+02. [자료형](../ProgrammingLanguage/Python/Python/2.Python자료형.md)
 
 #### 🎉 Numpy
 

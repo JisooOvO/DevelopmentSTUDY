@@ -1,20 +1,52 @@
 {
   "recentFiles": [
     {
+      "basename": "CSS프로퍼티",
+      "path": "Web/Frontend/CSS/CSS프로퍼티.md"
+    },
+    {
       "basename": "Main",
       "path": "Head/Main.md"
     },
     {
-      "basename": "객체프로퍼티와프로토타입",
-      "path": "ProgrammingLanguage/JavaScript/자바스크립트구조/6.객체와메서드/객체프로퍼티와프로토타입.md"
+      "basename": "소수분해알고리즘",
+      "path": "Algorithm/소수분해알고리즘.md"
     },
     {
       "basename": "README",
       "path": "README.md"
     },
     {
+      "basename": "HTMLValidations",
+      "path": "Web/Frontend/HTML/HTMLValidations.md"
+    },
+    {
+      "basename": "HTMLStatusCode",
+      "path": "Web/Frontend/HTML/HTMLStatusCode.md"
+    },
+    {
+      "basename": "CSS",
+      "path": "Web/Frontend/CSS/CSS.md"
+    },
+    {
+      "basename": "JavaScript",
+      "path": "ProgrammingLanguage/JavaScript/자바스크립트구조/1.JavaScript/JavaScript.md"
+    },
+    {
       "basename": "JAVA",
       "path": "ProgrammingLanguage/JAVA/JAVA.md"
+    },
+    {
+      "basename": "브라우저환경",
+      "path": "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/1.브라우저환경/브라우저환경.md"
+    },
+    {
+      "basename": "HTML",
+      "path": "Web/Frontend/HTML/HTML.md"
+    },
+    {
+      "basename": "객체프로퍼티와프로토타입",
+      "path": "ProgrammingLanguage/JavaScript/자바스크립트구조/6.객체와메서드/객체프로퍼티와프로토타입.md"
     }
   ],
   "omittedPaths": [],

@@ -1,0 +1,171 @@
+{
+  "settings": {
+    "migrated": 3,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "FarFile",
+      "FarNewspaper",
+      "FarPenToSquare",
+      "FarImage",
+      "FarFolderOpen"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": true,
+    "iconInTitleEnabled": true,
+    "iconsBackgroundCheckEnabled": true
+  },
+  "Algorithm": {
+    "iconName": "FarFolderOpen",
+    "inheritanceIcon": "FarFile"
+  },
+  "_Static": "FarFolderOpen",
+  "Head": "FarFolderOpen",
+  "ProgrammingLanguage": {
+    "iconName": "FarFolderOpen",
+    "inheritanceIcon": "FarFolderOpen"
+  },
+  "ProgrammingLanguage/JAVA": {
+    "iconName": "FarFolderOpen",
+    "inheritanceIcon": "FarFile"
+  },
+  "ProgrammingLanguage/JavaScript": {
+    "iconName": "FarFolderOpen",
+    "inheritanceIcon": "FarFolderOpen"
+  },
+  "ProgrammingLanguage/Python": "FarFolderOpen",
+  "ProgrammingLanguage/SQL": {
+    "iconName": "FarFolderOpen",
+    "inheritanceIcon": "FarFile"
+  },
+  "Web": "FarFolderOpen",
+  "Web/Frontend": "FarFolderOpen",
+  "Web/Frontend/Browser": {
+    "iconName": "FarFolderOpen",
+    "inheritanceIcon": "FarFile"
+  },
+  "Web/Frontend/CSS": {
+    "iconName": "FarFolderOpen",
+    "inheritanceIcon": "FarFile"
+  },
+  "Web/Frontend/CSS/Images": {
+    "iconName": "FarFolderOpen",
+    "inheritanceIcon": "FarImage"
+  },
+  "Web/Frontend/HTML": {
+    "iconName": "FarFolderOpen",
+    "inheritanceIcon": "FarFile"
+  },
+  "Web/Frontend/Internet": {
+    "iconName": "FarFolderOpen",
+    "inheritanceIcon": "FarFile"
+  },
+  "Web/Frontend/Internet/Images": "FarFolderOpen",
+  "Web/Frontend/Internet/Images/padlock.PNG": "FarImage",
+  "README.md": "FarPenToSquare",
+  "ProgrammingLanguage/Python/Python": {
+    "iconName": null,
+    "inheritanceIcon": "FarFile"
+  },
+  "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스": {
+    "iconName": "FarFolderOpen",
+    "inheritanceIcon": "FarFile"
+  },
+  "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/1.브라우저환경": "FarFolderOpen",
+  "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/2.DOM": "FarFolderOpen",
+  "ProgrammingLanguage/JavaScript/자바스크립트구조": "FarFolderOpen",
+  "ProgrammingLanguage/JavaScript/React": "FarFolderOpen",
+  "ProgrammingLanguage/JAVA/Servlet": "FarFolderOpen",
+  "ProgrammingLanguage/JAVA/SpringBoot": {
+    "iconName": "FarFolderOpen",
+    "inheritanceIcon": "FarFile"
+  },
+  "Head/Main.md": "FarNewspaper",
+  "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/1.브라우저환경/Images": {
+    "iconName": "FarFolderOpen",
+    "inheritanceIcon": "FarImage"
+  },
+  "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/1.브라우저환경/브라우저환경.md": "FarFile",
+  "ProgrammingLanguage/JavaScript/자바스크립트구조/1.JavaScript": "FarFolderOpen",
+  "ProgrammingLanguage/JavaScript/자바스크립트구조/1.JavaScript/Images": {
+    "iconName": "FarFolderOpen",
+    "inheritanceIcon": "FarImage"
+  },
+  "ProgrammingLanguage/JavaScript/자바스크립트구조/1.JavaScript/JavaScript.md": "FarFile",
+  "ProgrammingLanguage/JavaScript/자바스크립트구조/2.변수와연산자": {
+    "iconName": "FarFolderOpen",
+    "inheritanceIcon": "FarFile"
+  },
+  "ProgrammingLanguage/JavaScript/자바스크립트구조/3.조건문과반복문": {
+    "iconName": "FarFolderOpen",
+    "inheritanceIcon": "FarFile"
+  },
+  "ProgrammingLanguage/JavaScript/자바스크립트구조/4.자료구조": {
+    "iconName": "FarFolderOpen",
+    "inheritanceIcon": "FarFile"
+  },
+  "ProgrammingLanguage/JavaScript/자바스크립트구조/5.함수": {
+    "iconName": "FarFolderOpen",
+    "inheritanceIcon": "FarFile"
+  },
+  "ProgrammingLanguage/JavaScript/자바스크립트구조/6.객체와메서드": {
+    "iconName": "FarFolderOpen",
+    "inheritanceIcon": "FarFile"
+  },
+  "ProgrammingLanguage/JavaScript/자바스크립트구조/7.Class": "FarFolderOpen",
+  "ProgrammingLanguage/JavaScript/자바스크립트구조/7.Class/images": {
+    "iconName": "FarFolderOpen",
+    "inheritanceIcon": "FarImage"
+  },
+  "ProgrammingLanguage/JavaScript/자바스크립트구조/7.Class/Class.md": "FarFile",
+  "ProgrammingLanguage/JavaScript/자바스크립트구조/8.JSON": {
+    "iconName": "FarFolderOpen",
+    "inheritanceIcon": "FarFile"
+  },
+  "ProgrammingLanguage/JavaScript/자바스크립트구조/9.ErrorHandling": {
+    "iconName": "FarFolderOpen",
+    "inheritanceIcon": "FarFile"
+  },
+  "ProgrammingLanguage/JavaScript/자바스크립트구조/10.비동기처리": "FarFolderOpen",
+  "ProgrammingLanguage/JavaScript/자바스크립트구조/10.비동기처리/Images": {
+    "iconName": "FarFolderOpen",
+    "inheritanceIcon": "FarImage"
+  },
+  "ProgrammingLanguage/JavaScript/자바스크립트구조/10.비동기처리/비동기처리.md": {
+    "iconName": null,
+    "inheritanceIcon": "FarFile"
+  },
+  "ProgrammingLanguage/JavaScript/자바스크립트구조/11.제너레이터": {
+    "iconName": "FarFolderOpen",
+    "inheritanceIcon": "FarFile"
+  },
+  "ProgrammingLanguage/JavaScript/자바스크립트구조/11.제너레이터/Images": {
+    "iconName": "FarFolderOpen",
+    "inheritanceIcon": "FarFile"
+  },
+  "ProgrammingLanguage/JavaScript/자바스크립트구조/12.모듈": {
+    "iconName": "FarFolderOpen",
+    "inheritanceIcon": "FarFile"
+  },
+  "ProgrammingLanguage/JavaScript/자바스크립트구조/13.참조타입": {
+    "iconName": "FarFolderOpen",
+    "inheritanceIcon": "FarFile"
+  },
+  "ProgrammingLanguage/JavaScript/자바스크립트구조/14.eval": {
+    "iconName": "FarFolderOpen",
+    "inheritanceIcon": "FarFile"
+  },
+  "ProgrammingLanguage/JavaScript/자바스크립트구조/15.Proxy": {
+    "iconName": "FarFolderOpen",
+    "inheritanceIcon": "FarFile"
+  }
+}

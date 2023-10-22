@@ -2,5 +2,7 @@
   "remotely-save",
   "automatic-table-of-contents",
   "recent-files-obsidian",
-  "heading-level-indent"
+  "heading-level-indent",
+  "obsidian-icon-folder",
+  "obsidian-tasks-plugin"
 ]

@@ -40,13 +40,29 @@ debugInConsole: false # Print debug info in Obsidian console
 	* 속성
 		- `left / center / right`
 		- `justify` : 양쪽 정렬(브라우저 크기에 맞춰 텍스트 사이 간격 늘림)
-- `text-decoration : <속성>`
+- `text-decoration : <속성>` : 텍스트에 줄 넣기
 	* 속성
 		- `none`
 		- `line-through`
 		- `overline / underline`
+		- 
 - `letter-spacing : <자간>`
 - `line-height : <텍스트 높이>`
+- `white-space : <속성>`  : 텍스트 줄 바꿈 설정
+	- 속성
+		- `normal
+		- `nowrap` : 자동으로 줄 바꿈 X
+- `text-overflow : <속성>` : 텍스트가 콘텐츠를 넘어갈 경우
+	- 속성
+		- `clip`
+		- `ellipsis` : 넘어가는 부분 `...`으로 처리
+- `overflow : <속성>` : 콘텐츠가 부모요소를 넘어가 경우 처리 방법
+	- 속성
+		 -`visible` : 컨텐츠가 부모요소에서 넘쳐 출력
+		 -`hidden` : 컨텐츠가 부모요소를 넘어가지 못함, 넘칠 경우 컨텐츠 아래쪽이 보이게 출력
+		 -`clip`: 컨텐츠가 부모요소를 넘어가지 못함, 넘칠 경우 컨텐츠 위쪽이 보이게 출력
+		 -`scroll` : 부모요소에 스크롤 기능이 생김
+		 -`auto`
 
 ---
 
@@ -139,20 +155,30 @@ debugInConsole: false # Print debug info in Obsidian console
 		- `align-items: center` 세로방향 정렬
 		* flex 아닌 경우 -> `margin : auto` 등으로 적용가능
 		* flex 는 1 줄에 몇 개의 content 가 오는 것을 정의 X
+
 - `flex-direction : <속성>`
 	* 속성
 		- `row` : 왼쪽 -> 오른쪽
 		- `row-reverse` : 오른쪽 -> 왼쪽
 		- `column` : 위 -> 아래
 		- `coloumn-reverse` : 아래 -> 위
+
+- `flex-flow : <direction> <wrap>`
+	- direction과 wrap을 동시에 지정
+
+- `flex-grow : 숫자` : flex container 내 아이템이 할당 가능한 공간의 정도
+- `flex-shrink : 숫자` : flex item이 container보다 클 때 아이템 크기가 축소( 0일때 축소 X)
+	- 기본값 1이므로 미설정시 자동으로 콘테이너 크기에 맞게 아이템 크기 조절
+- `flex-basis : 숫자` : 아이템의 초기 크기
+	- 값이 `auto`가 아닌경우 `width`보다 우선순위가 높음
+	- `content` 를 값으로 설정 가능
+- `flex : <grow> <shrink> <basis>` : 3가지 프로퍼티를 동시에 설정 가능
+
 - `flex-wrap : <속성>` : 플렉스 아이템이 컨테이너를 벗어날 경우 설정
 	* 속성
 		- `nowrap` : 컨테이너 뚫고 나감, 기본 값
 		- `wrap` : 영역을 벗어나면 줄 바꿈
 		- `wrap-reverse` : wrap의 역 방향으로 줄 바꿈(기본 값일 때 위로 줄이 올라감)
-- `flex-flow : <direction> <wrap>`
-	- direction과 wrap을 동시에 지정
-    
 ### 4-2-2 flex layout 정렬
 
 - `justify-content : <속성>` : 주 축 방향 정렬(row)
@@ -163,6 +189,7 @@ debugInConsole: false # Print debug info in Obsidian console
 		- `space-between` : 플렉스 아이템 간격 균일(양 끝 간격 X)
 		- `space-around` : 플렉스 아이템 둘레 균일 (한 아이템 양쪽 둘레 균일)
 		- `space-evenly` : 플렉스 아이템 사이와 양 끝 간격 균일 (IE, edge 동작 X)
+
 - `align-items : <속성>` : 교차 축 방향 정렬 (column)
 	* 속성
 		- `stretch` : 교차축 방향 아이템 너비/높이가 블록 크기에 맞게 확대
@@ -170,6 +197,9 @@ debugInConsole: false # Print debug info in Obsidian console
 		- `flex-end`
 		- `center`
 		- `baseline`
+
+- `gap` : 플렉스 컨테이너에서 내부 컨텐츠 간격 조절
+
 - `align-content : <속성>` : wrap 속성으로 2줄 이상일 때 사용
 - `align-self : <속성>` : 단일 정렬
 
@@ -262,12 +292,20 @@ debugInConsole: false # Print debug info in Obsidian console
 		- `cubic-bezier` : 사용자 정의 속도
 			* 개발자 도구에서 속도 조절 가능
 
+```
+.heart-icon:hover{
+	// 0.7배만큼 작아짐
+    transform: scale(0.7);
+    // transform 효과를 0.25초동안 딜레이
+    transition: transform 0.25s ease;
+}
+```
+
 ---
 
 # 6. 애니메이션
 
 - @keyframes 정의하여 실행
-
 ```
 @keyframes <키 프레임명>{
 	0%{ /* 시작 코드 */ }
@@ -279,16 +317,22 @@ debugInConsole: false # Print debug info in Obsidian console
 ```
 @keyframes <키 프레임명>{ 
 	from{ /* 시작 코드 */ }
+	...
+	50%{ /* 중간 코드 */ }
+	...
 	to{ /* 종료 코드 */ }
 }
 ```
 
-## 6-1 키 프레임명 지정 및 속성
+- `animation` : 아래 모든 속성 적용 가능
 
 - `animation-name : <키 프레임명>`
+
 - `animation-duration : <지속 시간>`
-	* `키 프레임, 애니메이션 네임, 듀레이션`은 필수 (없으면 동작 X)
+	* `keyframes, animation-name, animation-duration`은 필수 (없으면 동작 X)
+
 - `animation-delay : <지연 시간>`
+
 - `animation-fill-mode : <속성>` : 애니메이션 종료 시점의 상태 설정
 	* 속성
 		- `none` : 
@@ -303,17 +347,24 @@ debugInConsole: false # Print debug info in Obsidian console
 		- `both`
 			- 실행 전 : 시작 지점 스타일 적용O 대기
 			- 실행 후 : 종료 지점 스타일 적용 상태로 대기
+
 - `animation-play-state : <속성>` : 애니메이션 재생 상태 지정 (실행 도중 조작 가능 with JS)
 	* 속성
 		- `paused`
 		- `running`
+
 - `animation-diretion : <속성>` : 진행 방향
 	* 속성
 		- `normal` : 키 프레임 정의 순서(from -> to)
 		- `reverse`
 		- `alternate` : 홀수 번째 `normal`, 짝수 번째 `reverse`
 		- `alternate-reverse` : 홀수 번째 `reverse`, 짝수 번째 `normal`
-- `animation-timing-function`
+
+- `animation-timing-function` : 시간 간격
+
+- `animation-iteration-count : <속성>` : 반복 횟수
+	- 속성
+		- `infinite` : 무한
 
 ---
 # 7. 변형효과(transform)
@@ -338,11 +389,21 @@ debugInConsole: false # Print debug info in Obsidian console
 			* `deg` > 0 -> 시계방향 회전
 			* `deg` < 0 -> 반시계방향 회전
 
+- `matrix( scaleX, scaleY, skewX, skewY, translateX, translateY )` : 한번에 설정 
+
 - 기준점 변경
 	- `transform-origin : <x> <y>` : 변형 기준점 변경
 		* 속성
 			- `x : left / center / right`
 			- `y : top / center / bottom`
+
+	- `transfrom-box : <속성>
+		- 속성
+			- `content-box`
+			- `border-box`
+			- `fill-box` : `referenece box`를 해당 Element box로 변경
+			- `stroke-box`
+			- `view-box`
 
 ---
 # 8. 미디어쿼리
@@ -368,8 +429,7 @@ initial-scal=1.0">
 	- `maximum-scale` : 최대 확대 비율 ( 기본값 = 5.0 )
 	- `user-scalable` : 뷰포트 확대/축소 여부 ( yes || no )
 
-## 8-1 미디어 쿼리 문법
-
+- 문법
 ```
 @media 
 	not | only 
@@ -399,7 +459,6 @@ initial-scal=1.0">
 	...
 ```
 
-- 예시
 ```
 @media (min-height: 680px), screen and (orientation: portrait) { ... }
 ```

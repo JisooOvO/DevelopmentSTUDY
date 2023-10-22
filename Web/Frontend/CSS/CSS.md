@@ -52,7 +52,7 @@ body a {
 | 가상 요소 선택자 | ::before |1|
 | 클래스 선택자    | .box |10|
 | 가상 클래스 선택자 | :hover |10|
-| 아이디 선택자    | #title |100|
+| 아이디 선택자    | `#title` |100|
 | 인라인 스타일    | style="color:red" | 1000 |
 | !important      | color:blue !important; | 10000|
 
@@ -179,28 +179,28 @@ body a {
 
 * 종류
 	- 링크
-		- :link : 한번도 방문하지 않은 링크일 때
-		- :visited : 한 번 이상 방문한 링크일 때
+		- `:link` : 한번도 방문하지 않은 링크일 때
+		- `:visited` : 한 번 이상 방문한 링크일 때
 	- 동적
-		- :hover : 요소에 마우스를 올릴 때
-		- :active : 요소를 마우스로 클릭하는 동안
+		-`:hover` : 요소에 마우스를 올릴 때
+		- `:active` : 요소를 마우스로 클릭하는 동안
 	- 입력
-		- :focus : 입력 요소(input, textarea)에 커서 활성화시
-		- :checked : 체크박스 표시될 경우
-		- :disabled : 상호작용 요소 비활성화시
-		- :enabled : 상호작용 요소 활성화시
+		- `:focus` : 입력 요소(input, textarea)에 커서 활성화시
+		- `:checked` : 체크박스 표시될 경우
+		- `:disabled` : 상호작용 요소 비활성화시
+		- `:enabled` : 상호작용 요소 활성화시
 	- 구조적 가상클래스
 		- 자식 기준
-			- E:first-child : 첫 번째 자식 요소
-			- E:last-child : 마지막 자식 요소
-			- E:nth-child(n) : E 요소가 부모 요소의 n번째 자식일 때
-				- E:nth-child(2n) : E 요소가 부모의 짝수 번째 자식 
-			- E:nth-last-child(n) : E 요소가 부모 요소의 뒤에서부터 n번째 자식일 때
+			- `E:first-child` : 첫 번째 자식 요소
+			- `E:last-child` : 마지막 자식 요소
+			- `E:nth-child(n)`` : E 요소가 부모 요소의 n번째 자식일 때
+				- `E:nth-child(2n)` : E 요소가 부모의 짝수 번째 자식 
+			- `E:nth-last-child(n)` : E 요소가 부모 요소의 뒤에서부터 n번째 자식일 때
 		- 부모 기준
-			- E:first-of-type : 부모의 첫 번째 자식 요소
-			- E:last-of-type : 부모의 마지막 자식 요소
-			- E:nth-of-type : 부모 요소의 n번째 자식 요소
-			- E:nth-of-last-type : 부모 요소의 뒤에서부터 n번째 자식 요소
+			- `E:first-of-type` : 부모의 첫 번째 자식 요소
+			- `E:last-of-type` : 부모의 마지막 자식 요소
+			- `E:nth-of-type` : 부모 요소의 n번째 자식 요소
+			- `E:nth-of-last-type` : 부모 요소의 뒤에서부터 n번째 자식 요소
 ```
 기준 선택자 : 가상 클래스 선택자 {
 	/* code */
@@ -233,8 +233,8 @@ body a {
 			   `<top & bottom> <right & left>`
 			  `< top & right & bottom & left>`
 
-* margin collapse : 인접 margin 중 더 큰 값으로 통일
-* margin : auto 일 경우 뷰포트 기준 요소를 센터로 정렬
+* `margin collapse` : 인접 margin 중 더 큰 값으로 통일
+* `margin : auto` 일 경우 뷰포트 기준 요소를 센터로 정렬
 
 ## 4-2 border 
 
@@ -242,16 +242,16 @@ body a {
 * 형식
 	- `border : <width> <style> <color>`
 		- style 속성
-			* none
-			* hidden
-			* solid
-			* double
-			* dotted
-			* dashed
-			* groove
-			* ridge
-			* inset
-			* outset
+			* `none`
+			* `hidden`
+			* `solid`
+			* `double`
+			* `dotted`
+			* `dashed`
+			* `groove`
+			* `ridge`
+			* `inset`
+			* `outset`
 
 ## 4-3 padding 
 
@@ -262,7 +262,7 @@ body a {
 
 - 태그 사이에 작성된 내용
 * 형식
-	- width / height
+	- `width / height`
 
 ### 4-4-1 width / height 특징
 
@@ -272,31 +272,30 @@ body a {
 >따라서 다음 속성을 사용
 - `box-sizing` : <속성>
 	* 속성
-		- content-box
-		- border-box : border 너비/높이에 맞게 컨텐츠 영역 조절
+		- `content-box`
+		- `border-box` : border 너비/높이에 맞게 컨텐츠 영역 조절
 
 ## 4-5 박스 모델의 성격
 
-- 블록 : 항상 페이지의 모든 너비를 차지 (줄 바꿈)
+- `block` : 항상 페이지의 모든 너비를 차지 (줄 바꿈)
 	- 적용 가능 속성 : width/height, margin/padding
 		* `<hn>`, `<p>`, `<div>`
 
-- 인라인 : 너비를 콘텐츠 크기만큼 차지
+- `inline` : 너비를 콘텐츠 크기만큼 차지
 	- 적용 가능 속성 : margin/padding 의 왼쪽,오른쪽 방향
-		* `<a>`, `<span>`, `<strong>`
+		* `<a>`, `<span>`, `<strong>`, `button`
 
-- 인라인 블록 : 너비를 콘텐츠 크기만큼 차지 + 블록의 성격(width/height 적용)
-		* `<img>`
-
+- `inline-block` : 너비를 콘텐츠 크기만큼 차지 + 블록의 성격(width/height 적용)
+	-  `<img>`
 
 ### 4-5-1 박스 모델 성격 변경
 
 * 박스 모델의 성격은 다음 속성으로 변경 가능
 - `display: <속성>`
 	* 속성
-		- block
-		- inline
-		- inline-block
+		- `block`
+		- `inline`
+		- `inline-block`
 
 ---
 >[[Frontend]]
