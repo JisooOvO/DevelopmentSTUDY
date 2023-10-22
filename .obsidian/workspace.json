@@ -15,26 +15,13 @@
               "type": "markdown",
               "state": {
                 "file": "Head/Main.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "pinned": true
             }
-          },
-          {
-            "id": "05665537564a43aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web/Frontend/CSS/CSS프로퍼티.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/Frontend/CSS/CSS프로퍼티.md",
+                "file": "Head/Main.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/Frontend/CSS/CSS프로퍼티.md",
+                "file": "Head/Main.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/Frontend/CSS/CSS프로퍼티.md"
+                "file": "Head/Main.md"
               }
             }
           }
@@ -167,14 +154,14 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "05665537564a43aa",
+  "active": "17d452f38ee89388",
   "lastOpenFiles": [
+    "Web/Frontend/CSS/CSS프로퍼티.md",
     "Head/Main.md",
     "Algorithm/소수분해알고리즘.md",
     "README.md",
     "Web/Frontend/HTML/HTMLValidations.md",
     "Web/Frontend/HTML/HTMLStatusCode.md",
-    "Web/Frontend/CSS/CSS프로퍼티.md",
     "Web/Frontend/CSS/CSS.md",
     "ProgrammingLanguage/JavaScript/자바스크립트구조/1.JavaScript/JavaScript.md",
     "ProgrammingLanguage/JAVA/JAVA.md",

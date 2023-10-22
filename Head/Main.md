@@ -21,7 +21,7 @@
 05. [함수](../ProgrammingLanguage/JavaScript/자바스크립트구조/5.함수/함수.md)
 06. [객체와 메서드](../ProgrammingLanguage/JavaScript/자바스크립트구조/6.객체와메서드/객체와메서드.md)
 07. [객체프로퍼티와 프로토타입](../ProgrammingLanguage/JavaScript/자바스크립트구조/6.객체와메서드/객체프로퍼티와프로토타입.md)
-08. [Class](../ProgrammingLanguage/JavaScript/자바스크립트구조/7.Class/class.md)
+08. [Class](../ProgrammingLanguage/JavaScript/자바스크립트구조/7.Class/Class.md)
 09. [JSON](../ProgrammingLanguage/JavaScript/자바스크립트구조/8.JSON/JSON.md)
 10. [Error Handling](../ProgrammingLanguage/JavaScript/자바스크립트구조/9.ErrorHandling/ErrorHandling.md)
 11. [비동기 처리](../ProgrammingLanguage/JavaScript/자바스크립트구조/10.비동기처리/비동기처리.md)
