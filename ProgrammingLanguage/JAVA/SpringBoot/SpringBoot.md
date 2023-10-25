@@ -275,18 +275,223 @@ public class MemberController{
 ## 3-2 테스트 클래스 관련 Annotation
 
 - @SpringBootTest : 테스트 클래스 정의
-- @TestMethodOrder(OrderAnnotation.class) : 테스트 메서드 실행 순서 제공
+- @TestMethodOrder(OrderAnnotation.class) : 테스트 메서드 실행 순서 제공(`MethodOrderer`)
 
 ## 3-3 테스트 메서드 관련 Annotation
 
 - @DisplayName() : JUnit에서 사용할 테스트 코드 이름 설정
 - @Test : 테스트 코드 IoC
-- @Order() : 테스트 실행 순서
+- @Order() : 테스트 실행 순서(`jupiter.api.Order`)
 - @AfterEach/BeforeEach : Test 1개 실행전/후 실행 반복
 - @AfterAll/BeforeAll : 모든 테스트 실행되기 이전에 1번만 실행 (반드시 Static 메서드)
 
 ---
 
+# 4. JPA(Java Persistence API)
+
+- ORM(Object Relational Mapping)
+>DB 연동기능, SQL을 프레임워크에서 제공, JPA는 ORM을 표준화시킨 것
+
+## 4-1 DB 연동 기술
+
+- SQL을 직접 다루는 기술
+	- JDBC, Spring JDBC, iBATIS, MyBastis
+	- TABLE, VO, CRUD SQL 사용 -> 프로퍼티 추가시 수정이 어려움
+	- JDBC API에서 `Statement, ResultSet` 등 DB 데이터를 처리
+
+- SQL을 직접 다루지 않는 기술
+	- Hibernate
+		- 기존의 EJB 엔티티 빈이 가지는 문제를 대체하는 오픈소스 라이브러리
+	- VO 정보를 컬렉션(`Map`)에 저장 -> 프로퍼티 수정시 VO만 수정하면 됨
+	- JPA에서 JDBC API를 처리
+
+## 4-2 JPA Entity Annotation
+
+- `@Entity` : 엔티티를 설정, 기본적으로 클래스 이름과 동일한 테이블과 매핑
+	- 영속성 컨텍스트(Persistence Context)
+		-  1차 캐시에 엔티티 저장, 2차 캐시(Snapshot)에 복사본 저장 및 동기화 -> 값이 바뀔 경우 `update` SQL 생성
+		-  SQL Storage에 SQL문 저장
+- `@Table(name=)` : 테이블 매핑
+- `@Column`
+- `@Id` : 기본 키(Primary key) 설정
+- `@GeneratedValue( strategy = GenerationType.IDENTITY)` : 자동 생성 값
+	- MySQL은 자동으로 `auto_increment`
+- `@Temporal(TemporalType.TIMESTAMP)` : Date 타입 값
+
+## 4-3 pom.xml 설정
+
+- hibernate entitymanager / h2-DB 설치
+```
+<dependencies>
+	<dependency>
+		<groupId>org.hibernate</groupId>
+		<artifactId>hibernate-entitymanager</artifactId>
+		<version>5.6.15.Final</version>
+	</dependency>
+		
+	<dependency>
+		<groupId>com.h2database</groupId>
+		<artifactId>h2</artifactId>
+		<version>2.2.224</version>
+	</dependency>
+</dependencies>
+```
+
+## 4-4 Persistence.xml 설정
+
+- JDBC 및 hibernate 설정
+```
+<properties>
+	<!-- 필수 -->
+	<property name="javax.persistence.jdbc.driver" value="org.h2.Driver"/>
+	<property name="javax.persistence.jdbc.user" value="sa"/>
+	<property name="javax.persistence.jdbc.password" value="abcd"/>
+	<property name="javax.persistence.jdbc.url" value="jdbc:h2:tcp://localhost/~/.h2/chapter04"/>
+	<!-- H2 전용 SQL -->
+	<property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect"/>
+	
+	<!-- 옵션 -->
+	<!-- SQL console로 출력 -->
+	<property name="hibernate.show_sql" value="true"/>
+	<!-- DB 설정 -->
+	<property name="hibernate.hbm2ddl.auto" value="create"/> // DB 존재시 지우고 다시 생성
+															 // DB 수정하려면 value="update"
+</properties>
+```
+
+
+## 4.5 JPA Client 설정
+
+- `persist`
+- `find` : `select` 또는 `update 및 remove`할 객체 가져올 때 사용
+- `remove`
+```
+	// persistence.xml 설정한 영속성 정보를 이용하여 EMF 객체 생성
+	EntityManagerFactory emf = Persistence.createEntityManagerFactory("Chapter04");
+	EntityManager em = emf.createEntityManager();
+	
+	// 트랜잭션 설정(JPA는 트랙잭션이 없으면 DB조작 X)
+	EntityTransaction tx = em.getTransaction();
+
+	try {
+		tx.begin();
+		
+		Board board = new Board();
+		board.setTitle("JPA 제목");
+		board.setWriter("관리자");
+		board.setContent("JPA 글 등록");
+		board.setCreateDate(new Date());
+		board.setCnt(0L);
+		
+		em.persist(board);
+		tx.commit();
+	} catch (Exception e) {
+		tx.rollback();
+		e.printStackTrace();
+	} finally {
+		em.close();
+		emf.close();
+		}
+	}
+```
+
+## 4-6 JPQL
+
+- `createQuery(query, Obj.class)...`
+
+
+---
+# 5. Spring Data JPA
+
+## 5-1 JPA 프로퍼티 설정
+
+```
+# DataSource Setting
+spring.datasource.driver-class-name=org.h2.Driver
+spring.datasource.url=jdbc:h2:tcp://localhost/~/.h2/chapter05
+spring.datasource.username=sa
+spring.datasource.password=
+
+# JPA Setting
+spring.jpa.hibernate.ddl-auto=create
+spring.jpa.generate-ddl=false
+spring.jpa.show-sql=true
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+spring.jpa.properties.hibernate.format_sql=true
+
+# Logging Setting
+logging.level.org.hibernate=info
+```
+
+## 5-2 엔티티 매핑(VO)
+
+```
+@Entity
+@Getter
+@Setter
+@ToString
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
+public class Board {
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long seq;
+	private String title;
+	private String writer;
+	private String content;
+	@Temporal(TemporalType.TIMESTAMP)
+	@Builder.Default
+	private Date createDate = new Date();
+	@Builder.Default
+	private Long cnt = 0L;
+}
+```
+
+- setter 메서드로 값 변경시 자동으로 `update, insert` 쿼리 실행
+- `update` 쿼리 수행시 `save` 메서드 사용해야 적용
+
+## 5-3 Repository 생성
+
+### 5-3-1 인터페이스 설정
+```
+public interface BoardRepository extends JpaRepository<Board, Long> {
+
+}
+```
+
+- `JpaRepository<S, T>`
+	- `S` : 엔티티
+	- `T` : 엔티티 기본 키의 타입
+
+### 5-3-2 메서드
+
+- `save`
+- `find`
+- `findAll`
+- `findById`
+- `deleteById
+...
+
+---
+# 6. 쿼리 메서드
+
+- 복잡한 JPQL을 메서드로 처리하는 메서드
+- 인터페이스에서 메서드 정의
+
+- `find + [엔티티 이름] + By + 필드명 + `
+	- `And`
+	- `Or`
+	- `Between`
+	- `LesstThan / LessThanEqual
+	- `GreaterThan / GreaterThanEqual`
+	- `After / Before`
+	- `IsNull / IsNotNull / NotNull
+	- `Like / Not Like
+	- `StartingWith / EndingWith / Containing
+	- `Orderby + 필드명 + Desc / Asc`
+	- `Not`
+	- `In`
 
 ---
 >[[Backend]]

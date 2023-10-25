@@ -371,11 +371,15 @@ debugInConsole: false # Print debug info in Obsidian console
 
 - 요소의 크기 변경, 위치 이동, 회전
 
+- `perspective : <거리>` : 사용자와 요소 사이의 거리
+>`translateZ()`와 사용하면 Parallax Scrolling 구현
+
 - `transform : <함수>`
 	* 함수
 		- `translate(x,y)` : 현 위치에서 x, y 축 만큼 이동
 		- `translateX(n)`
 		- `translateY(n)`
+		- `translateZ(perspective)
 
 		- `scale(x,y)` : x, y 축 만큼 확대/축소
 		- `scaleX(n)`

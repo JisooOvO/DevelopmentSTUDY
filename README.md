@@ -30,6 +30,8 @@
 	- [ ] ⏫ React DOM
 	- [ ] 🔼 React Chart/Graph
 	- [ ] ⏫ LazyLoading & Scroll Paging
+		- [ ] Native Lazy Loading
+		- [ ] Intersection Observer
 	- [ ] ⏫ Skeleton
 	- [ ] ⏫ Redux
 - [ ] 🔼 CSS

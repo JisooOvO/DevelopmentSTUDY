@@ -167,5 +167,19 @@
   "ProgrammingLanguage/JavaScript/자바스크립트구조/15.Proxy": {
     "iconName": "FarFolderOpen",
     "inheritanceIcon": "FarFile"
-  }
+  },
+  "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/3.사이즈스크롤좌표": "FarFolderOpen",
+  "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/4.이벤트": {
+    "iconName": "FarFolderOpen",
+    "inheritanceIcon": "FarFile"
+  },
+  "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/3.사이즈스크롤좌표/Images": {
+    "iconName": "FarFolderOpen",
+    "inheritanceIcon": "FarImage"
+  },
+  "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/4.이벤트/Images": {
+    "iconName": "FarFolderOpen",
+    "inheritanceIcon": "FarImage"
+  },
+  "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/4.이벤트/이벤트.md": "FarFile"
 }

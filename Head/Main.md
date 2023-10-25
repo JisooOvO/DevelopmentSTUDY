@@ -33,7 +33,10 @@
 ##### 🎁 문서, 이벤트, 인터페이스
 01. [브라우저 환경](../ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/1.브라우저환경/브라우저환경.md)
 02. [DOM](../ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/2.DOM/DOM.md)
-
+03. [문서 조작하기](../ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/2.DOM/문서조작하기.md)
+04. [사이즈와 스크롤, 좌표](../ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/3.사이즈스크롤좌표/사이즈스크롤좌표.md)
+05. [이벤트](../ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/4.이벤트/이벤트.md) 
+06. [UI 이벤트](../ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/4.이벤트/UI이벤트.md) 
 ### 🎊 Backend
 
 #### 🎉 JAVA
@@ -49,9 +52,10 @@
 #### 🎉 Python
 01. [Python](../ProgrammingLanguage/Python/Python/1.Python.md)
 02. [자료형](../ProgrammingLanguage/Python/Python/2.Python자료형.md)
-
 #### 🎉 Numpy
-
+01. [Numpy](../ProgrammingLanguage/Python/Numpy/Numpy.md)
+#### 🎉 Matplotlib
+01. [Matplotlib](../ProgrammingLanguage/Python/Matplotlib/Matplotlib.md)
 #### 🎉 Pandas
 
 
