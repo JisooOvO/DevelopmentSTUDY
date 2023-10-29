@@ -20,8 +20,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "0bc8ba193973ebd1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web/Frontend/CSS/CSS프로퍼티.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Head/Main.md",
+                "file": "Web/Frontend/CSS/CSS프로퍼티.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Head/Main.md",
+                "file": "Web/Frontend/CSS/CSS프로퍼티.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Head/Main.md"
+                "file": "Web/Frontend/CSS/CSS프로퍼티.md"
               }
             }
           }
@@ -154,54 +167,54 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "17d452f38ee89388",
+  "active": "0bc8ba193973ebd1",
   "lastOpenFiles": [
-    "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/4.이벤트/UI이벤트.md",
-    "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/4.이벤트/이벤트.md",
-    "Head/Main.md",
-    "(../ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/4.이벤트/이벤트.md",
-    "(../ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/4.이벤트",
-    "(../ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/4,이벤트/이벤트.md",
-    "(../ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/4,이벤트",
-    "(../ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스",
-    "(../ProgrammingLanguage/JavaScript",
-    "(../ProgrammingLanguage",
-    "(..",
-    "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/3.사이즈스크롤좌표/사이즈스크롤좌표.md",
-    "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/3.사이즈스크롤좌표/Images/ElementSize.PNG",
-    "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/3.사이즈스크롤좌표/Images/BrowserSize.PNG",
-    "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/3.사이즈스크롤좌표/Images/DOMRect.PNG",
+    "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/2.DOM/DOM.md",
+    "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/2.DOM/문서조작하기.md",
+    "ProgrammingLanguage/JavaScript/1.자바스크립트구조/6.객체와메서드/객체프로퍼티와프로토타입.md",
+    "ProgrammingLanguage/JavaScript/1.자바스크립트구조/6.객체와메서드/객체와메서드.md",
     "Web/Frontend/CSS/CSS프로퍼티.md",
-    "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/4.이벤트/Images/EventDelegation.PNG",
-    "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/4.이벤트/Images/EventFlow.PNG",
-    "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/4.이벤트/Images/Carousel.PNG",
-    "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/4.이벤트/Images/EventSoccer.PNG",
-    "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/4.이벤트/Images/Bubbling.PNG",
-    "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/4.이벤트/Images",
-    "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/4.이벤트",
-    "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/Untitled",
-    "Messy.md",
-    "ProgrammingLanguage/JavaScript/Next.js",
-    "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/3.사이즈스크롤좌표/Images/ElementSize1.PNG",
-    "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/2.DOM/문서조작하기.md",
-    "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/2.DOM/Images/DOM_append.PNG",
-    "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/2.DOM/DOM으로 문서 조작하기.md",
-    "잡지식.md",
-    "ProgrammingLanguage/JavaScript/React/React.md",
-    "ProgrammingLanguage/JavaScript/React/React Route DOM.md",
-    "ProgrammingLanguage/JavaScript/React/Hooks.md",
-    "Web/Frontend/CSS/CSS.md",
-    "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/2.DOM/DOM.md",
-    "Improve Web Performance and Accessibility.md",
-    "ProgrammingLanguage/Python/Numpy/Numpy.md",
-    "ProgrammingLanguage/Python/Matplotlib/Matplotlib.md",
-    "ProgrammingLanguage/Python/Scikit-learn/Scikit-learn.md",
-    "Algorithm/소수분해알고리즘.md",
-    "README.md",
-    "Web/Frontend/HTML/HTMLValidations.md",
-    "Web/Frontend/HTML/HTMLStatusCode.md",
-    "ProgrammingLanguage/JavaScript/자바스크립트구조/1.JavaScript/JavaScript.md",
-    "ProgrammingLanguage/JAVA/JAVA.md",
+    "Head/Main.md",
+    "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/3.사이즈스크롤좌표/사이즈스크롤좌표.md",
+    "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/4.이벤트/이벤트.md",
+    "ProgrammingLanguage/JavaScript/3.네트워크와파일/CORS.PNG",
+    "ProgrammingLanguage/JavaScript/3.네트워크와파일/CORS.md",
+    "ProgrammingLanguage/JavaScript/3.네트워크와파일/FormData.md",
+    "ProgrammingLanguage/JavaScript/3.네트워크와파일/fetch.md",
+    "ProgrammingLanguage/JavaScript/1.자바스크립트구조/5.함수/함수.md",
+    "ProgrammingLanguage/JavaScript/1.자바스크립트구조/12.모듈/모듈.md",
+    "ProgrammingLanguage/JavaScript/1.자바스크립트구조/8.JSON/JSON.md",
+    "ProgrammingLanguage/JavaScript/1.자바스크립트구조/14.eval/eval.md",
+    "ProgrammingLanguage/JavaScript/1.자바스크립트구조/4.자료구조/자료구조.md",
+    "ProgrammingLanguage/JavaScript/1.자바스크립트구조/13.참조타입/참조타입.md",
+    "ProgrammingLanguage/JavaScript/1.자바스크립트구조/7.Class/Class.md",
+    "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/4.이벤트/UI이벤트.md",
+    "ProgrammingLanguage/JavaScript/1.자바스크립트구조/10.비동기처리/비동기처리.md",
+    "ProgrammingLanguage/JavaScript/1.자바스크립트구조/11.제너레이터/제너레이터.md",
+    "ProgrammingLanguage/JavaScript/1.자바스크립트구조/2.변수와연산자/변수와연산자.md",
+    "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/2.DOM/Images/DOM.PNG",
+    "ProgrammingLanguage/JavaScript/1.자바스크립트구조/3.조건문과반복문/조건문과반복문.md",
+    "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/1.브라우저환경/브라우저환경.md",
+    "ProgrammingLanguage/JavaScript/1.자바스크립트구조/15.Proxy/Proxy와Reflect.md",
+    "ProgrammingLanguage/JavaScript/1.자바스크립트구조/1.JavaScript/JavaScript.md",
+    "ProgrammingLanguage/JavaScript/1.자바스크립트구조/11.제너레이터/Images/Jsgen1.png",
+    "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/2.DOM/Images/DOM_append.PNG",
+    "ProgrammingLanguage/JavaScript/1.자바스크립트구조/7.Class/images/Jsclass1.png",
+    "ProgrammingLanguage/JavaScript/1.자바스크립트구조/7.Class/images/Jsclass3.PNG",
+    "ProgrammingLanguage/JavaScript/1.자바스크립트구조/7.Class/images/Jsclass2.PNG",
+    "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/2.DOM/Images/DOM_tree.PNG",
+    "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/4.이벤트/Images/Bubbling.PNG",
+    "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/4.이벤트/Images/Carousel.PNG",
+    "ProgrammingLanguage/JavaScript/1.자바스크립트구조/7.Class/images",
+    "ProgrammingLanguage/JavaScript/1.자바스크립트구조/11.제너레이터/Images",
+    "ProgrammingLanguage/JavaScript/1.자바스크립트구조/10.비동기처리/Images",
+    "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/2.DOM/Images",
+    "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/4.이벤트/Images",
+    "ProgrammingLanguage/JavaScript/1.자바스크립트구조/1.JavaScript/Images",
+    "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/1.브라우저환경/Images",
+    "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/3.사이즈스크롤좌표/Images",
+    "ProgrammingLanguage/JavaScript/1.자바스크립트구조/5.함수",
+    "ProgrammingLanguage/JavaScript/1.자바스크립트구조/12.모듈",
     "무제 파일.canvas"
   ]
 }

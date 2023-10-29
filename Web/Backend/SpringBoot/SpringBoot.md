@@ -493,6 +493,14 @@ public interface BoardRepository extends JpaRepository<Board, Long> {
 	- `Not`
 	- `In`
 
+네이티브쿼리
+QueryDSL
+
+---
+# 7. 연관관계 매핑
+
+
+
 ---
 >[[Backend]]
 #SpringBoot #Annotation #IoC #DI

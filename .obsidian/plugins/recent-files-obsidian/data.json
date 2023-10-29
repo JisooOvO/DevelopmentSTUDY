@@ -1,44 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "Main",
-      "path": "Head/Main.md"
-    },
-    {
-      "basename": "UI이벤트",
-      "path": "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/4.이벤트/UI이벤트.md"
-    },
-    {
-      "basename": "이벤트",
-      "path": "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/4.이벤트/이벤트.md"
-    },
-    {
-      "basename": "사이즈스크롤좌표",
-      "path": "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/3.사이즈스크롤좌표/사이즈스크롤좌표.md"
-    },
-    {
-      "basename": "ElementSize",
-      "path": "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/3.사이즈스크롤좌표/Images/ElementSize.PNG"
-    },
-    {
-      "basename": "BrowserSize",
-      "path": "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/3.사이즈스크롤좌표/Images/BrowserSize.PNG"
-    },
-    {
-      "basename": "DOMRect",
-      "path": "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/3.사이즈스크롤좌표/Images/DOMRect.PNG"
-    },
-    {
       "basename": "CSS프로퍼티",
       "path": "Web/Frontend/CSS/CSS프로퍼티.md"
     },
     {
-      "basename": "CSS",
-      "path": "Web/Frontend/CSS/CSS.md"
+      "basename": "DOM",
+      "path": "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/2.DOM/DOM.md"
     },
     {
-      "basename": "DOM",
-      "path": "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/2.DOM/DOM.md"
+      "basename": "문서조작하기",
+      "path": "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/2.DOM/문서조작하기.md"
+    },
+    {
+      "basename": "객체프로퍼티와프로토타입",
+      "path": "ProgrammingLanguage/JavaScript/1.자바스크립트구조/6.객체와메서드/객체프로퍼티와프로토타입.md"
+    },
+    {
+      "basename": "객체와메서드",
+      "path": "ProgrammingLanguage/JavaScript/1.자바스크립트구조/6.객체와메서드/객체와메서드.md"
+    },
+    {
+      "basename": "Main",
+      "path": "Head/Main.md"
+    },
+    {
+      "basename": "사이즈스크롤좌표",
+      "path": "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/3.사이즈스크롤좌표/사이즈스크롤좌표.md"
+    },
+    {
+      "basename": "이벤트",
+      "path": "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/4.이벤트/이벤트.md"
+    },
+    {
+      "basename": "CSS",
+      "path": "Web/Frontend/CSS/CSS.md"
     },
     {
       "basename": "소수분해알고리즘",
@@ -57,24 +53,8 @@
       "path": "Web/Frontend/HTML/HTMLStatusCode.md"
     },
     {
-      "basename": "JavaScript",
-      "path": "ProgrammingLanguage/JavaScript/자바스크립트구조/1.JavaScript/JavaScript.md"
-    },
-    {
-      "basename": "JAVA",
-      "path": "ProgrammingLanguage/JAVA/JAVA.md"
-    },
-    {
-      "basename": "브라우저환경",
-      "path": "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/1.브라우저환경/브라우저환경.md"
-    },
-    {
       "basename": "HTML",
       "path": "Web/Frontend/HTML/HTML.md"
-    },
-    {
-      "basename": "객체프로퍼티와프로토타입",
-      "path": "ProgrammingLanguage/JavaScript/자바스크립트구조/6.객체와메서드/객체프로퍼티와프로토타입.md"
     }
   ],
   "omittedPaths": [],

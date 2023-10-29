@@ -200,5 +200,4 @@ document.addEventListener('DOMContentLoaded', () => {
 ```
 
 ---
->[[Programming Language]]
 #JavaScript 

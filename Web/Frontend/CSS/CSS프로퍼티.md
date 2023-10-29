@@ -366,6 +366,14 @@ debugInConsole: false # Print debug info in Obsidian console
 	- 속성
 		- `infinite` : 무한
 
+## 6-1 스크롤 효과
+
+- `scroll-behavior : <속성>` : 페이지 스크롤 동작 방식 명시. `HTML`의 CSS로 지정
+	- 속성
+		- `smooth` : 부드럽게 스크롤(default)
+		- `auto` : 즉시 스크롤
+
+
 ---
 # 7. 변형효과(transform)
 
@@ -454,9 +462,12 @@ initial-scal=1.0">
 		- orientation :
 			- portrait : 세로모드, 세로 높이 > 가로 너비
 			- landscape : 가로모드, 가로 너비 > 세로 높이
+		- width / height
+		- device-width / device-height
+		- resolution : 해상도
 
 	< and | or | not > 
-	
+
 	( <media feature> ) {
 		/* CSS 코드 */
 	}
@@ -467,6 +478,48 @@ initial-scal=1.0">
 @media (min-height: 680px), screen and (orientation: portrait) { ... }
 ```
 
+## 8-1 스타일 방법
+
+- Mobile first : 작은 뷰포트 우선 설계
+```
+#something {
+	...
+}
+
+@media(min-width:680px){
+	...
+}
+```
+
+- Desktop first : 큰 뷰포트 우선 설계
+```
+#something {
+	...
+}
+
+@media(max-width:680px){
+	...
+}
+```
+
+
+---
+# 9. 상속
+
+- `unset` :
+>부모로부터 상속값이 존재시 상속값을, 그렇지 않으면 초기값
+
+- `initial` :
+> 브라우저가 지정한 초기값
+
+- `inherit` :
+> 부모 요소로부터 해당 속성의 계산 값 사용
+
+- `revert` :
+> 브라우저 속성이 있다면 커스텀 스타일로, 커스텀 스타일이 있다면 브라우저 기본 스타일로 변경
+
+- `all` :
+> 모든 요소에 `inital, inherit, unset, revert` 중 하나를 사용
 
 ---
 >[[CSS]]

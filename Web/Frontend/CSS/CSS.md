@@ -298,5 +298,4 @@ body a {
 		- `inline-block`
 
 ---
->[[Frontend]]
 #css

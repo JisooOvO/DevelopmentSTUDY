@@ -77,67 +77,56 @@
     "inheritanceIcon": "FarFile"
   },
   "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스": {
-    "iconName": "FarFolderOpen",
+    "iconName": null,
     "inheritanceIcon": "FarFile"
   },
-  "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/1.브라우저환경": "FarFolderOpen",
-  "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/2.DOM": "FarFolderOpen",
-  "ProgrammingLanguage/JavaScript/자바스크립트구조": "FarFolderOpen",
-  "ProgrammingLanguage/JavaScript/React": "FarFolderOpen",
-  "ProgrammingLanguage/JAVA/Servlet": "FarFolderOpen",
   "ProgrammingLanguage/JAVA/SpringBoot": {
-    "iconName": "FarFolderOpen",
+    "iconName": null,
     "inheritanceIcon": "FarFile"
   },
   "Head/Main.md": "FarNewspaper",
   "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/1.브라우저환경/Images": {
-    "iconName": "FarFolderOpen",
+    "iconName": null,
     "inheritanceIcon": "FarImage"
   },
-  "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/1.브라우저환경/브라우저환경.md": "FarFile",
-  "ProgrammingLanguage/JavaScript/자바스크립트구조/1.JavaScript": "FarFolderOpen",
   "ProgrammingLanguage/JavaScript/자바스크립트구조/1.JavaScript/Images": {
-    "iconName": "FarFolderOpen",
+    "iconName": null,
     "inheritanceIcon": "FarImage"
   },
-  "ProgrammingLanguage/JavaScript/자바스크립트구조/1.JavaScript/JavaScript.md": "FarFile",
   "ProgrammingLanguage/JavaScript/자바스크립트구조/2.변수와연산자": {
-    "iconName": "FarFolderOpen",
+    "iconName": null,
     "inheritanceIcon": "FarFile"
   },
   "ProgrammingLanguage/JavaScript/자바스크립트구조/3.조건문과반복문": {
-    "iconName": "FarFolderOpen",
+    "iconName": null,
     "inheritanceIcon": "FarFile"
   },
   "ProgrammingLanguage/JavaScript/자바스크립트구조/4.자료구조": {
-    "iconName": "FarFolderOpen",
+    "iconName": null,
     "inheritanceIcon": "FarFile"
   },
   "ProgrammingLanguage/JavaScript/자바스크립트구조/5.함수": {
-    "iconName": "FarFolderOpen",
+    "iconName": null,
     "inheritanceIcon": "FarFile"
   },
   "ProgrammingLanguage/JavaScript/자바스크립트구조/6.객체와메서드": {
-    "iconName": "FarFolderOpen",
+    "iconName": null,
     "inheritanceIcon": "FarFile"
   },
-  "ProgrammingLanguage/JavaScript/자바스크립트구조/7.Class": "FarFolderOpen",
   "ProgrammingLanguage/JavaScript/자바스크립트구조/7.Class/images": {
-    "iconName": "FarFolderOpen",
+    "iconName": null,
     "inheritanceIcon": "FarImage"
   },
-  "ProgrammingLanguage/JavaScript/자바스크립트구조/7.Class/Class.md": "FarFile",
   "ProgrammingLanguage/JavaScript/자바스크립트구조/8.JSON": {
-    "iconName": "FarFolderOpen",
+    "iconName": null,
     "inheritanceIcon": "FarFile"
   },
   "ProgrammingLanguage/JavaScript/자바스크립트구조/9.ErrorHandling": {
-    "iconName": "FarFolderOpen",
+    "iconName": null,
     "inheritanceIcon": "FarFile"
   },
-  "ProgrammingLanguage/JavaScript/자바스크립트구조/10.비동기처리": "FarFolderOpen",
   "ProgrammingLanguage/JavaScript/자바스크립트구조/10.비동기처리/Images": {
-    "iconName": "FarFolderOpen",
+    "iconName": null,
     "inheritanceIcon": "FarImage"
   },
   "ProgrammingLanguage/JavaScript/자바스크립트구조/10.비동기처리/비동기처리.md": {
@@ -145,41 +134,39 @@
     "inheritanceIcon": "FarFile"
   },
   "ProgrammingLanguage/JavaScript/자바스크립트구조/11.제너레이터": {
-    "iconName": "FarFolderOpen",
+    "iconName": null,
     "inheritanceIcon": "FarFile"
   },
   "ProgrammingLanguage/JavaScript/자바스크립트구조/11.제너레이터/Images": {
-    "iconName": "FarFolderOpen",
+    "iconName": null,
     "inheritanceIcon": "FarFile"
   },
   "ProgrammingLanguage/JavaScript/자바스크립트구조/12.모듈": {
-    "iconName": "FarFolderOpen",
+    "iconName": null,
     "inheritanceIcon": "FarFile"
   },
   "ProgrammingLanguage/JavaScript/자바스크립트구조/13.참조타입": {
-    "iconName": "FarFolderOpen",
+    "iconName": null,
     "inheritanceIcon": "FarFile"
   },
   "ProgrammingLanguage/JavaScript/자바스크립트구조/14.eval": {
-    "iconName": "FarFolderOpen",
+    "iconName": null,
     "inheritanceIcon": "FarFile"
   },
   "ProgrammingLanguage/JavaScript/자바스크립트구조/15.Proxy": {
-    "iconName": "FarFolderOpen",
+    "iconName": null,
     "inheritanceIcon": "FarFile"
   },
-  "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/3.사이즈스크롤좌표": "FarFolderOpen",
   "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/4.이벤트": {
-    "iconName": "FarFolderOpen",
+    "iconName": null,
     "inheritanceIcon": "FarFile"
   },
   "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/3.사이즈스크롤좌표/Images": {
-    "iconName": "FarFolderOpen",
+    "iconName": null,
     "inheritanceIcon": "FarImage"
   },
   "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/4.이벤트/Images": {
-    "iconName": "FarFolderOpen",
+    "iconName": null,
     "inheritanceIcon": "FarImage"
-  },
-  "ProgrammingLanguage/JavaScript/문서_이벤트_인터페이스/4.이벤트/이벤트.md": "FarFile"
+  }
 }
