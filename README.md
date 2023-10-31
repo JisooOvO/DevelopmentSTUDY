@@ -15,7 +15,7 @@
 	- [ ] ⏫ 브라우저
 	- [ ] ⏫ 추가주제
 	- [ ] ⏫ Typescript
-- [ ] 🔼 Python 
+- [ ] 🔼 Python
 	- [ ] ⏫ Python
 	- [ ] 🔼 Numpy
 	- [ ] 🔼 Pandas
@@ -28,7 +28,7 @@
 - [ ] 🔼 React
 	- [ ] ⏫ Hook
 	- [ ] ⏫ React DOM
-	- [ ] 🔼 React Chart/Graph
+	- [x] 🔼 React Chart/Graph ✅ 2023-10-31
 	- [ ] ⏫ LazyLoading & Scroll Paging
 		- [ ] Native Lazy Loading
 		- [ ] Intersection Observer

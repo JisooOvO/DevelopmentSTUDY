@@ -65,7 +65,7 @@ let response = fetch(url, {
 ```
 
 - `headers`를 통해 설정할 수 없는 [금지헤더](https://fetch.spec.whatwg.org/#forbidden-header-name)가 존재함
-	- - `Accept-Charset`, `Accept-Encoding`
+	- `Accept-Charset`, `Accept-Encoding`
 	- `Access-Control-Request-Headers`
 	- `Access-Control-Request-Method`
 	- `Connection`
@@ -85,7 +85,7 @@ let response = fetch(url, {
 	- `Via`
 	- `Proxy-*`
 	- `Sec-*`
-> HTTP의 목적에 맞고 안전하게 사용하는 헤더들 -> 브라우저만 배타적으로 설정, 관리할 수 있음
+> HTTP의 목적에 맞는 안전한 헤더, 브라우저만 배타적으로 설정, 관리할 수 있음
 
 ## 1-3 POST 요청
 
@@ -190,7 +190,7 @@ let blob = new Blob(chunks);
 	- `value` : byte의 배열(Uint8Array)
 
 ---
-# 3. Fetch 중단방법
+# 3. fetch 중단방법
 
 ## 3-1 AbortController
 
@@ -252,6 +252,104 @@ let result = await Promise.all([...fetchJobs, ourJob]);
 // 만약 controller.abort()가 어디에서든 호출되면
 // 모든 fetch와 ourJob이 중단됨
 ```
+
+---
+# 4. fetch API의 나머지 기능
+
+- 모든 옵션의 전체 목록
+```
+let promise = fetch(url, {
+	method : "GET" // POST, PUT, DELETE, ...
+	headers: {
+		"Content-Type" : "text/plain;charset=UTF-8",
+		...
+	},
+	body : undefined // string, FormData, Blob, BufferSource, ...
+	referrer : "about:client", // ""
+	referrerPolicy : "no-referrer-when-downgrade", // no-referrer, origin, same-origin
+	mode : "cors", // same-origin, no-cors
+	credentials : "same-origin", // omit, inlcude
+	cache : "default", // no-store, reload, no-cache, force-cache, only-if-cached
+	redirect : "follow", // manual, error
+	integrity : "", // hash
+	keepalive : true/false,
+	signal : undefined, // AbortController Property
+	window : window // null
+})
+```
+
+## 4-1 referrer, referrerPolicy
+
+- `Referer` 헤더를 추가하거나 제거하는 옵션
+>높은 보안 수준에서는 `Referer` 헤더를 삭제하거나 줄이는 것이 좋음
+
+- `referrerPolicy` : `Referer` 헤더에 담길 `referer` 컨텐츠를 정의
+
+|Value|To same origin|To another origin|HTTPS→HTTP|
+|---|---|---|---|
+|`"no-referrer"`|-|-|-|
+|`"no-referrer-when-downgrade"` or `""` (default)|full|full|-|
+|`"origin"`|origin|origin|origin|
+|`"origin-when-cross-origin"`|full|origin|origin|
+|`"same-origin"`|full|-|-|
+|`"strict-origin"`|origin|origin|-|
+|`"strict-origin-when-cross-origin"`|full|origin|-|
+|`"unsafe-url"`|full|full|full|
+
+## 4-2 mode
+
+- CORS 설정에 대한 방지책
+
+|Value|Content|
+|---|---|
+|"cors"|CORS 허용(default)|
+|"same-origin"|CORS 금지|
+|"no-cors"|단순 CORS 허용|
+
+## 4-3 credentials
+
+- 쿠키, HTTP 인증 헤더 요청을 보내는 옵션
+
+|Value|Content|
+|---|---|
+|"same-origin"|CORS 요청에 아무것도 보내지 않음(default)|
+|"include"|항상 자격 증명 전송|
+|"omit"|절대 보내지 않음|
+
+## 4-4 cache
+
+- HTTP 캐시에 대한 규칙 명시
+
+|Value|Content|
+|---|---|
+|"default"|표준 HTTP 캐시 규칙|
+|"no-store"|HTTP 캐시 무시|
+|"reload"|응답 헤더에 캐시 추가|
+|"no-cache"|캐시 응답시 조건부 요청 생성, 응답 헤더에 캐시 추가|
+|"force-cache"|오래된 캐시라도 사용, 캐시 응답 없을시에도 보통 HTTP 요청 생성|
+|"only-if-cached"|`mode : same-orgin`일 때만 동작, 캐시 없으면 에러 발생|
+
+> `If-Modified-Since, If-None-Match, If-Unmodified-Since, If-Match, If-Range` 헤더는
+> `"no-store"`가 디폴트 설정
+
+## 4-5 redirect
+
+|Value|Content|
+|---|---|
+|"follw"|리다이렉트 허용(default)|
+|"error"|리다이렉트시 오류|
+|"manual"|HTTP 리다이렉트 대신 `response.redirected : true`일 경우 수동으로 리다이렉트|
+
+## 4-6 integrity
+
+- 해시 함수를 이용하여 응답이 `known-ahead-checksum`과 일치하는지 확인
+
+## 4-7 keepalive
+
+- 웹페이지가 시작된 이후로부터 요청의 지속 여부를 명시
+> 문서가 unloaded될 때 네트워크 요청은 중단
+> `keepalive` 옵션은 브라우저에게 요청을 백그라운드로 수행할 것을 명시
+> 모든 `keepalive` 요청은 함께 전송되며 최대 크기는 64kb
 
 ---
 #fetch

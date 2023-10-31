@@ -13,7 +13,7 @@ debugInConsole: false # Print debug info in Obsidian console
 - 모던 자바스크립트는 JIT 컴파일 기술을 사용하여 성능 향상
 >수정하려는 HTML, CSS 보다 자바스크립트가 먼저 불러와질경우 오류 발생
 >스크립트를 별도의 파일로 저장할 경우 브라우저가 스크립트를 다운받아 캐시로 저장 
->성능 향상 및 트래픽 절약
+>또한 성능 향상 및 트래픽 절약의 효과가 있음
 
 # 1-1 엔진
 
@@ -129,8 +129,6 @@ use strict
 	- Mocha : 테스트 프레임워크(describe, it 등 테스팅 함수 제공)
 	- Chai : 다양한 assertion 제공
 	- Sinon : 함수의 정보 제공
-
-* 예시
 
 ```
 describe( "함수이름", function() ) {
