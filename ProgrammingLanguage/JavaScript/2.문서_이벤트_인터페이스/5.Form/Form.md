@@ -93,6 +93,7 @@ option = new Option(text, value, defaultSelected, selected);
 
 - `focus` : 사용자가 폼 요소를 클릭하거나 `Tab`키로 해당 요소 이동시 발생
 - `blur` :  해당 폼에서 포커스를 잃을 때 발생
+- 현재 포커스된 요소는 `document.activeElement`를 통해 확인 가능
 ```
 // 이메일에 @ 이 있는지 검증하는 코드
 <body>
@@ -128,4 +129,86 @@ input.onfocus = function() {
 
 ## 1-4 tabindex
 
-웅앵
+- `div, span, table` 등의 요소는 focus를 지원하지 않음
+- `tabindex : <숫자>` 속성을 사용하면 요소의 종류와 상관없이 포커스가 가능
+> Tab 키를 눌렀을 때 숫자가 1인 요소부터 큰 수로 이동
+> 0일 경우 `tabindex`가 없는 것처럼 동작(`tabindex` 값 설정된 요소 이후에 포커스)
+> 음수일 경우 Tab으로 이동할 경우 무시됨
+
+- `tabindex`로 포커스된 요소는 `:focus`를 이용하여 스타일 변경 가능
+
+## 1-5 focusin / focusout
+
+- `focus, blur`는 버블링되지 않고 캡처링됨
+>따라서 form에 focus 이벤트를 설정시 form 내부의 input 요소가 focus될 경우 해당 이벤트 발생 X
+
+- `focusin, focus` 이벤트의 경우 버블링이 됨
+>단 `on<event>` 방식으로 핸들러 추가하면 안됨
+
+```
+<form id="form" onfocus="this.className='focused'"> // focus는 버블링되지 않음!
+	<input type="text" name="surname" value="성">
+	<input type="text" name="name" value="이름">
+</form>
+
+<script>
+	const form = document.querySelector('form')
+	
+	// 2 번째 인자로 true를 주면 캡처링에서 동작
+	form.addEventListener("focus", ()=>form.classList.add('focused'),true)
+
+	// focusin 이벤트 발생
+	form.addEventListener("focusin", ()=>form.classList.add('focused'))
+</script>
+```
+
+---
+# 2. 데이터 조작 이벤트
+
+## 2-1 change
+
+- 요소 변경이 끝나면(focus 상실) 이벤트 발생
+```
+<select onchange=...>
+...
+```
+
+## 2-2 input
+
+- 사용자가 값을 수정할 때마다 발생
+- 화살표 버튼과 같은 값을 변경시키지 않는 동작에는 반응 X
+- 값이 수정되자마자 발생하므로 `event.preventDefault()`로 동작을 막을 수 없음
+```
+<input type="text" id="input"> ...
+
+<script>
+	input.oninput = function(){
+		...
+	}
+</script>
+```
+
+## 2-3 cut, copy, paste
+
+- ClipboardEvent 클래스의 하위 클래스
+- `event.clipboardData` 프로퍼티를 통해 클립보드에 저장된 데이터 읽고 쓰기 가능
+- 텍스트뿐만 아니라 모든 것을 복사, 붙여넣기 가능
+>모든 브라우저에서 `dispatchEvent`를 사용하여 커스텀 클립보드 이벤트 생성하는 것을 금지
+
+## 2-4 submit
+
+- 폼을 서버에 전송할 때, 검증, 취소시 사용하는 이벤트
+
+### 2-4-1 폼 전송 방법
+
+- `<input type="submit"> , <input type="image">` 클릭
+- `<input>` 필드 내에서 Enter 클릭
+>Enter 키를 누를 경우  `click` 이벤트가 트리거
+
+- 데이터에 에러 존재할 경우 에러 출력 및 `event.preventDefault()` 호출
+
+### 2-4-2 submit 메서드
+
+- `form.submit()` 메서드 호출시 자바스크립트로 직접 폼을 서버에 전송 가능
+> `submit` 이벤트는 따로 발생하지 않음
+

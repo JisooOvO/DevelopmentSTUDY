@@ -32,13 +32,14 @@
 15. [eval](./ProgrammingLanguage/JavaScript/1.자바스크립트구조/14.eval/eval.md)
 16. [Proxy와 Reflect](./ProgrammingLanguage/JavaScript/1.자바스크립트구조/15.Proxy/Proxy와Reflect.md)
 ##### 🎁 문서, 이벤트, 인터페이스
-01. [브라우저 환경](./ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/1.브라우저환경/브라우저환경.md)
+01. [브라우저 환경과 스크립트](./ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/1.브라우저환경과스크립트/브라우저환경과스크립트.md)
 02. [DOM](./ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/2.DOM/DOM.md)
 03. [문서 조작하기](./ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/2.DOM/문서조작하기.md)
 04. [사이즈와 스크롤, 좌표](./ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/3.사이즈스크롤좌표/사이즈스크롤좌표.md)
-05. [이벤트](./ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/4.이벤트/이벤트.md) 
+05. [자바스크립트 이벤트](./ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/4.이벤트/이벤트.md) 
 06. [UI 이벤트](./ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/4.이벤트/UI이벤트.md) 
-07. [Form](./ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/5.Form/Form.md)
+07. [Form 조작 이벤트](./ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/5.Form/Form.md)
+~~08. [팝업]~~
 ##### 🎁 네트워크와 파일
 ##### 🎁 웹 컴포넌트
 ##### 🎁 정규 표현식
