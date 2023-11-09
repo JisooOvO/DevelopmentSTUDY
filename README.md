@@ -1,66 +1,54 @@
-# 😀 Hello World
-> This is head of my Archive
----
 # 🎈 STUDY NOTE
+---
+## ✨ Web
 
-[STUDY NOTE](./Head/Main.md)
+### 🎊 Frontend
+#### 🎉 Internet
+#### 🎉 Browser
+#### 🎉 HTML
+01. [HTML](./Web/Frontend/HTML/HTML.md)
+02. [HTML Body Tag](./Web/Frontend/HTML/HTMLBodyTag.md)
+03. [HTML Validations](./Web/Frontend/HTML/HTMLValidations.md)
+04. [HTML Status Code](./Web/Frontend/HTML/HTMLStatusCode.md)
+#### 🎉 CSS
+01. [CSS](./Web/Frontend/CSS/CSS.md)
+02. [CSS 프로퍼티](./Web/Frontend/CSS/CSS프로퍼티.md)
+#### 🎉 Javascript
+##### 🎁 Javascript 구조
+01. [JavaScript](./ProgrammingLanguage/JavaScript/1.자바스크립트구조/1.JavaScript/JavaScript.md)
+02. [변수와 연산자](./ProgrammingLanguage/JavaScript/1.자바스크립트구조/2.변수와연산자/변수와연산자.md)
+03. [조건문과 반복문](./ProgrammingLanguage/JavaScript/1.자바스크립트구조/3.조건문과반복문/조건문과반복문.md)
+04. [자료구조](./ProgrammingLanguage/JavaScript/1.자바스크립트구조/4.자료구조/자료구조.md)
+05. [함수](./ProgrammingLanguage/JavaScript/1.자바스크립트구조/5.함수/함수.md)
+06. [객체와 메서드](./ProgrammingLanguage/JavaScript/1.자바스크립트구조/6.객체와메서드/객체와메서드.md)
+07. [객체프로퍼티와 프로토타입](./ProgrammingLanguage/JavaScript/1.자바스크립트구조/6.객체와메서드/객체프로퍼티와프로토타입.md)
+08. [Class](./ProgrammingLanguage/JavaScript/1.자바스크립트구조/7.Class/Class.md)
+09. [JSON](./ProgrammingLanguage/JavaScript/1.자바스크립트구조/8.JSON/JSON.md)
+10. [Error Handling](./ProgrammingLanguage/JavaScript/1.자바스크립트구조/9.ErrorHandling/ErrorHandling.md)
+11. [비동기 처리](./ProgrammingLanguage/JavaScript/1.자바스크립트구조/10.비동기처리/비동기처리.md)
+12. [제너레이터](./ProgrammingLanguage/JavaScript/1.자바스크립트구조/11.제너레이터/제너레이터.md)
+13. [모듈](./ProgrammingLanguage/JavaScript/1.자바스크립트구조/12.모듈/모듈.md)
+14. [참조타입](./ProgrammingLanguage/JavaScript/1.자바스크립트구조/13.참조타입/참조타입.md)
+15. [eval](./ProgrammingLanguage/JavaScript/1.자바스크립트구조/14.eval/eval.md)
+16. [Proxy와 Reflect](./ProgrammingLanguage/JavaScript/1.자바스크립트구조/15.Proxy/Proxy와Reflect.md)
+##### 🎁 문서, 이벤트, 인터페이스
+01. [브라우저 환경](./ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/1.브라우저환경/브라우저환경.md)
+02. [DOM](./ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/2.DOM/DOM.md)
+03. [문서 조작하기](./ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/2.DOM/문서조작하기.md)
+04. [사이즈와 스크롤, 좌표](./ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/3.사이즈스크롤좌표/사이즈스크롤좌표.md)
+05. [이벤트](./ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/4.이벤트/이벤트.md) 
+06. [UI 이벤트](./ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/4.이벤트/UI이벤트.md) 
+07. [Form](./ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/5.Form/Form.md)
+##### 🎁 네트워크와 파일
+##### 🎁 웹 컴포넌트
+##### 🎁 정규 표현식
 
 ---
-# 😆TODO
+## ✨ Ref
 
-- [x] ⏫ 깃허브 내용 옮기기 ✅ 2023-10-16
-- [x] ⏫ README 정리 ✅ 2023-10-19
-- [ ] 🔼 자바스크립트 정리
-	- [x] ⏫ 코어 자바스크립트
-	- [ ] ⏫ 브라우저
-	- [ ] ⏫ 추가주제
-	- [ ] ⏫ Typescript
-- [ ] 🔼 Python
-	- [ ] ⏫ Python
-	- [ ] 🔼 Numpy
-	- [ ] 🔼 Pandas
-	- [ ] 🔼 scikit-learn
-- [ ] 🔼 JAVA
-	- [ ] ⏫ Core Java
-	- [ ] 🔼 Servlet
-	- [ ] ⏫ SpringBoot
-- [ ] 🔼 SQL
-- [ ] 🔼 React
-	- [ ] ⏫ Hook
-	- [ ] ⏫ React DOM
-	- [x] 🔼 React Chart/Graph ✅ 2023-10-31
-	- [ ] ⏫ LazyLoading & Scroll Paging
-		- [ ] Native Lazy Loading
-		- [ ] Intersection Observer
-	- [ ] ⏫ Skeleton
-	- [ ] ⏫ Redux
-- [ ] 🔼 CSS
-	- [ ] 🔼 Sass
-	- [ ] ⏫ TailwindCSS
+>[MDN](https://developer.mozilla.org/ko/)
 
----
-# 😇프로젝트
+>[JAVASCRIPT.INFO](https://ko.javascript.info/)
 
-- [ ] ⏫ nwitter
-- [ ] ⏫ 패스트캠퍼스 반응형 웹 프로젝트
-	- [ ] HTML, CSS, JS
-	- [ ] Canvas
-	- [ ] Three.js
+>[React.dev](https://react.dev/learn)
 
----
-# 😅 자격증
-
-- [ ] ⏫ 정보처리기사 실기
-- [ ] 🔼 SQLD
-- [ ] 🔼 빅데이터분석기사
-
----
-# 😨 관심
-
-- [ ] 🔼 NodeJS
-- [ ] 🔼 Flutter
-- [ ] 🔼 ReactNative
-- [ ] 🔼 Dart
-- [ ] 🔼 npm
-- [ ] 🔼 vite
----
