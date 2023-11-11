@@ -212,3 +212,5 @@ input.onfocus = function() {
 - `form.submit()` 메서드 호출시 자바스크립트로 직접 폼을 서버에 전송 가능
 > `submit` 이벤트는 따로 발생하지 않음
 
+---
+#form #focus #blur #tableindex

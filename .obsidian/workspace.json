@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6b947b383a746432",
+        "id": "5d34b77c4ee29620",
         "type": "tabs",
         "children": [
           {
-            "id": "0bc8ba193973ebd1",
+            "id": "98e0782832f35cac",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/5.Form/Form.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           }
         ]
@@ -93,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/5.Form/Form.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/5.Form/Form.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/5.Form/Form.md"
+                "file": "README.md"
               }
             }
           }
@@ -152,54 +154,53 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "0bc8ba193973ebd1",
+  "active": "98e0782832f35cac",
   "lastOpenFiles": [
+    "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/6.Popup/팝업.md",
+    "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/6.Popup",
+    "README.md",
+    "Web/HTML/HTML.md",
+    "Web/HTML/HTMLBodyTag.md",
+    "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/3.사이즈_스크롤_좌표/사이즈_스크롤_좌표.md",
+    "ProgrammingLanguage/JavaScript/1.자바스크립트구조/1.JavaScript/JavaScript.md",
+    "Web/HTTP",
+    "Algorithm/소수분해알고리즘.md",
+    "Web/HTML/HTMLValidations.md",
+    "Web/HTML/HTMLValidations.md",
+    "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/2.DOM/MutationObserver.md",
+    "Web/HTTP/HttpStatusCode.md",
+    "Web/HTML/HttpStatusCode.md",
+    "Web/CSS/CSS프로퍼티.md",
+    "ProgrammingLanguage/JavaScript/1.자바스크립트구조/4.자료구조/자료구조.md",
     "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/1.브라우저환경과스크립트/브라우저환경과스크립트.md",
+    "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/2.DOM/문서조작하기.md",
+    "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/2.DOM/DOM.md",
+    "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/5.Form/Form.md",
+    "Head/TODO.md",
+    "Web/Browser/SEO.md",
+    "Web/Internet/DNS.md",
+    "Web/HTTP/HTTP.md",
+    "Web/Browser/Browser.md",
+    "Web/Internet/Hosting.md",
+    "Web/Internet/Internet.md",
+    "Web/Internet/Images/padlock.PNG",
+    "Web/Internet/Images",
+    "Web/HTML",
+    "Web/Browser",
+    "Web/Internet",
     "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/1.브라우저환경과스크립트/Images/beforeunload.PNG",
     "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/1.브라우저환경과스크립트/Images/jsbrowser.png",
     "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/1.브라우저환경과스크립트/Images",
     "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/1.브라우저환경과스크립트",
-    "Web/Frontend/CSS/CSS프로퍼티.md",
-    "Head/TODO.md",
     "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/4.이벤트/Images/keyboard.PNG",
     "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/5.Form/Images/form.PNG",
-    "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/5.Form/Form.md",
     "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/5.Form/Images",
     "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/5.Form",
-    "ProgrammingLanguage/JavaScript/3.네트워크와파일/2.네트워크/WebSocket.md",
-    "ProgrammingLanguage/JavaScript/3.네트워크와파일/2.네트워크/fetch.md",
-    "ProgrammingLanguage/JavaScript/3.네트워크와파일/2.네트워크/CORS.md",
-    "ProgrammingLanguage/JavaScript/3.네트워크와파일/2.네트워크/Polling.md",
     "ProgrammingLanguage/JavaScript/3.네트워크와파일/2.네트워크/Images/CORS.PNG",
-    "ProgrammingLanguage/JavaScript/3.네트워크와파일/2.네트워크/ServerSentEvents.md",
     "ProgrammingLanguage/JavaScript/3.네트워크와파일/2.네트워크/Images/WebSocket.PNG",
     "ProgrammingLanguage/JavaScript/3.네트워크와파일/2.네트워크/Images/CORSunsafe.PNG",
     "ProgrammingLanguage/JavaScript/3.네트워크와파일/2.네트워크/Images/LongPolling.PNG",
     "ProgrammingLanguage/JavaScript/3.네트워크와파일/1.데이터파일/Images/URLcomponents.PNG",
-    "ProgrammingLanguage/JavaScript/3.네트워크와파일/2.네트워크/Cross-window-Communication.md",
-    "ProgrammingLanguage/JavaScript/3.네트워크와파일/1.데이터파일/FormData,URL,XMLHttpRequest.md",
-    "ProgrammingLanguage/JavaScript/3.네트워크와파일/2.네트워크/Images",
-    "ProgrammingLanguage/JavaScript/3.네트워크와파일/1.데이터파일/Images",
-    "ProgrammingLanguage/JavaScript/3.네트워크와파일/2.네트워크",
-    "ProgrammingLanguage/JavaScript/3.네트워크와파일/1.데이터파일",
-    "ProgrammingLanguage/JavaScript/3.네트워크와파일/3.쿠키와데이터베이스",
-    "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/2.DOM/DOM.md",
-    "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/2.DOM/문서조작하기.md",
-    "ProgrammingLanguage/JavaScript/1.자바스크립트구조/6.객체와메서드/객체프로퍼티와프로토타입.md",
-    "ProgrammingLanguage/JavaScript/1.자바스크립트구조/6.객체와메서드/객체와메서드.md",
-    "Head/Main.md",
-    "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/3.사이즈스크롤좌표/사이즈스크롤좌표.md",
-    "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/4.이벤트/이벤트.md",
-    "ProgrammingLanguage/JavaScript/3.네트워크와파일/CORS.PNG",
-    "ProgrammingLanguage/JavaScript/3.네트워크와파일/CORS.md",
-    "ProgrammingLanguage/JavaScript/3.네트워크와파일/FormData.md",
-    "ProgrammingLanguage/JavaScript/3.네트워크와파일/fetch.md",
-    "ProgrammingLanguage/JavaScript/1.자바스크립트구조/5.함수/함수.md",
-    "ProgrammingLanguage/JavaScript/1.자바스크립트구조/12.모듈/모듈.md",
-    "ProgrammingLanguage/JavaScript/1.자바스크립트구조/8.JSON/JSON.md",
-    "ProgrammingLanguage/JavaScript/1.자바스크립트구조/14.eval/eval.md",
-    "ProgrammingLanguage/JavaScript/1.자바스크립트구조/4.자료구조/자료구조.md",
-    "ProgrammingLanguage/JavaScript/1.자바스크립트구조/7.Class/images",
     "무제 파일.canvas"
   ]
 }

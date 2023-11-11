@@ -1,20 +1,72 @@
 {
   "recentFiles": [
     {
-      "basename": "Form",
-      "path": "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/5.Form/Form.md"
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "팝업",
+      "path": "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/6.Popup/팝업.md"
+    },
+    {
+      "basename": "HTML",
+      "path": "Web/HTML/HTML.md"
+    },
+    {
+      "basename": "HTMLBodyTag",
+      "path": "Web/HTML/HTMLBodyTag.md"
+    },
+    {
+      "basename": "사이즈_스크롤_좌표",
+      "path": "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/3.사이즈_스크롤_좌표/사이즈_스크롤_좌표.md"
+    },
+    {
+      "basename": "JavaScript",
+      "path": "ProgrammingLanguage/JavaScript/1.자바스크립트구조/1.JavaScript/JavaScript.md"
+    },
+    {
+      "basename": "소수분해알고리즘",
+      "path": "Algorithm/소수분해알고리즘.md"
+    },
+    {
+      "basename": "HTMLValidations",
+      "path": "Web/HTML/HTMLValidations.md"
+    },
+    {
+      "basename": "MutationObserver",
+      "path": "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/2.DOM/MutationObserver.md"
+    },
+    {
+      "basename": "HttpStatusCode",
+      "path": "Web/HTTP/HttpStatusCode.md"
     },
     {
       "basename": "CSS프로퍼티",
-      "path": "Web/Frontend/CSS/CSS프로퍼티.md"
+      "path": "Web/CSS/CSS프로퍼티.md"
+    },
+    {
+      "basename": "자료구조",
+      "path": "ProgrammingLanguage/JavaScript/1.자바스크립트구조/4.자료구조/자료구조.md"
+    },
+    {
+      "basename": "브라우저환경과스크립트",
+      "path": "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/1.브라우저환경과스크립트/브라우저환경과스크립트.md"
+    },
+    {
+      "basename": "문서조작하기",
+      "path": "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/2.DOM/문서조작하기.md"
     },
     {
       "basename": "DOM",
       "path": "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/2.DOM/DOM.md"
     },
     {
-      "basename": "문서조작하기",
-      "path": "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/2.DOM/문서조작하기.md"
+      "basename": "Form",
+      "path": "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/5.Form/Form.md"
+    },
+    {
+      "basename": "TODO",
+      "path": "Head/TODO.md"
     },
     {
       "basename": "객체프로퍼티와프로토타입",
@@ -25,36 +77,12 @@
       "path": "ProgrammingLanguage/JavaScript/1.자바스크립트구조/6.객체와메서드/객체와메서드.md"
     },
     {
-      "basename": "사이즈스크롤좌표",
-      "path": "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/3.사이즈스크롤좌표/사이즈스크롤좌표.md"
-    },
-    {
       "basename": "이벤트",
       "path": "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/4.이벤트/이벤트.md"
     },
     {
       "basename": "CSS",
-      "path": "Web/Frontend/CSS/CSS.md"
-    },
-    {
-      "basename": "소수분해알고리즘",
-      "path": "Algorithm/소수분해알고리즘.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "HTMLValidations",
-      "path": "Web/Frontend/HTML/HTMLValidations.md"
-    },
-    {
-      "basename": "HTMLStatusCode",
-      "path": "Web/Frontend/HTML/HTMLStatusCode.md"
-    },
-    {
-      "basename": "HTML",
-      "path": "Web/Frontend/HTML/HTML.md"
+      "path": "Web/CSS/CSS.md"
     }
   ],
   "omittedPaths": [],

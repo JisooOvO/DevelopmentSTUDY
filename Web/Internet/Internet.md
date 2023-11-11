@@ -65,9 +65,9 @@ debugInConsole: false # Print debug info in Obsidian console
 
 >추가적인 보안 레이어를 제공(로그인 자격증명, 결제 정보 등 민감 정보 보호)
 <<<<<<< HEAD
->![[padlock.png]] Padlock icon 을 주소창에서 볼 수 있음
+>![[padlock.PNG]] Padlock icon 을 주소창에서 볼 수 있음
 =======
->![[padlock.png]]Padlock icon 을 주소창에서 볼 수 있음
+>![[padlock.PNG]]Padlock icon 을 주소창에서 볼 수 있음
 >>>>>>> 47dbc9534ef1e1940d6f873fcb411a25a36797a3
 
 ## 3-3 SSL/TLS 

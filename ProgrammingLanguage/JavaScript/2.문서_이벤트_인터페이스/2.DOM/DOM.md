@@ -421,5 +421,4 @@ alert(document.body.myData.title); // Imperator
 
 
 ---
->[[JavaScript]]
 #DOM
