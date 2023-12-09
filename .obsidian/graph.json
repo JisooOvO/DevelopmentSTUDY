@@ -1,8 +1,8 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "select",
   "showTags": false,
-  "showAttachments": false,
+  "showAttachments": true,
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,

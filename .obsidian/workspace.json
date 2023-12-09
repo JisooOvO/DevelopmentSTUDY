@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "5d34b77c4ee29620",
+        "id": "8177145d9ff8c8c8",
         "type": "tabs",
         "children": [
           {
-            "id": "98e0782832f35cac",
+            "id": "564e2c3678256692",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Web/HTTP/Http Status Code.md",
                 "mode": "source",
                 "source": false
-              },
-              "pinned": true
+              }
             }
           }
         ]
@@ -33,6 +31,7 @@
       {
         "id": "60ec1c3ce0380edf",
         "type": "tabs",
+        "dimension": 69.25465838509317,
         "children": [
           {
             "id": "9a9370d0c1a839df",
@@ -76,10 +75,31 @@
             }
           }
         ]
+      },
+      {
+        "id": "a05c1349cfbd2a3d",
+        "type": "tabs",
+        "dimension": 30.745341614906835,
+        "children": [
+          {
+            "id": "98e0782832f35cac",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 345.5
   },
   "right": {
     "id": "0626deaf1068fdca",
@@ -95,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Web/HTTP/Http Status Code.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Web/HTTP/Http Status Code.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Web/HTTP/Http Status Code.md"
               }
             }
           }
@@ -154,53 +174,54 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "98e0782832f35cac",
+  "active": "564e2c3678256692",
   "lastOpenFiles": [
-    "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/6.Popup/팝업.md",
-    "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/6.Popup",
     "README.md",
-    "Web/HTML/HTML.md",
-    "Web/HTML/HTMLBodyTag.md",
-    "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/3.사이즈_스크롤_좌표/사이즈_스크롤_좌표.md",
-    "ProgrammingLanguage/JavaScript/1.자바스크립트구조/1.JavaScript/JavaScript.md",
-    "Web/HTTP",
-    "Algorithm/소수분해알고리즘.md",
-    "Web/HTML/HTMLValidations.md",
-    "Web/HTML/HTMLValidations.md",
-    "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/2.DOM/MutationObserver.md",
-    "Web/HTTP/HttpStatusCode.md",
-    "Web/HTML/HttpStatusCode.md",
-    "Web/CSS/CSS프로퍼티.md",
-    "ProgrammingLanguage/JavaScript/1.자바스크립트구조/4.자료구조/자료구조.md",
-    "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/1.브라우저환경과스크립트/브라우저환경과스크립트.md",
-    "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/2.DOM/문서조작하기.md",
-    "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/2.DOM/DOM.md",
-    "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/5.Form/Form.md",
-    "Head/TODO.md",
-    "Web/Browser/SEO.md",
-    "Web/Internet/DNS.md",
-    "Web/HTTP/HTTP.md",
-    "Web/Browser/Browser.md",
-    "Web/Internet/Hosting.md",
-    "Web/Internet/Internet.md",
-    "Web/Internet/Images/padlock.PNG",
-    "Web/Internet/Images",
-    "Web/HTML",
-    "Web/Browser",
-    "Web/Internet",
-    "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/1.브라우저환경과스크립트/Images/beforeunload.PNG",
-    "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/1.브라우저환경과스크립트/Images/jsbrowser.png",
-    "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/1.브라우저환경과스크립트/Images",
-    "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/1.브라우저환경과스크립트",
-    "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/4.이벤트/Images/keyboard.PNG",
-    "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/5.Form/Images/form.PNG",
-    "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/5.Form/Images",
-    "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/5.Form",
-    "ProgrammingLanguage/JavaScript/3.네트워크와파일/2.네트워크/Images/CORS.PNG",
-    "ProgrammingLanguage/JavaScript/3.네트워크와파일/2.네트워크/Images/WebSocket.PNG",
-    "ProgrammingLanguage/JavaScript/3.네트워크와파일/2.네트워크/Images/CORSunsafe.PNG",
-    "ProgrammingLanguage/JavaScript/3.네트워크와파일/2.네트워크/Images/LongPolling.PNG",
-    "ProgrammingLanguage/JavaScript/3.네트워크와파일/1.데이터파일/Images/URLcomponents.PNG",
+    "TODO/TODO.md",
+    "Web/HTTP/Http Status Code.md",
+    "Programming Language/JavaScript/3. 네트워크와 파일/3. 브라우저 데이터 저장/Browser Storage.md",
+    "Programming Language/JavaScript/3. 네트워크와 파일/3. 브라우저 데이터 저장/IndexedDB.md",
+    "Programming Language/JavaScript/3. 네트워크와 파일/2. 네트워크/Server Sent Events.md",
+    "Programming Language/JavaScript/3. 네트워크와 파일/3. 브라우저 데이터 저장/Cookie.md",
+    "Programming Language/JavaScript/3. 네트워크와 파일/1. 데이터 파일/File과 FileReader.md",
+    "Programming Language/JavaScript/3. 네트워크와 파일/1. 데이터 파일/Blob.md",
+    "Programming Language/JavaScript/3. 네트워크와 파일/2. 네트워크/Cross-window Communication.md",
+    "Programming Language/JavaScript/3. 네트워크와 파일/2. 네트워크/Web Socket.md",
+    "Programming Language/JavaScript/3. 네트워크와 파일/1. 데이터 파일/ArrayBuffer.md",
+    "Programming Language/JavaScript/3. 네트워크와 파일/1. 데이터 파일/TextDecoder와 Encoder.md",
+    "Programming Language/JavaScript/3. 네트워크와 파일/1. 데이터 파일/Images/ArrayBuffer2.PNG",
+    "Programming Language/JavaScript/3. 네트워크와 파일/1. 데이터 파일/Images/ArrayBuffer.PNG",
+    "Programming Language/JavaScript/3. 네트워크와 파일/1. 데이터 파일/FormData.md",
+    "Programming Language/JavaScript/3. 네트워크와 파일/2. 네트워크/Fetch.md",
+    "Programming Language/JavaScript/3. 네트워크와 파일/1. 데이터 파일/URL.md",
+    "Programming Language/JavaScript/3. 네트워크와 파일/1. 데이터 파일/XMLHttpRequest.md",
+    "Programming Language/JavaScript/1. 자바스크립트 기초/6. 객체/객체와 메서드.md",
+    "Programming Language/JavaScript/1. 자바스크립트 기초/9. 에러 처리/에러 처리.md",
+    "Programming Language/JavaScript/2. 이벤트와 인터페이스/2. DOM/Element 생성과 스타일 조작.md",
+    "Programming Language/JavaScript/1. 자바스크립트 기초/10. 비동기 처리/비동기 처리.md",
+    "Programming Language/JavaScript/2. 이벤트와 인터페이스/4. 이벤트/UI이벤트.md",
+    "Programming Language/JavaScript/1. 자바스크립트 기초/1. 자바스크립트란/JavaScript.md",
+    "Programming Language/JavaScript/1. 자바스크립트 기초/13. Proxy/Proxy와 Reflect.md",
+    "Programming Language/JavaScript/1. 자바스크립트 기초/2. 변수, 연산자와 타입/참조타입.md",
+    "Programming Language/JavaScript/1. 자바스크립트 기초/2. 변수, 연산자와 타입/eval.md",
+    "Programming Language/JavaScript/2. 이벤트와 인터페이스/6. Selection과 Range/Images/Selection.PNG",
+    "Programming Language/JavaScript/2. 이벤트와 인터페이스/6. Selection과 Range/Images",
+    "Programming Language/JavaScript/2. 이벤트와 인터페이스/6. Selection과 Range",
+    "Programming Language/JavaScript/2. 이벤트와 인터페이스/8. 팝업",
+    "Programming Language/JavaScript/2. 이벤트와 인터페이스/7. 이벤트 루프/Images/nodejsSystem.PNG",
+    "Programming Language/JavaScript/2. 이벤트와 인터페이스/7. 이벤트 루프/Images/eventloop2.png",
+    "Programming Language/JavaScript/2. 이벤트와 인터페이스/7. 이벤트 루프/Images/eventloop.gif",
+    "Programming Language/JavaScript/2. 이벤트와 인터페이스/7. 이벤트 루프/Images",
+    "Programming Language/JavaScript/2. 이벤트와 인터페이스/7. 이벤트 루프",
+    "Programming Language/JavaScript/2. 이벤트와 인터페이스/6. 선택과 범위/Images/SelectionMouse.png",
+    "Programming Language/JavaScript/2. 이벤트와 인터페이스/6. 선택과 범위/Images/Selection.PNG",
+    "Programming Language/JavaScript/2. 이벤트와 인터페이스/6. 선택과 범위/Images",
+    "Programming Language/JavaScript/2. 이벤트와 인터페이스/6. 선택과 범위",
+    "Programming Language/JavaScript/2. 이벤트와 인터페이스/5. 폼 이벤트/Images/RangeExam2.PNG",
+    "Programming Language/JavaScript/2. 이벤트와 인터페이스/5. 폼 이벤트/Images/RangeExam.PNG",
+    "Programming Language/JavaScript/2. 이벤트와 인터페이스/5. 폼 이벤트/Images",
+    "Programming Language/JavaScript/2. 이벤트와 인터페이스/5. 폼 이벤트",
+    "Programming Language/JavaScript/2. 이벤트와 인터페이스/4. 이벤트/Images",
     "무제 파일.canvas"
   ]
 }

@@ -1,12 +1,144 @@
 {
   "recentFiles": [
     {
+      "basename": "Http Status Code",
+      "path": "Web/HTTP/Http Status Code.md"
+    },
+    {
       "basename": "README",
       "path": "README.md"
     },
     {
-      "basename": "팝업",
-      "path": "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/6.Popup/팝업.md"
+      "basename": "TODO",
+      "path": "TODO/TODO.md"
+    },
+    {
+      "basename": "Browser Storage",
+      "path": "Programming Language/JavaScript/3. 네트워크와 파일/3. 브라우저 데이터 저장/Browser Storage.md"
+    },
+    {
+      "basename": "IndexedDB",
+      "path": "Programming Language/JavaScript/3. 네트워크와 파일/3. 브라우저 데이터 저장/IndexedDB.md"
+    },
+    {
+      "basename": "Server Sent Events",
+      "path": "Programming Language/JavaScript/3. 네트워크와 파일/2. 네트워크/Server Sent Events.md"
+    },
+    {
+      "basename": "Cookie",
+      "path": "Programming Language/JavaScript/3. 네트워크와 파일/3. 브라우저 데이터 저장/Cookie.md"
+    },
+    {
+      "basename": "File과 FileReader",
+      "path": "Programming Language/JavaScript/3. 네트워크와 파일/1. 데이터 파일/File과 FileReader.md"
+    },
+    {
+      "basename": "Blob",
+      "path": "Programming Language/JavaScript/3. 네트워크와 파일/1. 데이터 파일/Blob.md"
+    },
+    {
+      "basename": "Cross-window Communication",
+      "path": "Programming Language/JavaScript/3. 네트워크와 파일/2. 네트워크/Cross-window Communication.md"
+    },
+    {
+      "basename": "Web Socket",
+      "path": "Programming Language/JavaScript/3. 네트워크와 파일/2. 네트워크/Web Socket.md"
+    },
+    {
+      "basename": "ArrayBuffer",
+      "path": "Programming Language/JavaScript/3. 네트워크와 파일/1. 데이터 파일/ArrayBuffer.md"
+    },
+    {
+      "basename": "TextDecoder와 Encoder",
+      "path": "Programming Language/JavaScript/3. 네트워크와 파일/1. 데이터 파일/TextDecoder와 Encoder.md"
+    },
+    {
+      "basename": "FormData",
+      "path": "Programming Language/JavaScript/3. 네트워크와 파일/1. 데이터 파일/FormData.md"
+    },
+    {
+      "basename": "Fetch",
+      "path": "Programming Language/JavaScript/3. 네트워크와 파일/2. 네트워크/Fetch.md"
+    },
+    {
+      "basename": "URL",
+      "path": "Programming Language/JavaScript/3. 네트워크와 파일/1. 데이터 파일/URL.md"
+    },
+    {
+      "basename": "XMLHttpRequest",
+      "path": "Programming Language/JavaScript/3. 네트워크와 파일/1. 데이터 파일/XMLHttpRequest.md"
+    },
+    {
+      "basename": "객체와 메서드",
+      "path": "Programming Language/JavaScript/1. 자바스크립트 기초/6. 객체/객체와 메서드.md"
+    },
+    {
+      "basename": "에러 처리",
+      "path": "Programming Language/JavaScript/1. 자바스크립트 기초/9. 에러 처리/에러 처리.md"
+    },
+    {
+      "basename": "Element 생성과 스타일 조작",
+      "path": "Programming Language/JavaScript/2. 이벤트와 인터페이스/2. DOM/Element 생성과 스타일 조작.md"
+    },
+    {
+      "basename": "비동기 처리",
+      "path": "Programming Language/JavaScript/1. 자바스크립트 기초/10. 비동기 처리/비동기 처리.md"
+    },
+    {
+      "basename": "UI이벤트",
+      "path": "Programming Language/JavaScript/2. 이벤트와 인터페이스/4. 이벤트/UI이벤트.md"
+    },
+    {
+      "basename": "JavaScript",
+      "path": "Programming Language/JavaScript/1. 자바스크립트 기초/1. 자바스크립트란/JavaScript.md"
+    },
+    {
+      "basename": "Proxy와 Reflect",
+      "path": "Programming Language/JavaScript/1. 자바스크립트 기초/13. Proxy/Proxy와 Reflect.md"
+    },
+    {
+      "basename": "참조타입",
+      "path": "Programming Language/JavaScript/1. 자바스크립트 기초/2. 변수, 연산자와 타입/참조타입.md"
+    },
+    {
+      "basename": "eval",
+      "path": "Programming Language/JavaScript/1. 자바스크립트 기초/2. 변수, 연산자와 타입/eval.md"
+    },
+    {
+      "basename": "프로퍼티와 프로토타입",
+      "path": "Programming Language/JavaScript/1. 자바스크립트 기초/6. 객체/프로퍼티와 프로토타입.md"
+    },
+    {
+      "basename": "Form",
+      "path": "Programming Language/JavaScript/2. 이벤트와 인터페이스/5. 폼 이벤트/Form.md"
+    },
+    {
+      "basename": "CSS프로퍼티",
+      "path": "Web/CSS/CSS프로퍼티.md"
+    },
+    {
+      "basename": "async-defer",
+      "path": "Programming Language/JavaScript/1. 자바스크립트 기초/1. 자바스크립트란/Images/async-defer.jpg"
+    },
+    {
+      "basename": "React",
+      "path": "정리중/React/React.md"
+    },
+    {
+      "basename": "SQL",
+      "path": "정리중/SQL/SQL.md"
+    },
+    {
+      "basename": "2.Python자료형",
+      "path": "정리중/Python/Python/2.Python자료형.md"
+    },
+    {
+      "basename": "1.Python",
+      "path": "정리중/Python/Python/1.Python.md"
+    },
+    {
+      "basename": "HTMLValidations",
+      "path": "Web/HTML/HTMLValidations.md"
     },
     {
       "basename": "HTML",
@@ -17,68 +149,8 @@
       "path": "Web/HTML/HTMLBodyTag.md"
     },
     {
-      "basename": "사이즈_스크롤_좌표",
-      "path": "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/3.사이즈_스크롤_좌표/사이즈_스크롤_좌표.md"
-    },
-    {
-      "basename": "JavaScript",
-      "path": "ProgrammingLanguage/JavaScript/1.자바스크립트구조/1.JavaScript/JavaScript.md"
-    },
-    {
       "basename": "소수분해알고리즘",
-      "path": "Algorithm/소수분해알고리즘.md"
-    },
-    {
-      "basename": "HTMLValidations",
-      "path": "Web/HTML/HTMLValidations.md"
-    },
-    {
-      "basename": "MutationObserver",
-      "path": "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/2.DOM/MutationObserver.md"
-    },
-    {
-      "basename": "HttpStatusCode",
-      "path": "Web/HTTP/HttpStatusCode.md"
-    },
-    {
-      "basename": "CSS프로퍼티",
-      "path": "Web/CSS/CSS프로퍼티.md"
-    },
-    {
-      "basename": "자료구조",
-      "path": "ProgrammingLanguage/JavaScript/1.자바스크립트구조/4.자료구조/자료구조.md"
-    },
-    {
-      "basename": "브라우저환경과스크립트",
-      "path": "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/1.브라우저환경과스크립트/브라우저환경과스크립트.md"
-    },
-    {
-      "basename": "문서조작하기",
-      "path": "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/2.DOM/문서조작하기.md"
-    },
-    {
-      "basename": "DOM",
-      "path": "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/2.DOM/DOM.md"
-    },
-    {
-      "basename": "Form",
-      "path": "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/5.Form/Form.md"
-    },
-    {
-      "basename": "TODO",
-      "path": "Head/TODO.md"
-    },
-    {
-      "basename": "객체프로퍼티와프로토타입",
-      "path": "ProgrammingLanguage/JavaScript/1.자바스크립트구조/6.객체와메서드/객체프로퍼티와프로토타입.md"
-    },
-    {
-      "basename": "객체와메서드",
-      "path": "ProgrammingLanguage/JavaScript/1.자바스크립트구조/6.객체와메서드/객체와메서드.md"
-    },
-    {
-      "basename": "이벤트",
-      "path": "ProgrammingLanguage/JavaScript/2.문서_이벤트_인터페이스/4.이벤트/이벤트.md"
+      "path": "정리중/Algorithm/소수분해알고리즘.md"
     },
     {
       "basename": "CSS",
