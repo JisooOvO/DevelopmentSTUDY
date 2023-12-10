@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "README.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -176,8 +176,11 @@
   },
   "active": "2eb0d37833dad4f9",
   "lastOpenFiles": [
-    "Programming Language/JavaScript/03. 네트워크와 파일/03. 브라우저 데이터 저장/Browser Storage.md",
+    "Web/HTML/HTML.md",
+    "Web/HTML/HTML Body Tag.md",
+    "Web/HTML/HTML Validations.md",
     "README.md",
+    "Programming Language/JavaScript/03. 네트워크와 파일/03. 브라우저 데이터 저장/Browser Storage.md",
     "Programming Language/JavaScript/03. 네트워크와 파일/03. 브라우저 데이터 저장/IndexedDB.md",
     "Programming Language/JavaScript/03. 네트워크와 파일/01. 데이터 파일/File과 FileReader.md",
     "Programming Language/JavaScript/03. 네트워크와 파일/01. 데이터 파일/XMLHttpRequest.md",
@@ -218,8 +221,6 @@
     "Programming Language/JavaScript/02. 이벤트와 인터페이스/08. 팝업/팝업.md",
     "Programming Language/JavaScript/02. 이벤트와 인터페이스/08. 팝업",
     "Programming Language/JavaScript/02. 이벤트와 인터페이스/05. 폼 이벤트/Form.md",
-    "Programming Language/JavaScript/02. 이벤트와 인터페이스/04. 이벤트/UI이벤트.md",
-    "Programming Language/JavaScript/02. 이벤트와 인터페이스/03. 사이즈와 좌표/사이즈와 좌표.md",
     "Programming Language/JavaScript/01. 자바스크립트 기초/12.모듈",
     "무제 파일.canvas"
   ]

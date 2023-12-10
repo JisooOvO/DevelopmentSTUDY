@@ -5,6 +5,18 @@
       "path": "README.md"
     },
     {
+      "basename": "HTML",
+      "path": "Web/HTML/HTML.md"
+    },
+    {
+      "basename": "HTML Body Tag",
+      "path": "Web/HTML/HTML Body Tag.md"
+    },
+    {
+      "basename": "HTML Validations",
+      "path": "Web/HTML/HTML Validations.md"
+    },
+    {
       "basename": "Browser Storage",
       "path": "Programming Language/JavaScript/03. 네트워크와 파일/03. 브라우저 데이터 저장/Browser Storage.md"
     },
@@ -167,18 +179,6 @@
     {
       "basename": "1.Python",
       "path": "정리중/Python/Python/1.Python.md"
-    },
-    {
-      "basename": "HTMLValidations",
-      "path": "Web/HTML/HTMLValidations.md"
-    },
-    {
-      "basename": "HTML",
-      "path": "Web/HTML/HTML.md"
-    },
-    {
-      "basename": "HTMLBodyTag",
-      "path": "Web/HTML/HTMLBodyTag.md"
     }
   ],
   "omittedPaths": [],

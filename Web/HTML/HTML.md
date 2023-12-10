@@ -184,10 +184,7 @@ debugInConsole: false # Print debug info in Obsidian console
 ## 2-3 Doctype 선언 종류
 
 ### 2-3-1  Legacy
-<<<<<<< HEAD
 
-=======
->>>>>>> 47dbc9534ef1e1940d6f873fcb411a25a36797a3
 - HTML 4.01 Strict
 ```
  <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">

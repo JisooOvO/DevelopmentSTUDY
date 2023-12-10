@@ -328,5 +328,4 @@ debugInConsole: false # Print debug info in Obsidian console
 	- data-* : 커스텀 속성
 
 ---
->[[HTML]]
 #HTMLtag
