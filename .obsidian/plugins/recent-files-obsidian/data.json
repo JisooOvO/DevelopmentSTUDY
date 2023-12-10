@@ -1,116 +1,148 @@
 {
   "recentFiles": [
     {
-      "basename": "Http Status Code",
-      "path": "Web/HTTP/Http Status Code.md"
-    },
-    {
       "basename": "README",
       "path": "README.md"
+    },
+    {
+      "basename": "Browser Storage",
+      "path": "Programming Language/JavaScript/03. 네트워크와 파일/03. 브라우저 데이터 저장/Browser Storage.md"
+    },
+    {
+      "basename": "IndexedDB",
+      "path": "Programming Language/JavaScript/03. 네트워크와 파일/03. 브라우저 데이터 저장/IndexedDB.md"
+    },
+    {
+      "basename": "File과 FileReader",
+      "path": "Programming Language/JavaScript/03. 네트워크와 파일/01. 데이터 파일/File과 FileReader.md"
+    },
+    {
+      "basename": "XMLHttpRequest",
+      "path": "Programming Language/JavaScript/03. 네트워크와 파일/01. 데이터 파일/XMLHttpRequest.md"
+    },
+    {
+      "basename": "Fetch",
+      "path": "Programming Language/JavaScript/03. 네트워크와 파일/02. 네트워크/Fetch.md"
+    },
+    {
+      "basename": "Polling",
+      "path": "Programming Language/JavaScript/03. 네트워크와 파일/02. 네트워크/Polling.md"
+    },
+    {
+      "basename": "Web Socket",
+      "path": "Programming Language/JavaScript/03. 네트워크와 파일/02. 네트워크/Web Socket.md"
+    },
+    {
+      "basename": "Server Sent Events",
+      "path": "Programming Language/JavaScript/03. 네트워크와 파일/02. 네트워크/Server Sent Events.md"
+    },
+    {
+      "basename": "FormData",
+      "path": "Programming Language/JavaScript/03. 네트워크와 파일/01. 데이터 파일/FormData.md"
+    },
+    {
+      "basename": "URL",
+      "path": "Programming Language/JavaScript/03. 네트워크와 파일/01. 데이터 파일/URL.md"
+    },
+    {
+      "basename": "이벤트루프와 매크로태스크",
+      "path": "Programming Language/JavaScript/02. 이벤트와 인터페이스/07. 이벤트 루프/이벤트루프와 매크로태스크.md"
+    },
+    {
+      "basename": "Selection&Range",
+      "path": "Programming Language/JavaScript/02. 이벤트와 인터페이스/06. 선택과 범위/Selection&Range.md"
+    },
+    {
+      "basename": "Form",
+      "path": "Programming Language/JavaScript/02. 이벤트와 인터페이스/05. 폼 이벤트/Form.md"
+    },
+    {
+      "basename": "UI이벤트",
+      "path": "Programming Language/JavaScript/02. 이벤트와 인터페이스/04. 이벤트/UI이벤트.md"
+    },
+    {
+      "basename": "사이즈와 좌표",
+      "path": "Programming Language/JavaScript/02. 이벤트와 인터페이스/03. 사이즈와 좌표/사이즈와 좌표.md"
+    },
+    {
+      "basename": "Mutation Observer",
+      "path": "Programming Language/JavaScript/02. 이벤트와 인터페이스/02. DOM/Mutation Observer.md"
+    },
+    {
+      "basename": "Element 생성과 스타일 조작",
+      "path": "Programming Language/JavaScript/02. 이벤트와 인터페이스/02. DOM/Element 생성과 스타일 조작.md"
+    },
+    {
+      "basename": "DOM",
+      "path": "Programming Language/JavaScript/02. 이벤트와 인터페이스/02. DOM/DOM.md"
+    },
+    {
+      "basename": "브라우저 환경과 스크립트",
+      "path": "Programming Language/JavaScript/02. 이벤트와 인터페이스/01. 브라우저와 스크립트/브라우저 환경과 스크립트.md"
+    },
+    {
+      "basename": "Proxy와 Reflect",
+      "path": "Programming Language/JavaScript/01. 자바스크립트 기초/13. Proxy/Proxy와 Reflect.md"
+    },
+    {
+      "basename": "참조타입",
+      "path": "Programming Language/JavaScript/01. 자바스크립트 기초/02. 변수, 연산자와 타입/참조타입.md"
+    },
+    {
+      "basename": "객체와 메서드",
+      "path": "Programming Language/JavaScript/01. 자바스크립트 기초/06. 객체/객체와 메서드.md"
+    },
+    {
+      "basename": "Class",
+      "path": "Programming Language/JavaScript/01. 자바스크립트 기초/07. 클래스/Class.md"
+    },
+    {
+      "basename": "에러 처리",
+      "path": "Programming Language/JavaScript/01. 자바스크립트 기초/09. 에러 처리/에러 처리.md"
+    },
+    {
+      "basename": "비동기 처리",
+      "path": "Programming Language/JavaScript/01. 자바스크립트 기초/10. 비동기 처리/비동기 처리.md"
+    },
+    {
+      "basename": "제너레이터",
+      "path": "Programming Language/JavaScript/01. 자바스크립트 기초/11. 제너레이터/제너레이터.md"
+    },
+    {
+      "basename": "JSON",
+      "path": "Programming Language/JavaScript/01. 자바스크립트 기초/08. JSON/JSON.md"
+    },
+    {
+      "basename": "프로퍼티와 프로토타입",
+      "path": "Programming Language/JavaScript/01. 자바스크립트 기초/06. 객체/프로퍼티와 프로토타입.md"
+    },
+    {
+      "basename": "함수",
+      "path": "Programming Language/JavaScript/01. 자바스크립트 기초/05. 함수/함수.md"
+    },
+    {
+      "basename": "조건문과 반복문",
+      "path": "Programming Language/JavaScript/01. 자바스크립트 기초/03. 조건문과 반복문/조건문과 반복문.md"
+    },
+    {
+      "basename": "변수와 연산자",
+      "path": "Programming Language/JavaScript/01. 자바스크립트 기초/02. 변수, 연산자와 타입/변수와 연산자.md"
+    },
+    {
+      "basename": "JavaScript",
+      "path": "Programming Language/JavaScript/01. 자바스크립트 기초/01. 자바스크립트란/JavaScript.md"
+    },
+    {
+      "basename": "Http Status Code",
+      "path": "Web/HTTP/Http Status Code.md"
     },
     {
       "basename": "TODO",
       "path": "TODO/TODO.md"
     },
     {
-      "basename": "Browser Storage",
-      "path": "Programming Language/JavaScript/3. 네트워크와 파일/3. 브라우저 데이터 저장/Browser Storage.md"
-    },
-    {
-      "basename": "IndexedDB",
-      "path": "Programming Language/JavaScript/3. 네트워크와 파일/3. 브라우저 데이터 저장/IndexedDB.md"
-    },
-    {
-      "basename": "Server Sent Events",
-      "path": "Programming Language/JavaScript/3. 네트워크와 파일/2. 네트워크/Server Sent Events.md"
-    },
-    {
-      "basename": "Cookie",
-      "path": "Programming Language/JavaScript/3. 네트워크와 파일/3. 브라우저 데이터 저장/Cookie.md"
-    },
-    {
-      "basename": "File과 FileReader",
-      "path": "Programming Language/JavaScript/3. 네트워크와 파일/1. 데이터 파일/File과 FileReader.md"
-    },
-    {
-      "basename": "Blob",
-      "path": "Programming Language/JavaScript/3. 네트워크와 파일/1. 데이터 파일/Blob.md"
-    },
-    {
-      "basename": "Cross-window Communication",
-      "path": "Programming Language/JavaScript/3. 네트워크와 파일/2. 네트워크/Cross-window Communication.md"
-    },
-    {
-      "basename": "Web Socket",
-      "path": "Programming Language/JavaScript/3. 네트워크와 파일/2. 네트워크/Web Socket.md"
-    },
-    {
-      "basename": "ArrayBuffer",
-      "path": "Programming Language/JavaScript/3. 네트워크와 파일/1. 데이터 파일/ArrayBuffer.md"
-    },
-    {
-      "basename": "TextDecoder와 Encoder",
-      "path": "Programming Language/JavaScript/3. 네트워크와 파일/1. 데이터 파일/TextDecoder와 Encoder.md"
-    },
-    {
-      "basename": "FormData",
-      "path": "Programming Language/JavaScript/3. 네트워크와 파일/1. 데이터 파일/FormData.md"
-    },
-    {
-      "basename": "Fetch",
-      "path": "Programming Language/JavaScript/3. 네트워크와 파일/2. 네트워크/Fetch.md"
-    },
-    {
-      "basename": "URL",
-      "path": "Programming Language/JavaScript/3. 네트워크와 파일/1. 데이터 파일/URL.md"
-    },
-    {
-      "basename": "XMLHttpRequest",
-      "path": "Programming Language/JavaScript/3. 네트워크와 파일/1. 데이터 파일/XMLHttpRequest.md"
-    },
-    {
-      "basename": "객체와 메서드",
-      "path": "Programming Language/JavaScript/1. 자바스크립트 기초/6. 객체/객체와 메서드.md"
-    },
-    {
-      "basename": "에러 처리",
-      "path": "Programming Language/JavaScript/1. 자바스크립트 기초/9. 에러 처리/에러 처리.md"
-    },
-    {
-      "basename": "Element 생성과 스타일 조작",
-      "path": "Programming Language/JavaScript/2. 이벤트와 인터페이스/2. DOM/Element 생성과 스타일 조작.md"
-    },
-    {
-      "basename": "비동기 처리",
-      "path": "Programming Language/JavaScript/1. 자바스크립트 기초/10. 비동기 처리/비동기 처리.md"
-    },
-    {
-      "basename": "UI이벤트",
-      "path": "Programming Language/JavaScript/2. 이벤트와 인터페이스/4. 이벤트/UI이벤트.md"
-    },
-    {
-      "basename": "JavaScript",
-      "path": "Programming Language/JavaScript/1. 자바스크립트 기초/1. 자바스크립트란/JavaScript.md"
-    },
-    {
-      "basename": "Proxy와 Reflect",
-      "path": "Programming Language/JavaScript/1. 자바스크립트 기초/13. Proxy/Proxy와 Reflect.md"
-    },
-    {
-      "basename": "참조타입",
-      "path": "Programming Language/JavaScript/1. 자바스크립트 기초/2. 변수, 연산자와 타입/참조타입.md"
-    },
-    {
       "basename": "eval",
-      "path": "Programming Language/JavaScript/1. 자바스크립트 기초/2. 변수, 연산자와 타입/eval.md"
-    },
-    {
-      "basename": "프로퍼티와 프로토타입",
-      "path": "Programming Language/JavaScript/1. 자바스크립트 기초/6. 객체/프로퍼티와 프로토타입.md"
-    },
-    {
-      "basename": "Form",
-      "path": "Programming Language/JavaScript/2. 이벤트와 인터페이스/5. 폼 이벤트/Form.md"
+      "path": "Programming Language/JavaScript/01. 자바스크립트 기초/02. 변수, 연산자와 타입/eval.md"
     },
     {
       "basename": "CSS프로퍼티",
@@ -118,7 +150,7 @@
     },
     {
       "basename": "async-defer",
-      "path": "Programming Language/JavaScript/1. 자바스크립트 기초/1. 자바스크립트란/Images/async-defer.jpg"
+      "path": "Programming Language/JavaScript/01. 자바스크립트 기초/01. 자바스크립트란/Images/async-defer.jpg"
     },
     {
       "basename": "React",
@@ -147,14 +179,6 @@
     {
       "basename": "HTMLBodyTag",
       "path": "Web/HTML/HTMLBodyTag.md"
-    },
-    {
-      "basename": "소수분해알고리즘",
-      "path": "정리중/Algorithm/소수분해알고리즘.md"
-    },
-    {
-      "basename": "CSS",
-      "path": "Web/CSS/CSS.md"
     }
   ],
   "omittedPaths": [],

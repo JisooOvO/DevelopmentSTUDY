@@ -7,6 +7,7 @@ debugInConsole: false # Print debug info in Obsidian console
 ---
 # 1. Http Status Code
 
+
 - HTTP 응답 상태 코드는 특정 HTTP 요청이 성공적으로 완료되었는지 알려줌
 - 응답은 5개의 그룹으로 나뉨 
 	- 정보 제공 응답
@@ -14,6 +15,7 @@ debugInConsole: false # Print debug info in Obsidian console
 	- 리다이렉트
 	- 클라이언트 에러
 	- 서버 에러
+
 > 상태 코드는 [section 10 of RFC 2616](https://tools.ietf.org/html/rfc2616#section-10)에 정의
 
 ---
