@@ -254,7 +254,7 @@ debugInConsole: false # Print debug info in Obsidian console
 
 # 6. 표(table)
 
-### 6-1 caption
+## 6-1 caption
 
 - 표 제목
 

@@ -1,4 +1,3 @@
-
 ```table-of-contents
 style: nestedList # TOC style (nestedList|inlineFirstLevel)
 maxLevel: 0 # Include headings up to the speficied level
@@ -6,6 +5,7 @@ includeLinks: true # Make headings clickable
 debugInConsole: false # Print debug info in Obsidian console
 ```
 ---
+# 보완이 필요한 문서
 # 1. 네트워크 
 
 - 컴퓨터나 다른 장치들이 서로 연결된 것

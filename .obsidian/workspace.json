@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Web/XML/XSL.md",
                 "mode": "source",
                 "source": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Web/XML/XSL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Web/XML/XSL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Web/XML/XSL.md"
               }
             }
           }
@@ -176,20 +176,43 @@
   },
   "active": "2eb0d37833dad4f9",
   "lastOpenFiles": [
-    "Web/HTML/HTML.md",
-    "Web/HTML/HTML Body Tag.md",
-    "Web/HTML/HTML Validations.md",
+    "Web/XML/XML.md",
+    "Web/XML/XSL.md",
     "README.md",
-    "Programming Language/JavaScript/03. 네트워크와 파일/03. 브라우저 데이터 저장/Browser Storage.md",
+    "Web/Internet/Internet.md",
+    "Web/XML",
+    "Web/Internet/Hosting.md",
+    "Web/Browser/Browser Rendering.md",
+    "Web/Browser/Browser.md",
+    "Web/Browser/Accessibility.md",
+    "Web/Internet/Domain Name.md",
+    "Web/Internet/DNS.md",
+    "Web/HTTP/Http Status Code.md",
+    "Web/HTTP/HTTP.md",
+    "Web/HTML/HTML Validations.md",
+    "Web/HTML/HTML Body Tag.md",
+    "Programming Language/JavaScript/04. 웹 컴포넌트/03. Template/Template.md",
     "Programming Language/JavaScript/03. 네트워크와 파일/03. 브라우저 데이터 저장/IndexedDB.md",
-    "Programming Language/JavaScript/03. 네트워크와 파일/01. 데이터 파일/File과 FileReader.md",
-    "Programming Language/JavaScript/03. 네트워크와 파일/01. 데이터 파일/XMLHttpRequest.md",
-    "Programming Language/JavaScript/03. 네트워크와 파일/02. 네트워크/Fetch.md",
-    "Programming Language/JavaScript/03. 네트워크와 파일/02. 네트워크/Polling.md",
-    "Programming Language/JavaScript/03. 네트워크와 파일/02. 네트워크/Web Socket.md",
-    "Programming Language/JavaScript/03. 네트워크와 파일/02. 네트워크/Server Sent Events.md",
-    "Programming Language/JavaScript/03. 네트워크와 파일/01. 데이터 파일/FormData.md",
-    "Programming Language/JavaScript/03. 네트워크와 파일/01. 데이터 파일/URL.md",
+    "정리중/Improve Web Performance and Accessibility.md",
+    "정리중/Messy.md",
+    "정리중/개발상식.md",
+    "정리중/npm/Nodemon.md",
+    "정리중/npm/Express.md",
+    "정리중/npm/Pug.md",
+    "정리중/npm/NPM.md",
+    "정리중/npm/Babel.md",
+    "Programming Language/JavaScript/04. 웹 컴포넌트/02. Shadow DOM/Shadow DOM.md",
+    "정리중/npm",
+    "Programming Language/JavaScript/04. 웹 컴포넌트/02. Shadow DOM/Images/ShadowDOM.PNG",
+    "Programming Language/JavaScript/04. 웹 컴포넌트/02. Shadow DOM/Images/ShadowDOM2.PNG",
+    "Programming Language/JavaScript/04. 웹 컴포넌트/01. Custom Element/Custom Element.md",
+    "Programming Language/JavaScript/04. 웹 컴포넌트/02. Shadow DOM/Images/ShadDOMSlot.PNG",
+    "Programming Language/JavaScript/04. 웹 컴포넌트/02. Shadow DOM/Images",
+    "Programming Language/JavaScript/04. 웹 컴포넌트/03. Template",
+    "Programming Language/JavaScript/04. 웹 컴포넌트/02. Shadow DOM",
+    "Programming Language/JavaScript/04. 웹 컴포넌트/01. Custom Element",
+    "Programming Language/JavaScript/05. 정규표현식",
+    "Programming Language/JavaScript/04. 웹 컴포넌트",
     "Programming Language/JavaScript/03. 네트워크와 파일/01. 데이터 파일",
     "Programming Language/JavaScript/03. 네트워크와 파일/03. 브라우저 데이터 저장/Images/Index.PNG",
     "Programming Language/JavaScript/03. 네트워크와 파일/03. 브라우저 데이터 저장/Images/Cookie.PNG",
@@ -198,30 +221,7 @@
     "Programming Language/JavaScript/03. 네트워크와 파일/02. 네트워크/Images/LongPolling.PNG",
     "Programming Language/JavaScript/03. 네트워크와 파일/02. 네트워크/Images/CORS.PNG",
     "Programming Language/JavaScript/03. 네트워크와 파일/02. 네트워크/Images/CORSunsafe.PNG",
-    "Programming Language/JavaScript/03. 네트워크와 파일/01. 데이터 파일/Images/URLcomponents.PNG",
-    "Programming Language/JavaScript/03. 네트워크와 파일/01. 데이터 파일/Images/Blob.PNG",
-    "Programming Language/JavaScript/03. 네트워크와 파일/01. 데이터 파일/Images/ArrayBuffer2.PNG",
     "Programming Language/JavaScript/03. 네트워크와 파일/03. 브라우저 데이터 저장/Images",
-    "Programming Language/JavaScript/03. 네트워크와 파일/03. 브라우저 데이터 저장/Cookie.md",
-    "Programming Language/JavaScript/03. 네트워크와 파일/02. 네트워크/Images",
-    "Programming Language/JavaScript/03. 네트워크와 파일/02. 네트워크/Cross-window Communication.md",
-    "Programming Language/JavaScript/03. 네트워크와 파일/02. 네트워크/CORS.md",
-    "Programming Language/JavaScript/03. 네트워크와 파일/01. 데이터 파일/Images",
-    "Programming Language/JavaScript/03. 네트워크와 파일/01. 데이터 파일/TextDecoder와 Encoder.md",
-    "Programming Language/JavaScript/03. 네트워크와 파일/01. 데이터 파일/Blob.md",
-    "Programming Language/JavaScript/03. 네트워크와 파일/01. 데이터 파일/ArrayBuffer.md",
-    "Programming Language/JavaScript/03. 네트워크와 파일/03. 브라우저 데이터 저장",
-    "Programming Language/JavaScript/03. 네트워크와 파일/02. 네트워크",
-    "Programming Language/JavaScript/03. 네트워크와 파일/01. 데이터 파일",
-    "Programming Language/JavaScript/03. 네트워크와 파일",
-    "Programming Language/JavaScript/3. 네트워크와 파일/1. 데이터 파일/ArrayBuffer.md",
-    "Programming Language/JavaScript/03. 네트워크와 파일/01. 데이터 파일/ArrayBuffer.md",
-    "Programming Language/JavaScript/02. 이벤트와 인터페이스/07. 이벤트 루프/이벤트루프와 매크로태스크.md",
-    "Programming Language/JavaScript/02. 이벤트와 인터페이스/06. 선택과 범위/Selection&Range.md",
-    "Programming Language/JavaScript/02. 이벤트와 인터페이스/08. 팝업/팝업.md",
-    "Programming Language/JavaScript/02. 이벤트와 인터페이스/08. 팝업",
-    "Programming Language/JavaScript/02. 이벤트와 인터페이스/05. 폼 이벤트/Form.md",
-    "Programming Language/JavaScript/01. 자바스크립트 기초/12.모듈",
     "무제 파일.canvas"
   ]
 }
