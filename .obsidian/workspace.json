@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/XML/XSL.md",
+                "file": "Programming Language/TypeScript/02. Interface.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "symbol",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/XML/XSL.md",
+                "file": "Programming Language/TypeScript/02. Interface.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/XML/XSL.md",
+                "file": "Programming Language/TypeScript/02. Interface.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/XML/XSL.md"
+                "file": "Programming Language/TypeScript/02. Interface.md"
               }
             }
           }
@@ -176,52 +176,52 @@
   },
   "active": "2eb0d37833dad4f9",
   "lastOpenFiles": [
-    "Web/XML/XML.md",
-    "Web/XML/XSL.md",
-    "README.md",
-    "Web/Internet/Internet.md",
-    "Web/XML",
-    "Web/Internet/Hosting.md",
-    "Web/Browser/Browser Rendering.md",
-    "Web/Browser/Browser.md",
-    "Web/Browser/Accessibility.md",
-    "Web/Internet/Domain Name.md",
-    "Web/Internet/DNS.md",
-    "Web/HTTP/Http Status Code.md",
-    "Web/HTTP/HTTP.md",
+    "Programming Language/TypeScript/01. Type.md",
+    "Programming Language/TypeScript/02. Interface.md",
     "Web/HTML/HTML Validations.md",
-    "Web/HTML/HTML Body Tag.md",
-    "Programming Language/JavaScript/04. 웹 컴포넌트/03. Template/Template.md",
-    "Programming Language/JavaScript/03. 네트워크와 파일/03. 브라우저 데이터 저장/IndexedDB.md",
-    "정리중/Improve Web Performance and Accessibility.md",
-    "정리중/Messy.md",
-    "정리중/개발상식.md",
-    "정리중/npm/Nodemon.md",
-    "정리중/npm/Express.md",
-    "정리중/npm/Pug.md",
-    "정리중/npm/NPM.md",
-    "정리중/npm/Babel.md",
+    "README.md",
+    "Programming Language/JavaScript/01. 자바스크립트 기초/13. Proxy/Proxy와 Reflect.md",
+    "Programming Language/TypeScript",
+    "Programming Language/JavaScript/01. 자바스크립트 기초/06. 객체/객체와 메서드.md",
+    "Programming Language/JavaScript/01. 자바스크립트 기초/05. 함수/함수.md",
+    "Programming Language/JavaScript/01. 자바스크립트 기초/12. 모듈/모듈.md",
+    "Programming Language/JavaScript/01. 자바스크립트 기초/11. 제너레이터/제너레이터.md",
+    "Programming Language/JavaScript/01. 자바스크립트 기초/10. 비동기 처리/비동기 처리.md",
+    "정리중/React-Native/diagram_ios-android-views.svg",
+    "Programming Language/JavaScript/01. 자바스크립트 기초/09. 에러 처리/에러 처리.md",
+    "Programming Language/JavaScript/01. 자바스크립트 기초/08. JSON/JSON.md",
+    "Programming Language/JavaScript/01. 자바스크립트 기초/07. 클래스/images/Jsclass1.png",
+    "Programming Language/JavaScript/01. 자바스크립트 기초/07. 클래스/Class.md",
+    "Programming Language/JavaScript/01. 자바스크립트 기초/06. 객체/프로퍼티와 프로토타입.md",
+    "정리중/React-Native/API.md",
+    "정리중/React-Native/Component.md",
+    "정리중/React-Native/React Native.md",
+    "Programming Language/JavaScript/01. 자바스크립트 기초/04. 자료구조/자료구조.md",
+    "Programming Language/JavaScript/01. 자바스크립트 기초/03. 조건문과 반복문/조건문과 반복문.md",
+    "Programming Language/JavaScript/01. 자바스크립트 기초/02. 변수, 연산자와 타입/eval.md",
+    "Programming Language/JavaScript/01. 자바스크립트 기초/02. 변수, 연산자와 타입/참조타입.md",
+    "Programming Language/JavaScript/01. 자바스크립트 기초/02. 변수, 연산자와 타입/변수와 연산자.md",
+    "Programming Language/JavaScript/01. 자바스크립트 기초/01. 자바스크립트란/JavaScript.md",
+    "Programming Language/JavaScript/01. 자바스크립트 기초/01. 자바스크립트란/Images/async-defer.jpg",
     "Programming Language/JavaScript/04. 웹 컴포넌트/02. Shadow DOM/Shadow DOM.md",
+    "정리중/React-Native",
+    "Programming Language/JavaScript/02. 이벤트와 인터페이스/07. 이벤트 루프/이벤트루프와 매크로태스크.md",
+    "무제 폴더",
+    "Web/XML/XSL.md",
+    "Web/XML",
     "정리중/npm",
     "Programming Language/JavaScript/04. 웹 컴포넌트/02. Shadow DOM/Images/ShadowDOM.PNG",
     "Programming Language/JavaScript/04. 웹 컴포넌트/02. Shadow DOM/Images/ShadowDOM2.PNG",
-    "Programming Language/JavaScript/04. 웹 컴포넌트/01. Custom Element/Custom Element.md",
     "Programming Language/JavaScript/04. 웹 컴포넌트/02. Shadow DOM/Images/ShadDOMSlot.PNG",
     "Programming Language/JavaScript/04. 웹 컴포넌트/02. Shadow DOM/Images",
     "Programming Language/JavaScript/04. 웹 컴포넌트/03. Template",
     "Programming Language/JavaScript/04. 웹 컴포넌트/02. Shadow DOM",
     "Programming Language/JavaScript/04. 웹 컴포넌트/01. Custom Element",
     "Programming Language/JavaScript/05. 정규표현식",
-    "Programming Language/JavaScript/04. 웹 컴포넌트",
-    "Programming Language/JavaScript/03. 네트워크와 파일/01. 데이터 파일",
     "Programming Language/JavaScript/03. 네트워크와 파일/03. 브라우저 데이터 저장/Images/Index.PNG",
     "Programming Language/JavaScript/03. 네트워크와 파일/03. 브라우저 데이터 저장/Images/Cookie.PNG",
     "Programming Language/JavaScript/03. 네트워크와 파일/03. 브라우저 데이터 저장/Images/3rdPartyCookie.PNG",
     "Programming Language/JavaScript/03. 네트워크와 파일/02. 네트워크/Images/WebSocket.PNG",
-    "Programming Language/JavaScript/03. 네트워크와 파일/02. 네트워크/Images/LongPolling.PNG",
-    "Programming Language/JavaScript/03. 네트워크와 파일/02. 네트워크/Images/CORS.PNG",
-    "Programming Language/JavaScript/03. 네트워크와 파일/02. 네트워크/Images/CORSunsafe.PNG",
-    "Programming Language/JavaScript/03. 네트워크와 파일/03. 브라우저 데이터 저장/Images",
     "무제 파일.canvas"
   ]
 }
